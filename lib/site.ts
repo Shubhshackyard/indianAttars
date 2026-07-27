@@ -1,0 +1,30 @@
+export const SITE = {
+  name: "indianattars",
+  domain: "indianattars.com",
+  url: "https://indianattars.com",
+  tagline: "The Art of Pure Indian Fragrance",
+  email: process.env.NEXT_PUBLIC_EMAIL ?? "info@indianattars.com",
+  // Digits only, international format, for wa.me links.
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "919876543210",
+  phone: "+91 98765 43210",
+  address: "Kannauj & Kanpur, Uttar Pradesh, India",
+  hours: "Mon–Sat, 10am–6pm IST",
+  gst: "09XXXXXXXXXXXZX",
+  since: 2010,
+  social: {
+    instagram: "https://instagram.com/",
+    linkedin: "https://linkedin.com/",
+    youtube: "https://youtube.com/",
+  },
+} as const;
+
+export function waLink(message?: string): string {
+  const base = `https://wa.me/${SITE.whatsapp}`;
+  return message ? `${base}?text=${encodeURIComponent(message)}` : base;
+}
+
+export function mailto(subject?: string): string {
+  return subject
+    ? `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}`
+    : `mailto:${SITE.email}`;
+}

@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# indianattars.com
 
-## Getting Started
+A production-ready, high-conversion e-commerce site for premium Indian oils &
+attars — **69 products** across Essential Oils, Indian Attars, Ruh & Absolutes,
+Fragrances, and Hydrosols, with interactive slab pricing, full documentation,
+and trust-first design.
 
-First, run the development server:
+## Tech stack
+
+- **Next.js 14** (App Router, TypeScript)
+- **Tailwind CSS** with brand design tokens
+- **Framer Motion** (marquees, carousels, reveals, micro-interactions)
+- **Zustand** (cart, UI & wishlist state, `localStorage` persist)
+- **React Hook Form + Zod** (bulk inquiry form)
+- **Embla Carousel** (category / spotlight / testimonials)
+- **Lucide React** icons · Google Fonts (Cormorant Garamond, Inter, Cinzel)
+
+## Getting started
 
 ```bash
+npm install
+cp .env.example .env.local   # optional — sensible fallbacks exist
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` — start the dev server
+- `npm run build` — production build
+- `npm run start` — run the production build
+- `npm run lint` — ESLint
+- `npm run gen:products` — regenerate `data/products.json` (requires `npx tsx`)
 
-## Learn More
+## Pricing model
 
-To learn more about Next.js, take a look at the following resources:
+All slab prices are computed deterministically from each product's base
+₹/kg rate (verified against `indianattars.com_Pricing_Master_Chart.xlsx`):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`price = round(round(baseRate × slabMultiplier) × grams / 1000)`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1kg is the baseline (×1.00); each step below adds +2% per slab, each step above
+subtracts 2%. See `lib/pricing.ts`. The app reads `lib/products.ts` (typed,
+single source of truth); `data/products.json` is a generated static snapshot.
 
-## Deploy on Vercel
+## Project structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+app/            App Router pages (home, products, PDP, category, cart, etc.)
+components/     layout · home · product · forms · cart · ui · seo
+data/           typed base product data + generated products.json
+lib/            pricing, products, cart, wishlist, ui, reviews, site, utils
+hooks/          useCart, useSearch, useIntersection
+types/          product types
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Environment
+
+| Variable | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | wa.me links (digits only) |
+| `NEXT_PUBLIC_EMAIL` | contact email |
+| `NEXT_PUBLIC_RAZORPAY_KEY` | placeholder; checkout is stubbed in Phase 1 |
+
+## Notes
+
+- Product images are generated gradient placeholders — drop in real assets via
+  `components/ui/ProductImage.tsx` / `next/image` when available.
+- Spec sheets are **representative**, not lab-verified; replace with batch COA
+  data before publishing.
+- Fragrances are independent "inspired-by" formulations, not affiliated with the
+  referenced designer brands.
+
+## Deploy
+
+Vercel-ready: import the repo and deploy. Set the env vars above in the project
+settings.
+# indianAttars

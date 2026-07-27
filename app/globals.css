@@ -2,26 +2,260 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================================================
+   DESIGN TOKENS — "Attar Quiet Luxury"
+   Apple-HIG-aligned: neutrals carry the UI, ONE emerald accent for interaction,
+   antique gold demoted to a rare non-interactive flourish. Light + dark themes.
+   Naming: --color-<role>. Tailwind consumes these in tailwind.config.ts.
+============================================================================ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+
+  /* ---- Neutrals (warm-gray; ~90% of the interface) ---- */
+  --color-bg: #faf9f6; /* page canvas */
+  --color-surface: #f3f1ea; /* sections / subtle fills */
+  --color-elevated: #ffffff; /* cards, popovers, raised surfaces */
+  --color-cream: #ffffff; /* alias -> elevated (back-compat) */
+  --color-border: #e6e2d8; /* hairlines */
+  --color-border-strong: #d7d0c1; /* emphasized borders / controls */
+  --color-divider: #ece8de; /* section dividers (softer than border) */
+
+  /* ---- Text hierarchy (warm graphite) ---- */
+  --color-ink: #21261f; /* primary text — 13.7:1 on bg (AAA) */
+  --color-muted: #585d54; /* secondary text — 6.1:1 (AA) */
+  --color-faint: #868b80; /* tertiary / captions — 3.4:1 (AA large) */
+  --color-placeholder: #a3a69c; /* input placeholder */
+  --color-disabled: #b6b8af; /* disabled text / icons */
+
+  /* ---- Brand accent: Emerald — THE single interactive color ---- */
+  --color-primary: #1e5c44; /* fills: buttons, active nav */
+  --color-primary-hover: #184a37;
+  --color-primary-pressed: #123726;
+  --color-primary-fg: #ffffff; /* text/icon ON primary fill */
+  --color-primary-soft: #e7f0ea; /* tint: chips, selection, marquee */
+  --color-interactive: #1e5c44; /* links / interactive text on neutral */
+  --color-link: #1e5c44;
+  --color-visited: #3e5f52;
+
+  /* ---- Premium micro-accent: Antique Gold (rare, non-interactive) ---- */
+  --color-accent: #a87d32; /* star ratings, hairline flourish only */
+  --color-accent-hover: #8c6828;
+  --color-accent-soft: #f1e7d0;
+
+  /* ---- Semantic ---- */
+  --color-success: #2e7d53;
+  --color-success-soft: #e4f1ea;
+  --color-warning: #9a6b15;
+  --color-warning-soft: #f6edd8;
+  --color-error: #b0463a;
+  --color-error-soft: #f6e4e1;
+  --color-danger: #b0463a;
+  --color-danger-soft: #f6e4e1;
+  --color-info: #2c6e9b;
+  --color-info-soft: #e2edf4;
+
+  /* ---- Surfaces & materials ---- */
+  --color-card: var(--color-elevated);
+  --color-section: var(--color-surface);
+  --color-navbar: rgba(250, 249, 246, 0.85);
+  --color-footer: var(--color-surface);
+  --color-overlay: rgba(20, 26, 22, 0.55); /* modal scrim */
+  --color-glass: rgba(250, 249, 246, 0.72); /* frosted material */
+  --color-modal: var(--color-elevated);
+  --color-tooltip: #21261f;
+  --color-tooltip-fg: #faf9f6;
+
+  /* ---- Interaction ---- */
+  --color-focus: #1e5c44; /* focus ring */
+  --color-focus-ring: rgba(30, 92, 68, 0.35);
+  --color-selection: var(--color-primary-soft);
+  --color-hover-surface: #efece3; /* neutral hover fill */
+  --color-pressed-surface: #e7e3d8;
+
+  /* ---- Back-compat aliases (collapse the old palette onto the new one) ---- */
+  --color-gold: var(--color-accent);
+  --color-gold-light: #d8bd83;
+  --color-copper: var(--color-accent); /* was a near-duplicate → unified */
+  --color-terracotta: var(--color-error);
+  --color-blush: #f1ede3; /* neutral warm tint (was pink-leaning) */
+  --color-sage: var(--color-primary-soft); /* soft emerald tint */
+  --color-forest: var(--color-primary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================ DARK THEME ============================
+   Activate by adding class="dark" to <html>. Tokens are tuned so the
+   emerald reads as text on dark AND as a fill with --color-primary-fg. */
+.dark {
+  color-scheme: dark;
+
+  --color-bg: #121411;
+  --color-surface: #1a1d18;
+  --color-elevated: #21251f;
+  --color-cream: #21251f;
+  --color-border: #2d3129;
+  --color-border-strong: #3b4037;
+  --color-divider: #262a22;
+
+  --color-ink: #ece9e1; /* 13.9:1 on bg */
+  --color-muted: #a8aca2; /* 6.4:1 */
+  --color-faint: #7e837a;
+  --color-placeholder: #6b6f66;
+  --color-disabled: #4f534b;
+
+  --color-primary: #57c08c; /* light emerald: reads as text (7.2:1) */
+  --color-primary-hover: #6fce9d;
+  --color-primary-pressed: #47a978;
+  --color-primary-fg: #06140d; /* near-black ON light-emerald fill (8.1:1) */
+  --color-primary-soft: rgba(87, 192, 140, 0.14);
+  --color-interactive: #6fce9d;
+  --color-link: #6fce9d;
+  --color-visited: #9fb8ac;
+
+  --color-accent: #caa14a;
+  --color-accent-hover: #d8b361;
+  --color-accent-soft: rgba(202, 161, 74, 0.16);
+
+  --color-success: #4fae7b;
+  --color-success-soft: rgba(79, 174, 123, 0.15);
+  --color-warning: #cf9a3a;
+  --color-warning-soft: rgba(207, 154, 58, 0.15);
+  --color-error: #e0685c;
+  --color-error-soft: rgba(224, 104, 92, 0.15);
+  --color-danger: #e0685c;
+  --color-danger-soft: rgba(224, 104, 92, 0.15);
+  --color-info: #5aa6d6;
+  --color-info-soft: rgba(90, 166, 214, 0.15);
+
+  --color-navbar: rgba(18, 20, 17, 0.85);
+  --color-footer: var(--color-surface);
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-glass: rgba(18, 20, 17, 0.72);
+  --color-tooltip: #ece9e1;
+  --color-tooltip-fg: #121411;
+
+  --color-focus: #57c08c;
+  --color-focus-ring: rgba(87, 192, 140, 0.4);
+  --color-selection: rgba(87, 192, 140, 0.22);
+  --color-hover-surface: #23271f;
+  --color-pressed-surface: #2b2f27;
+
+  --color-gold: var(--color-accent);
+  --color-copper: var(--color-accent);
+  --color-terracotta: var(--color-error);
+  --color-forest: var(--color-primary);
+  --color-sage: var(--color-primary-soft);
+  --color-blush: #23271f;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-selection);
+  color: var(--color-ink);
+}
+
+.font-hindi {
+  font-family: "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-strong);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 8%,
+      #000 92%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 8%,
+      #000 92%,
+      transparent
+    );
+  }
+}
+
+/* Marquee */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+.marquee-track--slow {
+  animation-duration: 55s;
+}
+.marquee-paused:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
   }
 }

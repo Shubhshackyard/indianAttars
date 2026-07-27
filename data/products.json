@@ -1,0 +1,5851 @@
+[
+  {
+    "name": "Australian Sandalwood Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 70000,
+    "shortDescription": "Soft, creamy woody oil steam-distilled from Santalum spicatum heartwood.",
+    "description": "Australian Sandalwood Oil is steam-distilled from the heartwood of Santalum spicatum. It offers a soft, dry, woody-balsamic aroma prized in fine perfumery and meditation blends, with excellent fixative properties.",
+    "spec": {
+      "botanicalName": "Santalum spicatum",
+      "casNumber": "8024-35-9",
+      "countryOfOrigin": "India (sourced wood)",
+      "specificGravity": 0.965,
+      "opticalRotation": "-1.5",
+      "refractiveIndex": 1.505,
+      "flashPoint": ">100°C",
+      "aroma": "Soft, Dry, Woody-Balsamic",
+      "color": "Pale Yellow to Golden",
+      "partUsed": "Heartwood",
+      "form": "Liquid",
+      "shelfLife": "3 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "alpha-santalol (16-25%), beta-santalol (6-12%), farnesol, bisabolol",
+      "blendsWith": [
+        "Rose Gulab Attar",
+        "Vetiver Oil",
+        "Frankincense Oil",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "woody",
+      "luxury",
+      "fixative",
+      "perfumery"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 31,
+    "id": "australian-sandalwood-oil",
+    "slug": "australian-sandalwood-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 3780,
+        "perKgRate": 75600
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 7420,
+        "perKgRate": 74200
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 18200,
+        "perKgRate": 72800
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 35700,
+        "perKgRate": 71400
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 70000,
+        "perKgRate": 70000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 343000,
+        "perKgRate": 68600
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 672000,
+        "perKgRate": 67200
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 1645000,
+        "perKgRate": 65800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Cardamom Oil",
+    "nameHindi": "इलायची",
+    "category": "essential-oils",
+    "baseRatePerKg": 42000,
+    "shortDescription": "Warm, spicy-sweet oil steam-distilled from green cardamom seeds.",
+    "description": "Cardamom Oil is steam-distilled from the seeds of Elettaria cardamomum. Its warm, spicy and sweet aroma adds lift to oriental and gourmand accords and is widely used in flavour and fine fragrance work.",
+    "spec": {
+      "botanicalName": "Elettaria cardamomum",
+      "casNumber": "8000-66-6",
+      "femaNumber": "2241",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.924,
+      "opticalRotation": "+28",
+      "refractiveIndex": 1.464,
+      "flashPoint": "44°C",
+      "aroma": "Warm, Spicy & Sweet",
+      "color": "Colorless to Pale Yellow",
+      "partUsed": "Seed",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "1,8-cineole (28-40%), alpha-terpinyl acetate (28-36%), limonene, linalool",
+      "blendsWith": [
+        "Cinnamon Oil",
+        "Clove Bud Oil",
+        "Rose Gulab Attar",
+        "Frankincense Oil"
+      ]
+    },
+    "tags": [
+      "spicy",
+      "warm",
+      "flavour",
+      "perfumery"
+    ],
+    "rating": 4.7,
+    "reviewCount": 18,
+    "id": "cardamom-oil",
+    "slug": "cardamom-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 2268,
+        "perKgRate": 45360
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 4452,
+        "perKgRate": 44520
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 10920,
+        "perKgRate": 43680
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 21420,
+        "perKgRate": 42840
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 42000,
+        "perKgRate": 42000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 205800,
+        "perKgRate": 41160
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 403200,
+        "perKgRate": 40320
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 987000,
+        "perKgRate": 39480
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Carrot Seed Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 4800,
+    "shortDescription": "Earthy, root-like oil distilled from wild carrot seeds, valued in skincare.",
+    "description": "Carrot Seed Oil is steam-distilled from the dried seeds of Daucus carota. Earthy and slightly sweet, it is a favourite in natural skincare formulations and grounding aromatherapy blends.",
+    "spec": {
+      "botanicalName": "Daucus carota",
+      "casNumber": "8015-88-1",
+      "femaNumber": "2244",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.903,
+      "opticalRotation": "-12",
+      "refractiveIndex": 1.483,
+      "flashPoint": "62°C",
+      "aroma": "Earthy, Woody & Sweet",
+      "color": "Pale Yellow to Amber",
+      "partUsed": "Seed",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "carotol (30-45%), daucene, alpha-pinene, sabinene",
+      "blendsWith": [
+        "Lavender Oil",
+        "Frankincense Oil",
+        "Lemon Oil",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "skincare",
+      "carrier-friendly"
+    ],
+    "rating": 4.5,
+    "reviewCount": 12,
+    "id": "carrot-seed-oil",
+    "slug": "carrot-seed-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 259,
+        "perKgRate": 5184
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 509,
+        "perKgRate": 5088
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 1248,
+        "perKgRate": 4992
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 2448,
+        "perKgRate": 4896
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 4800,
+        "perKgRate": 4800
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 23520,
+        "perKgRate": 4704
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 46080,
+        "perKgRate": 4608
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 112800,
+        "perKgRate": 4512
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Chamomile Oil German (Blue)",
+    "category": "essential-oils",
+    "baseRatePerKg": 35000,
+    "shortDescription": "Deep-blue, sweet-herbaceous oil rich in chamazulene for soothing blends.",
+    "description": "German Blue Chamomile Oil is steam-distilled from Matricaria chamomilla flowers. Its striking deep-blue colour comes from chamazulene formed during distillation, making it a prized soothing oil for skincare.",
+    "spec": {
+      "botanicalName": "Matricaria chamomilla",
+      "casNumber": "8002-66-2",
+      "femaNumber": "2273",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.93,
+      "opticalRotation": "-2",
+      "refractiveIndex": 1.487,
+      "flashPoint": ">90°C",
+      "aroma": "Sweet, Herbaceous & Warm",
+      "color": "Deep Blue",
+      "partUsed": "Flower",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "chamazulene (2-18%), alpha-bisabolol, bisabolol oxide A & B, farnesene",
+      "blendsWith": [
+        "Lavender Oil",
+        "Rose Gulab Attar",
+        "Frankincense Oil",
+        "Palmarosa Oil"
+      ]
+    },
+    "tags": [
+      "soothing",
+      "skincare",
+      "luxury",
+      "floral"
+    ],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "id": "chamomile-oil-german-blue",
+    "slug": "chamomile-oil-german-blue",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 1890,
+        "perKgRate": 37800
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 3710,
+        "perKgRate": 37100
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 9100,
+        "perKgRate": 36400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 17850,
+        "perKgRate": 35700
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 35000,
+        "perKgRate": 35000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 171500,
+        "perKgRate": 34300
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 336000,
+        "perKgRate": 33600
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 822500,
+        "perKgRate": 32900
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Chamomile Oil German (Green)",
+    "category": "essential-oils",
+    "baseRatePerKg": 32000,
+    "shortDescription": "Greenish chamomile distillate, soft and herbaceous, rich in bisabolol.",
+    "description": "This greenish German Chamomile distillate is gentle and herbaceous, with a high bisabolol content. It is used in calming skincare and aromatherapy blends where a lighter colour is preferred.",
+    "spec": {
+      "botanicalName": "Matricaria chamomilla",
+      "casNumber": "8002-66-2",
+      "femaNumber": "2273",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.925,
+      "opticalRotation": "-1",
+      "refractiveIndex": 1.485,
+      "flashPoint": ">90°C",
+      "aroma": "Soft, Herbaceous & Sweet",
+      "color": "Greenish-Blue",
+      "partUsed": "Flower",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "alpha-bisabolol (25-45%), bisabolol oxide, chamazulene, farnesene",
+      "blendsWith": [
+        "Lavender Oil",
+        "Palmarosa Oil",
+        "Frankincense Oil",
+        "Rosemary Oil"
+      ]
+    },
+    "tags": [
+      "soothing",
+      "skincare",
+      "floral"
+    ],
+    "rating": 4.7,
+    "reviewCount": 14,
+    "id": "chamomile-oil-german-green",
+    "slug": "chamomile-oil-german-green",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 1728,
+        "perKgRate": 34560
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 3392,
+        "perKgRate": 33920
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 8320,
+        "perKgRate": 33280
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 16320,
+        "perKgRate": 32640
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 32000,
+        "perKgRate": 32000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 156800,
+        "perKgRate": 31360
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 307200,
+        "perKgRate": 30720
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 752000,
+        "perKgRate": 30080
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Cinnamon Oil",
+    "nameHindi": "दालचीनी",
+    "category": "essential-oils",
+    "baseRatePerKg": 3400,
+    "shortDescription": "Warm, sweet-spicy oil rich in cinnamaldehyde from cinnamon bark.",
+    "description": "Cinnamon Oil delivers a warm, sweet and spicy aroma driven by cinnamaldehyde. Widely used in flavour, warming massage blends and festive fragrance accords.",
+    "spec": {
+      "botanicalName": "Cinnamomum zeylanicum",
+      "casNumber": "8015-91-6",
+      "femaNumber": "2291",
+      "countryOfOrigin": "India",
+      "specificGravity": 1.045,
+      "opticalRotation": "0",
+      "refractiveIndex": 1.586,
+      "flashPoint": "87°C",
+      "aroma": "Warm, Sweet & Spicy",
+      "color": "Yellow to Brownish",
+      "partUsed": "Bark / Leaf",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "cinnamaldehyde (60-75%), eugenol, cinnamyl acetate, linalool",
+      "blendsWith": [
+        "Clove Bud Oil",
+        "Cardamom Oil",
+        "Lemon Oil",
+        "Frankincense Oil"
+      ]
+    },
+    "tags": [
+      "spicy",
+      "warm",
+      "flavour"
+    ],
+    "rating": 4.6,
+    "reviewCount": 27,
+    "id": "cinnamon-oil",
+    "slug": "cinnamon-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 184,
+        "perKgRate": 3672
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 360,
+        "perKgRate": 3604
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 884,
+        "perKgRate": 3536
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 1734,
+        "perKgRate": 3468
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 3400,
+        "perKgRate": 3400
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 16660,
+        "perKgRate": 3332
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 32640,
+        "perKgRate": 3264
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 79900,
+        "perKgRate": 3196
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Citronella Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 2900,
+    "shortDescription": "Fresh, lemony grass oil, a natural staple for outdoor & cleaning blends.",
+    "description": "Citronella Oil is steam-distilled from Cymbopogon winterianus grass. Fresh and lemony, it is a popular natural ingredient in candles, sprays and uplifting blends.",
+    "spec": {
+      "botanicalName": "Cymbopogon winterianus",
+      "casNumber": "8000-29-1",
+      "femaNumber": "2308",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.89,
+      "opticalRotation": "-1",
+      "refractiveIndex": 1.468,
+      "flashPoint": "78°C",
+      "aroma": "Fresh, Lemony & Grassy",
+      "color": "Pale Yellow",
+      "partUsed": "Leaf / Grass",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "citronellal (30-45%), geraniol, citronellol, geranyl acetate",
+      "blendsWith": [
+        "Lemongrass Oil",
+        "Lemon Oil",
+        "Eucalyptus Oil",
+        "Lavender Oil"
+      ]
+    },
+    "tags": [
+      "fresh",
+      "citrus",
+      "outdoor"
+    ],
+    "rating": 4.4,
+    "reviewCount": 16,
+    "id": "citronella-oil",
+    "slug": "citronella-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 157,
+        "perKgRate": 3132
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 307,
+        "perKgRate": 3074
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 754,
+        "perKgRate": 3016
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 1479,
+        "perKgRate": 2958
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 2900,
+        "perKgRate": 2900
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 14210,
+        "perKgRate": 2842
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 27840,
+        "perKgRate": 2784
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 68150,
+        "perKgRate": 2726
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Clove Bud Oil",
+    "nameHindi": "लौंग",
+    "category": "essential-oils",
+    "baseRatePerKg": 4900,
+    "shortDescription": "Spicy, warm oil rich in eugenol, distilled from clove buds.",
+    "description": "Clove Bud Oil is steam-distilled from the dried flower buds of Syzygium aromaticum. Intensely warm and spicy, it is rich in eugenol and used across flavour, oral-care and warming aromatherapy blends.",
+    "spec": {
+      "botanicalName": "Syzygium aromaticum",
+      "casNumber": "8000-34-8",
+      "femaNumber": "2323",
+      "countryOfOrigin": "India",
+      "specificGravity": 1.044,
+      "opticalRotation": "-1",
+      "refractiveIndex": 1.531,
+      "flashPoint": "100°C",
+      "aroma": "Warm, Spicy & Sweet",
+      "color": "Pale Yellow to Brown",
+      "partUsed": "Flower Bud",
+      "form": "Liquid",
+      "shelfLife": "3 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "eugenol (75-88%), eugenyl acetate, beta-caryophyllene",
+      "blendsWith": [
+        "Cinnamon Oil",
+        "Cardamom Oil",
+        "Lemon Oil",
+        "Frankincense Oil"
+      ]
+    },
+    "tags": [
+      "spicy",
+      "warm",
+      "flavour",
+      "oral-care"
+    ],
+    "rating": 4.7,
+    "reviewCount": 29,
+    "id": "clove-bud-oil",
+    "slug": "clove-bud-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 265,
+        "perKgRate": 5292
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 519,
+        "perKgRate": 5194
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 1274,
+        "perKgRate": 5096
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 2499,
+        "perKgRate": 4998
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 4900,
+        "perKgRate": 4900
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 24010,
+        "perKgRate": 4802
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 47040,
+        "perKgRate": 4704
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 115150,
+        "perKgRate": 4606
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Cypriol Oil",
+    "nameHindi": "नागरमोथा",
+    "category": "essential-oils",
+    "baseRatePerKg": 28000,
+    "shortDescription": "Smoky, woody-earthy oil from nagarmotha root, a perfumer's fixative.",
+    "description": "Cypriol (Nagarmotha) Oil is distilled from the roots of Cyperus scariosus. Its smoky, woody and leathery profile makes it a sought-after fixative in oriental and woody perfumery.",
+    "spec": {
+      "botanicalName": "Cyperus scariosus",
+      "casNumber": "85085-44-3",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.98,
+      "opticalRotation": "-8",
+      "refractiveIndex": 1.512,
+      "flashPoint": ">100°C",
+      "aroma": "Smoky, Woody & Earthy",
+      "color": "Dark Amber to Brown",
+      "partUsed": "Root",
+      "form": "Liquid",
+      "shelfLife": "3 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "cyperene, rotundene, cyperol, mustakone",
+      "blendsWith": [
+        "Vetiver Oil",
+        "Patchouli Oil",
+        "Frankincense Oil",
+        "Oudh Attar"
+      ]
+    },
+    "tags": [
+      "woody",
+      "smoky",
+      "fixative",
+      "perfumery"
+    ],
+    "rating": 4.6,
+    "reviewCount": 11,
+    "id": "cypriol-oil",
+    "slug": "cypriol-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 1512,
+        "perKgRate": 30240
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 2968,
+        "perKgRate": 29680
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 7280,
+        "perKgRate": 29120
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 14280,
+        "perKgRate": 28560
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 28000,
+        "perKgRate": 28000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 137200,
+        "perKgRate": 27440
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 268800,
+        "perKgRate": 26880
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 658000,
+        "perKgRate": 26320
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Eucalyptus Oil",
+    "nameHindi": "नीलगिरी",
+    "category": "essential-oils",
+    "baseRatePerKg": 1850,
+    "shortDescription": "Fresh, camphoraceous oil rich in 1,8-cineole for clarity blends.",
+    "description": "Eucalyptus Oil is steam-distilled from the leaves of Eucalyptus globulus. Its fresh, camphoraceous aroma rich in cineole makes it a staple of respiratory and invigorating blends.",
+    "spec": {
+      "botanicalName": "Eucalyptus globulus",
+      "casNumber": "8000-48-4",
+      "femaNumber": "2466",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.91,
+      "opticalRotation": "+2",
+      "refractiveIndex": 1.46,
+      "flashPoint": "48°C",
+      "aroma": "Fresh, Camphoraceous & Clean",
+      "color": "Colorless to Pale Yellow",
+      "partUsed": "Leaf",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "1,8-cineole (70-85%), alpha-pinene, limonene",
+      "blendsWith": [
+        "Peppermint Oil (Mentha Arvensis)",
+        "Lemon Oil",
+        "Rosemary Oil",
+        "Tea Tree Oil"
+      ]
+    },
+    "tags": [
+      "fresh",
+      "respiratory",
+      "clean"
+    ],
+    "rating": 4.6,
+    "reviewCount": 41,
+    "id": "eucalyptus-oil",
+    "slug": "eucalyptus-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 100,
+        "perKgRate": 1998
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 196,
+        "perKgRate": 1961
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 481,
+        "perKgRate": 1924
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 944,
+        "perKgRate": 1887
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 1850,
+        "perKgRate": 1850
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 9065,
+        "perKgRate": 1813
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 17760,
+        "perKgRate": 1776
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 43475,
+        "perKgRate": 1739
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Frankincense Oil",
+    "nameHindi": "लोबान",
+    "category": "essential-oils",
+    "baseRatePerKg": 4500,
+    "shortDescription": "Resinous, woody-citrus oil distilled from Boswellia serrata resin.",
+    "description": "Frankincense Oil is steam-distilled from the resin of Boswellia serrata. Warm, resinous and subtly citrusy, it is treasured in meditation, skincare and fine fragrance.",
+    "spec": {
+      "botanicalName": "Boswellia serrata",
+      "casNumber": "8016-36-2",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.872,
+      "opticalRotation": "+18",
+      "refractiveIndex": 1.473,
+      "flashPoint": "38°C",
+      "aroma": "Resinous, Woody & Citrusy",
+      "color": "Pale Yellow",
+      "partUsed": "Resin / Gum",
+      "form": "Liquid",
+      "shelfLife": "3 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "alpha-pinene (35-50%), limonene, alpha-thujene, sabinene",
+      "blendsWith": [
+        "Indian Sandalwood Oil",
+        "Lavender Oil",
+        "Lemon Oil",
+        "Vetiver Oil"
+      ]
+    },
+    "tags": [
+      "resinous",
+      "meditation",
+      "skincare",
+      "perfumery"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "id": "frankincense-oil",
+    "slug": "frankincense-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 243,
+        "perKgRate": 4860
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 477,
+        "perKgRate": 4770
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 1170,
+        "perKgRate": 4680
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 2295,
+        "perKgRate": 4590
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 4500,
+        "perKgRate": 4500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 22050,
+        "perKgRate": 4410
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 43200,
+        "perKgRate": 4320
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 105750,
+        "perKgRate": 4230
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Indian Sandalwood Oil",
+    "nameHindi": "चंदन",
+    "category": "essential-oils",
+    "baseRatePerKg": 95000,
+    "shortDescription": "The legendary Santalum album — soft, sweet, long-lasting woody oil.",
+    "description": "Indian Sandalwood Oil is steam-distilled from the heartwood of Santalum album. Renowned worldwide for its soft, sweet, persistent woody aroma and exceptional fixative quality, it is the crown jewel of Indian aromatics.",
+    "spec": {
+      "botanicalName": "Santalum album",
+      "casNumber": "8006-87-9",
+      "femaNumber": "3005",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.973,
+      "opticalRotation": "-17",
+      "refractiveIndex": 1.505,
+      "flashPoint": ">100°C",
+      "aroma": "Soft, Sweet, Woody & Long-Lasting",
+      "color": "Pale Yellow to Golden",
+      "partUsed": "Heartwood",
+      "form": "Liquid",
+      "shelfLife": "5 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "alpha-santalol (≥41%), beta-santalol (≥16%), epi-beta-santalol",
+      "blendsWith": [
+        "Rose Gulab Attar",
+        "Frankincense Oil",
+        "Vetiver Oil",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "woody",
+      "luxury",
+      "fixative",
+      "perfumery",
+      "export-grade"
+    ],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 58,
+    "id": "indian-sandalwood-oil",
+    "slug": "indian-sandalwood-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 5130,
+        "perKgRate": 102600
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 10070,
+        "perKgRate": 100700
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 24700,
+        "perKgRate": 98800
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 48450,
+        "perKgRate": 96900
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 95000,
+        "perKgRate": 95000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 465500,
+        "perKgRate": 93100
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 912000,
+        "perKgRate": 91200
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 2232500,
+        "perKgRate": 89300
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Kapoor Kachri Oil",
+    "nameHindi": "कपूर कचरी",
+    "category": "essential-oils",
+    "baseRatePerKg": 7800,
+    "shortDescription": "Warm, spicy-woody Himalayan root oil used in attars and haircare.",
+    "description": "Kapoor Kachri Oil is distilled from the rhizomes of Hedychium spicatum. Warm, spicy and woody, it is a traditional ingredient in Indian attars, incense and herbal haircare.",
+    "spec": {
+      "botanicalName": "Hedychium spicatum",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.93,
+      "opticalRotation": "-6",
+      "refractiveIndex": 1.49,
+      "flashPoint": ">80°C",
+      "aroma": "Warm, Spicy & Woody",
+      "color": "Pale Yellow to Amber",
+      "partUsed": "Rhizome / Root",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "1,8-cineole, linalool, terpinen-4-ol, beta-pinene",
+      "blendsWith": [
+        "Vetiver Oil",
+        "Cypriol Oil",
+        "Indian Sandalwood Oil",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "woody",
+      "spicy",
+      "traditional",
+      "haircare"
+    ],
+    "rating": 4.5,
+    "reviewCount": 9,
+    "id": "kapoor-kachri-oil",
+    "slug": "kapoor-kachri-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 421,
+        "perKgRate": 8424
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 827,
+        "perKgRate": 8268
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2028,
+        "perKgRate": 8112
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 3978,
+        "perKgRate": 7956
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 7800,
+        "perKgRate": 7800
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 38220,
+        "perKgRate": 7644
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 74880,
+        "perKgRate": 7488
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 183300,
+        "perKgRate": 7332
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Lavender Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 13000,
+    "shortDescription": "Floral, sweet & herbaceous oil from Lavandula angustifolia flowers.",
+    "description": "Lavender Oil extracted from Lavandula Angustifolia flowers via steam distillation. Floral, sweet, and herbaceous aroma. Soluble in alcohol. Shelf life: 2 years. The most versatile oil in aromatherapy and natural perfumery.",
+    "spec": {
+      "botanicalName": "Lavandula Angustifolia",
+      "casNumber": "8000-28-0",
+      "femaNumber": "2622",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.919,
+      "opticalRotation": "-8.9",
+      "refractiveIndex": 1.471,
+      "flashPoint": "71°C",
+      "aroma": "Floral, Sweet & Herbaceous",
+      "color": "Colorless to Pale Yellow",
+      "partUsed": "Flower",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "linalool (26.12%), linalyl acetate (26.32%), terpinene-4-ol (4.64%), beta-myrcene (5.33%)",
+      "blendsWith": [
+        "Rosemary Oil",
+        "Peppermint Oil (Mentha Arvensis)",
+        "Tea Tree Oil",
+        "Lemon Oil",
+        "Eucalyptus Oil"
+      ]
+    },
+    "tags": [
+      "floral",
+      "calming",
+      "skincare",
+      "perfumery",
+      "bestseller"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 24,
+    "id": "lavender-oil",
+    "slug": "lavender-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 702,
+        "perKgRate": 14040
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1378,
+        "perKgRate": 13780
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 3380,
+        "perKgRate": 13520
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 6630,
+        "perKgRate": 13260
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 13000,
+        "perKgRate": 13000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 63700,
+        "perKgRate": 12740
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 124800,
+        "perKgRate": 12480
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 305500,
+        "perKgRate": 12220
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Lemon Oil",
+    "nameHindi": "नींबू",
+    "category": "essential-oils",
+    "baseRatePerKg": 3500,
+    "shortDescription": "Bright, zesty cold-pressed oil from fresh lemon peel.",
+    "description": "Lemon Oil is cold-pressed from the peel of Citrus limon. Bright, fresh and zesty, it is a cheerful top note for cleaning, flavour and uplifting aromatherapy blends.",
+    "spec": {
+      "botanicalName": "Citrus limon",
+      "casNumber": "8008-56-8",
+      "femaNumber": "2625",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.85,
+      "opticalRotation": "+60",
+      "refractiveIndex": 1.474,
+      "flashPoint": "48°C",
+      "aroma": "Bright, Fresh & Zesty",
+      "color": "Pale Yellow to Greenish",
+      "partUsed": "Peel",
+      "form": "Liquid",
+      "shelfLife": "1.5 Years",
+      "extractionMethod": "Cold Pressed",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "limonene (60-75%), beta-pinene, gamma-terpinene, citral",
+      "blendsWith": [
+        "Lavender Oil",
+        "Eucalyptus Oil",
+        "Peppermint Oil (Mentha Arvensis)",
+        "Rosemary Oil"
+      ]
+    },
+    "tags": [
+      "citrus",
+      "fresh",
+      "uplifting",
+      "flavour"
+    ],
+    "rating": 4.6,
+    "reviewCount": 33,
+    "id": "lemon-oil",
+    "slug": "lemon-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 189,
+        "perKgRate": 3780
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 371,
+        "perKgRate": 3710
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 910,
+        "perKgRate": 3640
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 1785,
+        "perKgRate": 3570
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 3500,
+        "perKgRate": 3500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 17150,
+        "perKgRate": 3430
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 33600,
+        "perKgRate": 3360
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 82250,
+        "perKgRate": 3290
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Lemongrass Oil",
+    "nameHindi": "नींबू घास",
+    "category": "essential-oils",
+    "baseRatePerKg": 2700,
+    "shortDescription": "Strong, lemony-herbaceous oil rich in citral from fresh grass.",
+    "description": "Lemongrass Oil is steam-distilled from Cymbopogon flexuosus. Strong, lemony and herbaceous, it is rich in citral and widely used in soaps, candles and refreshing blends.",
+    "spec": {
+      "botanicalName": "Cymbopogon flexuosus",
+      "casNumber": "8007-02-1",
+      "femaNumber": "2624",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.89,
+      "opticalRotation": "+1",
+      "refractiveIndex": 1.484,
+      "flashPoint": "70°C",
+      "aroma": "Strong, Lemony & Herbaceous",
+      "color": "Yellow to Amber",
+      "partUsed": "Leaf / Grass",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "citral (geranial + neral, 70-85%), myrcene, geraniol",
+      "blendsWith": [
+        "Citronella Oil",
+        "Lemon Oil",
+        "Eucalyptus Oil",
+        "Lavender Oil"
+      ]
+    },
+    "tags": [
+      "citrus",
+      "fresh",
+      "soap",
+      "candle"
+    ],
+    "rating": 4.5,
+    "reviewCount": 21,
+    "id": "lemongrass-oil",
+    "slug": "lemongrass-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 146,
+        "perKgRate": 2916
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 286,
+        "perKgRate": 2862
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 702,
+        "perKgRate": 2808
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 1377,
+        "perKgRate": 2754
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 2700,
+        "perKgRate": 2700
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 13230,
+        "perKgRate": 2646
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 25920,
+        "perKgRate": 2592
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 63450,
+        "perKgRate": 2538
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Morpankhi Oil",
+    "nameHindi": "मोरपंखी",
+    "category": "essential-oils",
+    "baseRatePerKg": 8000,
+    "shortDescription": "Green, coniferous oil distilled from oriental arborvitae foliage.",
+    "description": "Morpankhi Oil is steam-distilled from the foliage of Thuja orientalis. Fresh, green and coniferous, it is used in traditional formulations and grounding green accords.",
+    "spec": {
+      "botanicalName": "Thuja orientalis",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.915,
+      "opticalRotation": "-10",
+      "refractiveIndex": 1.456,
+      "flashPoint": ">55°C",
+      "aroma": "Fresh, Green & Coniferous",
+      "color": "Pale Yellow",
+      "partUsed": "Leaf / Foliage",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "alpha-pinene, cedrol, alpha-cedrene, thujone",
+      "blendsWith": [
+        "Vetiver Oil",
+        "Cypriol Oil",
+        "Frankincense Oil",
+        "Rosemary Oil"
+      ]
+    },
+    "tags": [
+      "green",
+      "coniferous",
+      "traditional"
+    ],
+    "rating": 4.3,
+    "reviewCount": 7,
+    "id": "morpankhi-oil",
+    "slug": "morpankhi-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 432,
+        "perKgRate": 8640
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 848,
+        "perKgRate": 8480
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2080,
+        "perKgRate": 8320
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 4080,
+        "perKgRate": 8160
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 8000,
+        "perKgRate": 8000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 39200,
+        "perKgRate": 7840
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 76800,
+        "perKgRate": 7680
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 188000,
+        "perKgRate": 7520
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Palmarosa Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 5500,
+    "shortDescription": "Sweet, rosy-floral grass oil rich in geraniol, loved in skincare.",
+    "description": "Palmarosa Oil is steam-distilled from Cymbopogon martinii. Sweet and rosy-floral with high geraniol content, it is a gentle, skin-friendly oil widely used in natural cosmetics.",
+    "spec": {
+      "botanicalName": "Cymbopogon martinii",
+      "casNumber": "8014-19-5",
+      "femaNumber": "2831",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.886,
+      "opticalRotation": "-2",
+      "refractiveIndex": 1.474,
+      "flashPoint": "94°C",
+      "aroma": "Sweet, Rosy & Floral",
+      "color": "Pale Yellow",
+      "partUsed": "Leaf / Grass",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "geraniol (75-85%), geranyl acetate, linalool",
+      "blendsWith": [
+        "Rose Gulab Attar",
+        "Lavender Oil",
+        "Indian Sandalwood Oil",
+        "Lemon Oil"
+      ]
+    },
+    "tags": [
+      "floral",
+      "skincare",
+      "rosy"
+    ],
+    "rating": 4.6,
+    "reviewCount": 15,
+    "id": "palmarosa-oil",
+    "slug": "palmarosa-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 297,
+        "perKgRate": 5940
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 583,
+        "perKgRate": 5830
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 1430,
+        "perKgRate": 5720
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 2805,
+        "perKgRate": 5610
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 5500,
+        "perKgRate": 5500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 26950,
+        "perKgRate": 5390
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 52800,
+        "perKgRate": 5280
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 129250,
+        "perKgRate": 5170
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Patchouli Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 11000,
+    "shortDescription": "Deep, earthy-woody oil that improves with age; a perfumer's base note.",
+    "description": "Patchouli Oil is steam-distilled from the cured leaves of Pogostemon cablin. Deep, earthy and woody, it is a classic base note and fixative that matures beautifully over time.",
+    "spec": {
+      "botanicalName": "Pogostemon cablin",
+      "casNumber": "8014-09-3",
+      "femaNumber": "2838",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.955,
+      "opticalRotation": "-50",
+      "refractiveIndex": 1.506,
+      "flashPoint": "100°C",
+      "aroma": "Deep, Earthy & Woody",
+      "color": "Amber to Dark Brown",
+      "partUsed": "Leaf",
+      "form": "Liquid",
+      "shelfLife": "5 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "patchoulol (28-35%), alpha-bulnesene, alpha-guaiene, seychellene",
+      "blendsWith": [
+        "Indian Sandalwood Oil",
+        "Vetiver Oil",
+        "Frankincense Oil",
+        "Rose Gulab Attar"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "woody",
+      "fixative",
+      "perfumery"
+    ],
+    "featured": true,
+    "rating": 4.7,
+    "reviewCount": 30,
+    "id": "patchouli-oil",
+    "slug": "patchouli-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 594,
+        "perKgRate": 11880
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1166,
+        "perKgRate": 11660
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2860,
+        "perKgRate": 11440
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5610,
+        "perKgRate": 11220
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 11000,
+        "perKgRate": 11000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 53900,
+        "perKgRate": 10780
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 105600,
+        "perKgRate": 10560
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 258500,
+        "perKgRate": 10340
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Peppermint Oil (Mentha Arvensis)",
+    "nameHindi": "पुदीना",
+    "category": "essential-oils",
+    "baseRatePerKg": 2700,
+    "shortDescription": "Cooling, minty oil rich in menthol from Mentha arvensis.",
+    "description": "Peppermint (Mentha arvensis) Oil is steam-distilled and rich in menthol, giving a sharp, cooling, minty aroma used in flavour, oral-care and invigorating blends.",
+    "spec": {
+      "botanicalName": "Mentha arvensis",
+      "casNumber": "68917-18-0",
+      "femaNumber": "2848",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.9,
+      "opticalRotation": "-30",
+      "refractiveIndex": 1.46,
+      "flashPoint": "64°C",
+      "aroma": "Sharp, Cooling & Minty",
+      "color": "Colorless to Pale Yellow",
+      "partUsed": "Leaf",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "menthol (30-50%), menthone, isomenthone, menthyl acetate",
+      "blendsWith": [
+        "Eucalyptus Oil",
+        "Lavender Oil",
+        "Lemon Oil",
+        "Rosemary Oil"
+      ]
+    },
+    "tags": [
+      "minty",
+      "cooling",
+      "flavour",
+      "oral-care"
+    ],
+    "rating": 4.7,
+    "reviewCount": 38,
+    "id": "peppermint-oil-mentha-arvensis",
+    "slug": "peppermint-oil-mentha-arvensis",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 146,
+        "perKgRate": 2916
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 286,
+        "perKgRate": 2862
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 702,
+        "perKgRate": 2808
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 1377,
+        "perKgRate": 2754
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 2700,
+        "perKgRate": 2700
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 13230,
+        "perKgRate": 2646
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 25920,
+        "perKgRate": 2592
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 63450,
+        "perKgRate": 2538
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Rosemary Oil",
+    "nameHindi": "गुलमेहंदी",
+    "category": "essential-oils",
+    "baseRatePerKg": 9000,
+    "shortDescription": "Fresh, herbaceous-camphoraceous oil popular in haircare blends.",
+    "description": "Rosemary Oil is steam-distilled from Rosmarinus officinalis. Fresh, herbaceous and slightly camphoraceous, it is a favourite in haircare, scalp and clarifying blends.",
+    "spec": {
+      "botanicalName": "Rosmarinus officinalis",
+      "casNumber": "8000-25-7",
+      "femaNumber": "2992",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.9,
+      "opticalRotation": "+3",
+      "refractiveIndex": 1.468,
+      "flashPoint": "43°C",
+      "aroma": "Fresh, Herbaceous & Camphoraceous",
+      "color": "Colorless to Pale Yellow",
+      "partUsed": "Leaf / Flowering Top",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "1,8-cineole, alpha-pinene, camphor, camphene",
+      "blendsWith": [
+        "Lavender Oil",
+        "Peppermint Oil (Mentha Arvensis)",
+        "Eucalyptus Oil",
+        "Lemon Oil"
+      ]
+    },
+    "tags": [
+      "herbaceous",
+      "haircare",
+      "clarifying"
+    ],
+    "rating": 4.6,
+    "reviewCount": 26,
+    "id": "rosemary-oil",
+    "slug": "rosemary-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 486,
+        "perKgRate": 9720
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 954,
+        "perKgRate": 9540
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2340,
+        "perKgRate": 9360
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 4590,
+        "perKgRate": 9180
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 9000,
+        "perKgRate": 9000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 44100,
+        "perKgRate": 8820
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 86400,
+        "perKgRate": 8640
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 211500,
+        "perKgRate": 8460
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Spikenard Oil",
+    "nameHindi": "जटामांसी",
+    "category": "essential-oils",
+    "baseRatePerKg": 75000,
+    "shortDescription": "Rare, earthy-musky Himalayan root oil prized in meditation.",
+    "description": "Spikenard Oil is steam-distilled from the roots of Nardostachys jatamansi. Earthy, musky and deeply grounding, this rare Himalayan oil has been revered for centuries in meditation and fine perfumery.",
+    "spec": {
+      "botanicalName": "Nardostachys jatamansi",
+      "casNumber": "8022-22-8",
+      "countryOfOrigin": "India (Himalayas)",
+      "specificGravity": 0.95,
+      "opticalRotation": "-12",
+      "refractiveIndex": 1.505,
+      "flashPoint": ">90°C",
+      "aroma": "Earthy, Musky & Woody",
+      "color": "Amber to Brown",
+      "partUsed": "Root / Rhizome",
+      "form": "Liquid",
+      "shelfLife": "3 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "jatamansone, valeranone, nardol, calarene",
+      "blendsWith": [
+        "Vetiver Oil",
+        "Indian Sandalwood Oil",
+        "Frankincense Oil",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "rare",
+      "meditation",
+      "luxury"
+    ],
+    "rating": 4.8,
+    "reviewCount": 10,
+    "id": "spikenard-oil",
+    "slug": "spikenard-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 4050,
+        "perKgRate": 81000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 7950,
+        "perKgRate": 79500
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 19500,
+        "perKgRate": 78000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 38250,
+        "perKgRate": 76500
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 75000,
+        "perKgRate": 75000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 367500,
+        "perKgRate": 73500
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 720000,
+        "perKgRate": 72000
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 1762500,
+        "perKgRate": 70500
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Sugandh Kokila Oil",
+    "nameHindi": "सुगंध कोकिला",
+    "category": "essential-oils",
+    "baseRatePerKg": 40000,
+    "shortDescription": "Spicy-camphoraceous Himalayan berry oil used in attar bases.",
+    "description": "Sugandh Kokila Oil is distilled from the berries of Cinnamomum glaucescens. Spicy, woody and camphoraceous, it is a traditional component of Indian attar and incense bases.",
+    "spec": {
+      "botanicalName": "Cinnamomum glaucescens",
+      "countryOfOrigin": "India (Himalayas)",
+      "specificGravity": 0.92,
+      "opticalRotation": "+5",
+      "refractiveIndex": 1.482,
+      "flashPoint": ">60°C",
+      "aroma": "Spicy, Woody & Camphoraceous",
+      "color": "Pale Yellow",
+      "partUsed": "Berry / Fruit",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "1,8-cineole, sabinene, terpinen-4-ol, p-cymene",
+      "blendsWith": [
+        "Cypriol Oil",
+        "Vetiver Oil",
+        "Frankincense Oil",
+        "Cardamom Oil"
+      ]
+    },
+    "tags": [
+      "spicy",
+      "woody",
+      "traditional"
+    ],
+    "rating": 4.4,
+    "reviewCount": 6,
+    "id": "sugandh-kokila-oil",
+    "slug": "sugandh-kokila-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 2160,
+        "perKgRate": 43200
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 4240,
+        "perKgRate": 42400
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 10400,
+        "perKgRate": 41600
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 20400,
+        "perKgRate": 40800
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 40000,
+        "perKgRate": 40000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 196000,
+        "perKgRate": 39200
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 384000,
+        "perKgRate": 38400
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 940000,
+        "perKgRate": 37600
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Sugandh Mantri Oil",
+    "nameHindi": "सुगंध मंत्री",
+    "category": "essential-oils",
+    "baseRatePerKg": 45000,
+    "shortDescription": "Earthy-woody aromatic root oil treasured in traditional attars.",
+    "description": "Sugandh Mantri Oil is distilled from the roots of Homalomena aromatica. Warm, earthy and woody, it is a prized traditional ingredient in attars and oriental accords.",
+    "spec": {
+      "botanicalName": "Homalomena aromatica",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.93,
+      "opticalRotation": "-2",
+      "refractiveIndex": 1.486,
+      "flashPoint": ">70°C",
+      "aroma": "Warm, Earthy & Woody",
+      "color": "Pale Yellow to Amber",
+      "partUsed": "Root / Rhizome",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "linalool, terpinen-4-ol, alpha-terpineol",
+      "blendsWith": [
+        "Vetiver Oil",
+        "Cypriol Oil",
+        "Indian Sandalwood Oil",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "woody",
+      "traditional"
+    ],
+    "rating": 4.4,
+    "reviewCount": 5,
+    "id": "sugandh-mantri-oil",
+    "slug": "sugandh-mantri-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 2430,
+        "perKgRate": 48600
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 4770,
+        "perKgRate": 47700
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 11700,
+        "perKgRate": 46800
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 22950,
+        "perKgRate": 45900
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 45000,
+        "perKgRate": 45000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 220500,
+        "perKgRate": 44100
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 432000,
+        "perKgRate": 43200
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 1057500,
+        "perKgRate": 42300
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Sweet Basil Oil",
+    "nameHindi": "बबुई तुलसी",
+    "category": "essential-oils",
+    "baseRatePerKg": 3500,
+    "shortDescription": "Fresh, sweet-herbaceous oil from basil leaves, lifting and clarifying.",
+    "description": "Sweet Basil Oil is steam-distilled from Ocimum basilicum. Fresh, sweet and herbaceous, it brings a clarifying lift to aromatherapy and flavour blends.",
+    "spec": {
+      "botanicalName": "Ocimum basilicum",
+      "casNumber": "8015-73-4",
+      "femaNumber": "2119",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.93,
+      "opticalRotation": "-5",
+      "refractiveIndex": 1.485,
+      "flashPoint": "78°C",
+      "aroma": "Fresh, Sweet & Herbaceous",
+      "color": "Pale Yellow",
+      "partUsed": "Leaf / Flowering Top",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "linalool, methyl chavicol (estragole), eugenol, 1,8-cineole",
+      "blendsWith": [
+        "Lavender Oil",
+        "Lemon Oil",
+        "Rosemary Oil",
+        "Peppermint Oil (Mentha Arvensis)"
+      ]
+    },
+    "tags": [
+      "herbaceous",
+      "fresh",
+      "clarifying"
+    ],
+    "rating": 4.4,
+    "reviewCount": 13,
+    "id": "sweet-basil-oil",
+    "slug": "sweet-basil-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 189,
+        "perKgRate": 3780
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 371,
+        "perKgRate": 3710
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 910,
+        "perKgRate": 3640
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 1785,
+        "perKgRate": 3570
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 3500,
+        "perKgRate": 3500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 17150,
+        "perKgRate": 3430
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 33600,
+        "perKgRate": 3360
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 82250,
+        "perKgRate": 3290
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Tagetes Oil",
+    "nameHindi": "गेंदा",
+    "category": "essential-oils",
+    "baseRatePerKg": 7500,
+    "shortDescription": "Fruity-green marigold oil with a distinctive sweet-herbaceous note.",
+    "description": "Tagetes Oil is steam-distilled from Tagetes minuta (wild marigold). Fruity, green and sweet-herbaceous, it is used in niche perfumery and traditional preparations.",
+    "spec": {
+      "botanicalName": "Tagetes minuta",
+      "casNumber": "8016-84-0",
+      "femaNumber": "3040",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.9,
+      "opticalRotation": "+3",
+      "refractiveIndex": 1.49,
+      "flashPoint": ">55°C",
+      "aroma": "Fruity, Green & Sweet",
+      "color": "Yellow to Amber",
+      "partUsed": "Flower / Herb",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "tagetone, dihydrotagetone, ocimene, limonene",
+      "blendsWith": [
+        "Lemon Oil",
+        "Lavender Oil",
+        "Palmarosa Oil",
+        "Lemongrass Oil"
+      ]
+    },
+    "tags": [
+      "fruity",
+      "green",
+      "marigold",
+      "perfumery"
+    ],
+    "rating": 4.3,
+    "reviewCount": 8,
+    "id": "tagetes-oil",
+    "slug": "tagetes-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 405,
+        "perKgRate": 8100
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 795,
+        "perKgRate": 7950
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 1950,
+        "perKgRate": 7800
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 3825,
+        "perKgRate": 7650
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 7500,
+        "perKgRate": 7500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 36750,
+        "perKgRate": 7350
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 72000,
+        "perKgRate": 7200
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 176250,
+        "perKgRate": 7050
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Tea Tree Oil",
+    "category": "essential-oils",
+    "baseRatePerKg": 9500,
+    "shortDescription": "Fresh, medicinal oil rich in terpinen-4-ol, a skincare staple.",
+    "description": "Tea Tree Oil is steam-distilled from Melaleuca alternifolia. Fresh and medicinal with high terpinen-4-ol content, it is one of the most popular oils in natural skin and scalp care.",
+    "spec": {
+      "botanicalName": "Melaleuca alternifolia",
+      "casNumber": "68647-73-4",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.895,
+      "opticalRotation": "+9",
+      "refractiveIndex": 1.478,
+      "flashPoint": "57°C",
+      "aroma": "Fresh, Medicinal & Herbaceous",
+      "color": "Colorless to Pale Yellow",
+      "partUsed": "Leaf",
+      "form": "Liquid",
+      "shelfLife": "2 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "terpinen-4-ol (≥35%), gamma-terpinene, alpha-terpinene, 1,8-cineole",
+      "blendsWith": [
+        "Lavender Oil",
+        "Eucalyptus Oil",
+        "Rosemary Oil",
+        "Lemon Oil"
+      ]
+    },
+    "tags": [
+      "medicinal",
+      "skincare",
+      "scalp",
+      "fresh"
+    ],
+    "featured": true,
+    "rating": 4.7,
+    "reviewCount": 44,
+    "id": "tea-tree-oil",
+    "slug": "tea-tree-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 513,
+        "perKgRate": 10260
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1007,
+        "perKgRate": 10070
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2470,
+        "perKgRate": 9880
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 4845,
+        "perKgRate": 9690
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 9500,
+        "perKgRate": 9500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 46550,
+        "perKgRate": 9310
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 91200,
+        "perKgRate": 9120
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 223250,
+        "perKgRate": 8930
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Vetiver Oil",
+    "nameHindi": "खस",
+    "category": "essential-oils",
+    "baseRatePerKg": 11000,
+    "shortDescription": "Deep, smoky-earthy root oil; a legendary perfumery base & fixative.",
+    "description": "Vetiver Oil is steam-distilled from the roots of Chrysopogon zizanioides. Deep, smoky and earthy, it is one of the finest natural fixatives and a cornerstone of woody and chypre perfumery.",
+    "spec": {
+      "botanicalName": "Chrysopogon zizanioides",
+      "casNumber": "8016-96-4",
+      "femaNumber": "3105",
+      "countryOfOrigin": "India",
+      "specificGravity": 0.99,
+      "opticalRotation": "+25",
+      "refractiveIndex": 1.521,
+      "flashPoint": ">100°C",
+      "aroma": "Deep, Smoky & Earthy",
+      "color": "Amber to Dark Brown",
+      "partUsed": "Root",
+      "form": "Viscous Liquid",
+      "shelfLife": "5 Years",
+      "extractionMethod": "Steam Distillation",
+      "solubility": "Soluble in Alcohol",
+      "majorConstituents": "khusimol, vetiselinenol, alpha-vetivone, beta-vetivone",
+      "blendsWith": [
+        "Indian Sandalwood Oil",
+        "Patchouli Oil",
+        "Frankincense Oil",
+        "Rose Gulab Attar"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "woody",
+      "fixative",
+      "perfumery"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 28,
+    "id": "vetiver-oil",
+    "slug": "vetiver-oil",
+    "categoryLabel": "Essential Oil",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 594,
+        "perKgRate": 11880
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1166,
+        "perKgRate": 11660
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2860,
+        "perKgRate": 11440
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5610,
+        "perKgRate": 11220
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 11000,
+        "perKgRate": 11000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 53900,
+        "perKgRate": 10780
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 105600,
+        "perKgRate": 10560
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 258500,
+        "perKgRate": 10340
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Chandan Attar",
+    "nameHindi": "चंदन अतर",
+    "category": "attars",
+    "baseRatePerKg": 25000,
+    "shortDescription": "Classic sandalwood attar — soft, creamy and meditative.",
+    "description": "Chandan Attar captures the soft, creamy warmth of sandalwood through traditional deg-bhapka distillation into a sandalwood oil base. Smooth, long-lasting and deeply calming, it is a timeless Indian classic.",
+    "spec": {
+      "botanicalName": "Santalum album",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Soft, Creamy, Sweet Woody",
+      "color": "Pale Golden",
+      "partUsed": "Heartwood",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "santalol, sandalwood sesquiterpenes",
+      "blendsWith": [
+        "Gulab Attar",
+        "Oudh Attar",
+        "Kesar Attar",
+        "Vetiver Oil"
+      ]
+    },
+    "tags": [
+      "woody",
+      "classic",
+      "meditative",
+      "luxury"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 26,
+    "id": "chandan-attar",
+    "slug": "chandan-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 1350,
+        "perKgRate": 27000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 2650,
+        "perKgRate": 26500
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 6500,
+        "perKgRate": 26000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 12750,
+        "perKgRate": 25500
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 25000,
+        "perKgRate": 25000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 122500,
+        "perKgRate": 24500
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 240000,
+        "perKgRate": 24000
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 587500,
+        "perKgRate": 23500
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Genda Attar",
+    "nameHindi": "गेंदा अतर",
+    "category": "attars",
+    "baseRatePerKg": 17000,
+    "shortDescription": "Bright marigold attar — green, fresh and festive.",
+    "description": "Genda Attar distils the cheerful, green-floral character of marigold flowers into a smooth oil base. Bright and uplifting, it evokes Indian festivities and temple garlands.",
+    "spec": {
+      "botanicalName": "Tagetes erecta",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Green, Fresh & Floral",
+      "color": "Golden Yellow",
+      "partUsed": "Flower",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "tagetone, ocimene, floral concretes",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Khus Attar",
+        "Mehandi Attar"
+      ]
+    },
+    "tags": [
+      "floral",
+      "green",
+      "festive"
+    ],
+    "rating": 4.5,
+    "reviewCount": 12,
+    "id": "genda-attar",
+    "slug": "genda-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 918,
+        "perKgRate": 18360
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1802,
+        "perKgRate": 18020
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 4420,
+        "perKgRate": 17680
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 8670,
+        "perKgRate": 17340
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 17000,
+        "perKgRate": 17000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 83300,
+        "perKgRate": 16660
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 163200,
+        "perKgRate": 16320
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 399500,
+        "perKgRate": 15980
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Gulab Attar",
+    "nameHindi": "गुलाब अतर",
+    "category": "attars",
+    "baseRatePerKg": 13000,
+    "shortDescription": "Romantic rose attar distilled the traditional Kannauj way.",
+    "description": "Gulab Attar captures the lush, honeyed depth of Indian roses through traditional deg-bhapka distillation into sandalwood oil. Rich, romantic and beautifully rounded, it is the heart of Indian attar tradition.",
+    "spec": {
+      "botanicalName": "Rosa damascena",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Rich, Sweet, Honeyed Rose",
+      "color": "Pale Pink to Golden",
+      "partUsed": "Flower Petals",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "citronellol, geraniol, nerol, phenylethyl alcohol",
+      "blendsWith": [
+        "Chandan Attar",
+        "Oudh Attar",
+        "Kesar Attar",
+        "Indian Sandalwood Oil"
+      ]
+    },
+    "tags": [
+      "floral",
+      "rose",
+      "romantic",
+      "bestseller"
+    ],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 41,
+    "id": "gulab-attar",
+    "slug": "gulab-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 702,
+        "perKgRate": 14040
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1378,
+        "perKgRate": 13780
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 3380,
+        "perKgRate": 13520
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 6630,
+        "perKgRate": 13260
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 13000,
+        "perKgRate": 13000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 63700,
+        "perKgRate": 12740
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 124800,
+        "perKgRate": 12480
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 305500,
+        "perKgRate": 12220
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Hina Attar",
+    "nameHindi": "हिना अतर",
+    "category": "attars",
+    "baseRatePerKg": 13000,
+    "shortDescription": "Warm, complex herbal-woody attar blending many botanicals.",
+    "description": "Hina Attar is a complex, warm blend of herbs, spices and woods distilled in the traditional manner. Deep, resinous and long-lasting, it is favoured for winter wear and oriental compositions.",
+    "spec": {
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Warm, Herbal, Spicy-Woody",
+      "color": "Deep Amber",
+      "partUsed": "Herbs, Spices & Woods",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "multi-botanical blend (henna, spices, woods)",
+      "blendsWith": [
+        "Oudh Attar",
+        "Chandan Attar",
+        "Shamama Attar",
+        "Kapoor Kachri Oil"
+      ]
+    },
+    "tags": [
+      "woody",
+      "spicy",
+      "oriental",
+      "winter"
+    ],
+    "rating": 4.7,
+    "reviewCount": 19,
+    "id": "hina-attar",
+    "slug": "hina-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 702,
+        "perKgRate": 14040
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1378,
+        "perKgRate": 13780
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 3380,
+        "perKgRate": 13520
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 6630,
+        "perKgRate": 13260
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 13000,
+        "perKgRate": 13000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 63700,
+        "perKgRate": 12740
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 124800,
+        "perKgRate": 12480
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 305500,
+        "perKgRate": 12220
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Kesar Attar",
+    "nameHindi": "केसर अतर",
+    "category": "attars",
+    "baseRatePerKg": 18000,
+    "shortDescription": "Luxurious saffron attar — warm, sweet and golden.",
+    "description": "Kesar Attar carries the warm, hay-like sweetness of saffron into a smooth oil base. Opulent and golden, it is treasured for special occasions and regal accords.",
+    "spec": {
+      "botanicalName": "Crocus sativus",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Warm, Sweet, Hay-like Saffron",
+      "color": "Golden Amber",
+      "partUsed": "Stigma",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "safranal, picrocrocin derivatives",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Oudh Attar",
+        "Shamama Attar"
+      ]
+    },
+    "tags": [
+      "luxury",
+      "saffron",
+      "warm",
+      "regal"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 17,
+    "id": "kesar-attar",
+    "slug": "kesar-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 972,
+        "perKgRate": 19440
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1908,
+        "perKgRate": 19080
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 4680,
+        "perKgRate": 18720
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 9180,
+        "perKgRate": 18360
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 18000,
+        "perKgRate": 18000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 88200,
+        "perKgRate": 17640
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 172800,
+        "perKgRate": 17280
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 423000,
+        "perKgRate": 16920
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Kewda Attar",
+    "nameHindi": "केवड़ा अतर",
+    "category": "attars",
+    "baseRatePerKg": 15000,
+    "shortDescription": "Exotic screw-pine attar — sweet, fruity and intensely floral.",
+    "description": "Kewda Attar distils the heady, sweet-fruity bloom of the screw pine flower (Pandanus). Distinctive and intensely floral, it is a beloved note in Indian perfumery and cuisine.",
+    "spec": {
+      "botanicalName": "Pandanus odoratissimus",
+      "countryOfOrigin": "India (Kannauj / Odisha)",
+      "aroma": "Sweet, Fruity & Floral",
+      "color": "Pale Yellow",
+      "partUsed": "Flower",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "4 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "2-phenylethyl methyl ether, terpinen-4-ol",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Mitti Attar",
+        "Khus Attar"
+      ]
+    },
+    "tags": [
+      "floral",
+      "exotic",
+      "fruity"
+    ],
+    "rating": 4.6,
+    "reviewCount": 14,
+    "id": "kewda-attar",
+    "slug": "kewda-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 810,
+        "perKgRate": 16200
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1590,
+        "perKgRate": 15900
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 3900,
+        "perKgRate": 15600
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 7650,
+        "perKgRate": 15300
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 15000,
+        "perKgRate": 15000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 73500,
+        "perKgRate": 14700
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 144000,
+        "perKgRate": 14400
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 352500,
+        "perKgRate": 14100
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Khus Attar",
+    "nameHindi": "खस अतर",
+    "category": "attars",
+    "baseRatePerKg": 8000,
+    "shortDescription": "Cooling vetiver attar — earthy, green and refreshing.",
+    "description": "Khus Attar captures the cool, earthy-green character of vetiver roots. Refreshing and grounding, it is a traditional Indian summer favourite distilled into a smooth oil base.",
+    "spec": {
+      "botanicalName": "Chrysopogon zizanioides",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Earthy, Green & Cooling",
+      "color": "Green to Amber",
+      "partUsed": "Root",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "khusimol, vetivone, vetiver sesquiterpenes",
+      "blendsWith": [
+        "Chandan Attar",
+        "Gulab Attar",
+        "Mitti Attar",
+        "Vetiver Oil"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "cooling",
+      "summer",
+      "green"
+    ],
+    "rating": 4.6,
+    "reviewCount": 15,
+    "id": "khus-attar",
+    "slug": "khus-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 432,
+        "perKgRate": 8640
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 848,
+        "perKgRate": 8480
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2080,
+        "perKgRate": 8320
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 4080,
+        "perKgRate": 8160
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 8000,
+        "perKgRate": 8000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 39200,
+        "perKgRate": 7840
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 76800,
+        "perKgRate": 7680
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 188000,
+        "perKgRate": 7520
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Mehandi Attar",
+    "nameHindi": "मेहंदी अतर",
+    "category": "attars",
+    "baseRatePerKg": 12000,
+    "shortDescription": "Soft, sweet-herbaceous henna-blossom attar.",
+    "description": "Mehandi Attar carries the soft, sweet-herbaceous warmth associated with henna flowers and traditional blends. Gentle and rounded, it layers beautifully with rose and sandalwood.",
+    "spec": {
+      "botanicalName": "Lawsonia inermis",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Soft, Sweet & Herbaceous",
+      "color": "Pale Amber",
+      "partUsed": "Flower / Herb",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "4 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "floral-herbaceous aromatics",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Genda Attar",
+        "Hina Attar"
+      ]
+    },
+    "tags": [
+      "herbaceous",
+      "soft",
+      "traditional"
+    ],
+    "rating": 4.4,
+    "reviewCount": 9,
+    "id": "mehandi-attar",
+    "slug": "mehandi-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 648,
+        "perKgRate": 12960
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1272,
+        "perKgRate": 12720
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 3120,
+        "perKgRate": 12480
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 6120,
+        "perKgRate": 12240
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 12000,
+        "perKgRate": 12000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 58800,
+        "perKgRate": 11760
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 115200,
+        "perKgRate": 11520
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 282000,
+        "perKgRate": 11280
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Mitti Attar",
+    "nameHindi": "मिट्टी अतर",
+    "category": "attars",
+    "baseRatePerKg": 11000,
+    "shortDescription": "The scent of the first rain — baked-earth petrichor attar.",
+    "description": "Mitti Attar bottles petrichor — the evocative aroma of the first monsoon rain on parched earth. Distilled from baked clay (khapra) into sandalwood oil, it is uniquely Indian and deeply nostalgic.",
+    "spec": {
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Earthy, Mineral, Petrichor",
+      "color": "Pale Amber",
+      "partUsed": "Baked Clay (Khapra)",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "geosmin-rich earthy aromatics",
+      "blendsWith": [
+        "Khus Attar",
+        "Chandan Attar",
+        "Gulab Attar",
+        "Vetiver Oil"
+      ]
+    },
+    "tags": [
+      "earthy",
+      "unique",
+      "nostalgic",
+      "petrichor"
+    ],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 33,
+    "id": "mitti-attar",
+    "slug": "mitti-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 594,
+        "perKgRate": 11880
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1166,
+        "perKgRate": 11660
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2860,
+        "perKgRate": 11440
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5610,
+        "perKgRate": 11220
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 11000,
+        "perKgRate": 11000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 53900,
+        "perKgRate": 10780
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 105600,
+        "perKgRate": 10560
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 258500,
+        "perKgRate": 10340
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Mora Attar",
+    "nameHindi": "मोरा अतर",
+    "category": "attars",
+    "baseRatePerKg": 9000,
+    "shortDescription": "Traditional musky-floral attar with a soft, powdery drydown.",
+    "description": "Mora Attar is a traditional blended attar with a soft, musky-floral character and a powdery drydown. Warm and comforting, it wears close to the skin.",
+    "spec": {
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Musky, Floral & Powdery",
+      "color": "Amber",
+      "partUsed": "Blended Botanicals",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "4 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "blended floral-musk aromatics",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Hina Attar",
+        "Mukhallat Attar"
+      ]
+    },
+    "tags": [
+      "musky",
+      "floral",
+      "powdery",
+      "traditional"
+    ],
+    "rating": 4.4,
+    "reviewCount": 8,
+    "id": "mora-attar",
+    "slug": "mora-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 486,
+        "perKgRate": 9720
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 954,
+        "perKgRate": 9540
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2340,
+        "perKgRate": 9360
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 4590,
+        "perKgRate": 9180
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 9000,
+        "perKgRate": 9000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 44100,
+        "perKgRate": 8820
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 86400,
+        "perKgRate": 8640
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 211500,
+        "perKgRate": 8460
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Motia / Belated Attar",
+    "nameHindi": "मोतिया अतर",
+    "category": "attars",
+    "baseRatePerKg": 18000,
+    "shortDescription": "Intoxicating Arabian jasmine (mogra) attar — sweet and narcotic.",
+    "description": "Motia (Mogra) Attar captures the rich, sweet, narcotic bloom of Jasminum sambac. Intensely floral and sensual, it is one of the most prized white-floral attars of India.",
+    "spec": {
+      "botanicalName": "Jasminum sambac",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Sweet, Narcotic White Floral",
+      "color": "Pale Golden",
+      "partUsed": "Flower",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "benzyl acetate, linalool, indole, methyl anthranilate",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Kesar Attar",
+        "Oudh Attar"
+      ]
+    },
+    "tags": [
+      "floral",
+      "jasmine",
+      "luxury",
+      "sensual"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 23,
+    "id": "motia-belated-attar",
+    "slug": "motia-belated-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 972,
+        "perKgRate": 19440
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1908,
+        "perKgRate": 19080
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 4680,
+        "perKgRate": 18720
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 9180,
+        "perKgRate": 18360
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 18000,
+        "perKgRate": 18000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 88200,
+        "perKgRate": 17640
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 172800,
+        "perKgRate": 17280
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 423000,
+        "perKgRate": 16920
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Mukhallat Attar",
+    "nameHindi": "मुखल्लत अतर",
+    "category": "attars",
+    "baseRatePerKg": 15000,
+    "shortDescription": "Rich oriental blend of oudh, rose, saffron and spices.",
+    "description": "Mukhallat Attar is a luxurious oriental blend marrying oudh, rose, saffron, musk and spices. Opulent and multifaceted, it embodies the art of Arabian-Indian perfume blending.",
+    "spec": {
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Rich, Oriental, Sweet-Woody",
+      "color": "Deep Amber",
+      "partUsed": "Blended Botanicals",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Master-blended Attar",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "oudh, rose, saffron, musk accord",
+      "blendsWith": [
+        "Oudh Attar",
+        "Gulab Attar",
+        "Kesar Attar",
+        "Chandan Attar"
+      ]
+    },
+    "tags": [
+      "oriental",
+      "blend",
+      "luxury",
+      "woody"
+    ],
+    "rating": 4.7,
+    "reviewCount": 16,
+    "id": "mukhallat-attar",
+    "slug": "mukhallat-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 810,
+        "perKgRate": 16200
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 1590,
+        "perKgRate": 15900
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 3900,
+        "perKgRate": 15600
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 7650,
+        "perKgRate": 15300
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 15000,
+        "perKgRate": 15000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 73500,
+        "perKgRate": 14700
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 144000,
+        "perKgRate": 14400
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 352500,
+        "perKgRate": 14100
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Oudh Attar",
+    "nameHindi": "ऊद अतर",
+    "category": "attars",
+    "baseRatePerKg": 25000,
+    "shortDescription": "Deep, resinous agarwood attar — the king of fragrances.",
+    "description": "Oudh Attar is distilled from precious agarwood (Aquilaria), yielding a deep, resinous, animalic-woody aroma of extraordinary longevity. Revered across Arabia and India, it is the king of fragrances.",
+    "spec": {
+      "botanicalName": "Aquilaria agallocha",
+      "countryOfOrigin": "India (Assam / Kannauj)",
+      "aroma": "Deep, Resinous, Animalic-Woody",
+      "color": "Dark Amber to Brown",
+      "partUsed": "Agarwood (resinous heartwood)",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "10 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Deg-Bhapka (Hydro-distillation)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "agarospirol, jinkohol, sesquiterpenoids",
+      "blendsWith": [
+        "Gulab Attar",
+        "Chandan Attar",
+        "Kesar Attar",
+        "Indian Sandalwood Oil"
+      ]
+    },
+    "tags": [
+      "woody",
+      "oudh",
+      "luxury",
+      "rare",
+      "export-grade"
+    ],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 52,
+    "id": "oudh-attar",
+    "slug": "oudh-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 1350,
+        "perKgRate": 27000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 2650,
+        "perKgRate": 26500
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 6500,
+        "perKgRate": 26000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 12750,
+        "perKgRate": 25500
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 25000,
+        "perKgRate": 25000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 122500,
+        "perKgRate": 24500
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 240000,
+        "perKgRate": 24000
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 587500,
+        "perKgRate": 23500
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Shamama Attar",
+    "nameHindi": "शमामा अतर",
+    "category": "attars",
+    "baseRatePerKg": 21000,
+    "shortDescription": "Legendary multi-herb attar — warm, complex and long-lasting.",
+    "description": "Shamama Attar is a legendary, labour-intensive blend of dozens of herbs, spices, roots and woods distilled together over weeks. Warm, complex and deeply tenacious, it is a masterpiece of traditional Indian perfumery.",
+    "spec": {
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Warm, Complex, Spicy-Woody",
+      "color": "Deep Brown",
+      "partUsed": "40+ Herbs, Spices, Roots & Woods",
+      "form": "Liquid (Oil-based)",
+      "shelfLife": "10 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Traditional Multi-Botanical Deg-Bhapka",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "complex multi-botanical sesquiterpenes",
+      "blendsWith": [
+        "Oudh Attar",
+        "Hina Attar",
+        "Kesar Attar",
+        "Chandan Attar"
+      ]
+    },
+    "tags": [
+      "oriental",
+      "complex",
+      "luxury",
+      "winter"
+    ],
+    "rating": 4.8,
+    "reviewCount": 21,
+    "id": "shamama-attar",
+    "slug": "shamama-attar",
+    "categoryLabel": "Indian Attar",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 1134,
+        "perKgRate": 22680
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 2226,
+        "perKgRate": 22260
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 5460,
+        "perKgRate": 21840
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 10710,
+        "perKgRate": 21420
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 21000,
+        "perKgRate": 21000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 102900,
+        "perKgRate": 20580
+      },
+      {
+        "qty": "10kg",
+        "grams": 10000,
+        "price": 201600,
+        "perKgRate": 20160
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 493500,
+        "perKgRate": 19740
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Ruh Genda",
+    "nameHindi": "रूह गेंदा",
+    "category": "ruh-absolutes",
+    "baseRatePerKg": 300000,
+    "shortDescription": "Pure marigold ruh — intense, green-floral and rare.",
+    "description": "Ruh Genda is the pure, base-free distillate of marigold flowers — a labour-intensive ruh with an intense green-floral character. Highly concentrated and rare, it is used sparingly by master perfumers.",
+    "spec": {
+      "botanicalName": "Tagetes erecta",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Intense, Green & Floral",
+      "color": "Deep Golden",
+      "partUsed": "Flower",
+      "form": "Liquid (Base-free Ruh)",
+      "shelfLife": "5 Years",
+      "packaging": "Amber Glass",
+      "extractionMethod": "Traditional Hydro-distillation (no base oil)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "tagetone, ocimene, floral sesquiterpenes",
+      "blendsWith": [
+        "Ruh Gulab",
+        "Chandan Attar",
+        "Indian Sandalwood Oil"
+      ]
+    },
+    "tags": [
+      "ruh",
+      "floral",
+      "rare",
+      "luxury"
+    ],
+    "rare": true,
+    "stock": "limited",
+    "rating": 4.7,
+    "reviewCount": 6,
+    "id": "ruh-genda",
+    "slug": "ruh-genda",
+    "categoryLabel": "Ruh & Absolute",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 16200,
+        "perKgRate": 324000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 31800,
+        "perKgRate": 318000
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 78000,
+        "perKgRate": 312000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 153000,
+        "perKgRate": 306000
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 300000,
+        "perKgRate": 300000
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "featured": false
+  },
+  {
+    "name": "Ruh Gulab",
+    "nameHindi": "रूह गुलाब",
+    "category": "ruh-absolutes",
+    "baseRatePerKg": 850000,
+    "shortDescription": "Pure Indian rose otto — the legendary base-free rose distillate.",
+    "description": "Ruh Gulab is the pure rose otto of India — the base-free steam distillate of Rosa damascena petals. It takes thousands of roses to yield a few grams, producing an unrivalled, deeply honeyed rose of extraordinary finesse.",
+    "spec": {
+      "botanicalName": "Rosa damascena",
+      "countryOfOrigin": "India (Kannauj / Hathras)",
+      "aroma": "Deep, Honeyed, True Rose",
+      "color": "Pale Yellow to Olive",
+      "partUsed": "Flower Petals",
+      "form": "Liquid (Base-free Ruh / Otto)",
+      "shelfLife": "8 Years",
+      "packaging": "Amber Glass",
+      "extractionMethod": "Traditional Hydro-distillation (no base oil)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "citronellol, geraniol, nerol, stearoptene, phenylethyl alcohol",
+      "blendsWith": [
+        "Indian Sandalwood Oil",
+        "Oudh Attar",
+        "Ruh Motia",
+        "Patchouli Oil"
+      ]
+    },
+    "tags": [
+      "ruh",
+      "rose",
+      "otto",
+      "ultra-rare",
+      "luxury",
+      "export-grade"
+    ],
+    "featured": true,
+    "rare": true,
+    "stock": "limited",
+    "rating": 5,
+    "reviewCount": 14,
+    "id": "ruh-gulab",
+    "slug": "ruh-gulab",
+    "categoryLabel": "Ruh & Absolute",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 45900,
+        "perKgRate": 918000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 90100,
+        "perKgRate": 901000
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 221000,
+        "perKgRate": 884000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 433500,
+        "perKgRate": 867000
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 850000,
+        "perKgRate": 850000
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true
+  },
+  {
+    "name": "Ruh Kewda",
+    "nameHindi": "रूह केवड़ा",
+    "category": "ruh-absolutes",
+    "baseRatePerKg": 1100000,
+    "shortDescription": "The rarest screw-pine ruh — sweet, fruity and opulent.",
+    "description": "Ruh Kewda is the ultra-rare, base-free distillate of screw-pine (Pandanus) flowers. Sweet, fruity and intensely floral, it is among the most precious aromatics of India.",
+    "spec": {
+      "botanicalName": "Pandanus odoratissimus",
+      "countryOfOrigin": "India (Ganjam, Odisha)",
+      "aroma": "Sweet, Fruity, Opulent Floral",
+      "color": "Pale Yellow",
+      "partUsed": "Flower",
+      "form": "Liquid (Base-free Ruh)",
+      "shelfLife": "6 Years",
+      "packaging": "Amber Glass",
+      "extractionMethod": "Traditional Hydro-distillation (no base oil)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "2-phenylethyl methyl ether, terpinen-4-ol",
+      "blendsWith": [
+        "Ruh Gulab",
+        "Chandan Attar",
+        "Indian Sandalwood Oil"
+      ]
+    },
+    "tags": [
+      "ruh",
+      "floral",
+      "ultra-rare",
+      "luxury"
+    ],
+    "rare": true,
+    "stock": "limited",
+    "rating": 4.9,
+    "reviewCount": 5,
+    "id": "ruh-kewda",
+    "slug": "ruh-kewda",
+    "categoryLabel": "Ruh & Absolute",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 59400,
+        "perKgRate": 1188000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 116600,
+        "perKgRate": 1166000
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 286000,
+        "perKgRate": 1144000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 561000,
+        "perKgRate": 1122000
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 1100000,
+        "perKgRate": 1100000
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "featured": false
+  },
+  {
+    "name": "Ruh Khus",
+    "nameHindi": "रूह खस",
+    "category": "ruh-absolutes",
+    "baseRatePerKg": 85000,
+    "shortDescription": "Pure vetiver ruh — deep, smoky-earthy and cooling.",
+    "description": "Ruh Khus is the pure, base-free distillate of vetiver roots, often presented with its characteristic deep green hue. Smoky, earthy and cooling, it is a grounding masterpiece and superb natural fixative.",
+    "spec": {
+      "botanicalName": "Chrysopogon zizanioides",
+      "countryOfOrigin": "India (Rajasthan / Kannauj)",
+      "aroma": "Deep, Smoky, Earthy & Cooling",
+      "color": "Deep Green to Olive",
+      "partUsed": "Root",
+      "form": "Liquid (Base-free Ruh)",
+      "shelfLife": "8 Years",
+      "packaging": "Amber Glass",
+      "extractionMethod": "Traditional Hydro-distillation (no base oil)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "khusimol, vetiselinenol, alpha-vetivone, beta-vetivone",
+      "blendsWith": [
+        "Ruh Gulab",
+        "Indian Sandalwood Oil",
+        "Patchouli Oil",
+        "Oudh Attar"
+      ]
+    },
+    "tags": [
+      "ruh",
+      "earthy",
+      "fixative",
+      "rare",
+      "luxury"
+    ],
+    "rare": true,
+    "rating": 4.8,
+    "reviewCount": 11,
+    "id": "ruh-khus",
+    "slug": "ruh-khus",
+    "categoryLabel": "Ruh & Absolute",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 4590,
+        "perKgRate": 91800
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 9010,
+        "perKgRate": 90100
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 22100,
+        "perKgRate": 88400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 43350,
+        "perKgRate": 86700
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 85000,
+        "perKgRate": 85000
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false
+  },
+  {
+    "name": "Ruh Motia",
+    "nameHindi": "रूह मोतिया",
+    "category": "ruh-absolutes",
+    "baseRatePerKg": 900000,
+    "shortDescription": "Pure mogra (jasmine sambac) ruh — narcotic white-floral luxury.",
+    "description": "Ruh Motia is the pure, base-free distillate of mogra (Jasminum sambac) flowers. Rich, sweet and narcotic, this rare white-floral ruh is the pinnacle of Indian jasmine artistry.",
+    "spec": {
+      "botanicalName": "Jasminum sambac",
+      "countryOfOrigin": "India (Kannauj)",
+      "aroma": "Rich, Sweet, Narcotic White Floral",
+      "color": "Pale Golden",
+      "partUsed": "Flower",
+      "form": "Liquid (Base-free Ruh)",
+      "shelfLife": "6 Years",
+      "packaging": "Amber Glass",
+      "extractionMethod": "Traditional Hydro-distillation (no base oil)",
+      "solubility": "Soluble in Alcohol & Oils",
+      "majorConstituents": "benzyl acetate, linalool, indole, methyl anthranilate",
+      "blendsWith": [
+        "Ruh Gulab",
+        "Chandan Attar",
+        "Oudh Attar",
+        "Indian Sandalwood Oil"
+      ]
+    },
+    "tags": [
+      "ruh",
+      "jasmine",
+      "ultra-rare",
+      "luxury"
+    ],
+    "rare": true,
+    "stock": "limited",
+    "rating": 4.9,
+    "reviewCount": 8,
+    "id": "ruh-motia",
+    "slug": "ruh-motia",
+    "categoryLabel": "Ruh & Absolute",
+    "slabs": [
+      {
+        "qty": "50gm",
+        "grams": 50,
+        "price": 48600,
+        "perKgRate": 972000
+      },
+      {
+        "qty": "100gm",
+        "grams": 100,
+        "price": 95400,
+        "perKgRate": 954000
+      },
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 234000,
+        "perKgRate": 936000
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 459000,
+        "perKgRate": 918000
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 900000,
+        "perKgRate": 900000
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "featured": false
+  },
+  {
+    "name": "One Million",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Paco Rabanne 1 Million — a spicy amber / leather formulation.",
+    "description": "One Million is our independent interpretation inspired by Paco Rabanne 1 Million, built as a spicy amber / leather composition around blood mandarin, cinnamon, rose, spicy leather, amber. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Paco Rabanne 1 Million",
+      "countryOfOrigin": "India",
+      "aroma": "Spicy Amber / Leather",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "blood mandarin, cinnamon, rose, spicy leather, amber"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "spicy",
+      "leather"
+    ],
+    "featured": true,
+    "rating": 4.6,
+    "reviewCount": 38,
+    "id": "one-million",
+    "slug": "one-million",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Emperio Armani",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Giorgio Armani Emporio — a fresh aromatic formulation.",
+    "description": "Emperio Armani is our independent interpretation inspired by Giorgio Armani Emporio, built as a fresh aromatic composition around citrus, lavender, cedar, light musk. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Giorgio Armani Emporio",
+      "countryOfOrigin": "India",
+      "aroma": "Fresh Aromatic",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "citrus, lavender, cedar, light musk"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "fresh"
+    ],
+    "featured": false,
+    "rating": 4.4,
+    "reviewCount": 21,
+    "id": "emperio-armani",
+    "slug": "emperio-armani",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Armani Code Men",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Giorgio Armani Code — a oriental spicy formulation.",
+    "description": "Armani Code Men is our independent interpretation inspired by Giorgio Armani Code, built as a oriental spicy composition around bergamot, anise, tonka bean, tobacco, leather. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Giorgio Armani Code",
+      "countryOfOrigin": "India",
+      "aroma": "Oriental Spicy",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "bergamot, anise, tonka bean, tobacco, leather"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "oriental"
+    ],
+    "featured": false,
+    "rating": 4.5,
+    "reviewCount": 26,
+    "id": "armani-code-men",
+    "slug": "armani-code-men",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Ombre Leather",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Tom Ford Ombré Leather — a leather floral formulation.",
+    "description": "Ombre Leather is our independent interpretation inspired by Tom Ford Ombré Leather, built as a leather floral composition around leather, cardamom, jasmine, amber, moss. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Tom Ford Ombré Leather",
+      "countryOfOrigin": "India",
+      "aroma": "Leather Floral",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "leather, cardamom, jasmine, amber, moss"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "leather"
+    ],
+    "featured": false,
+    "rating": 4.6,
+    "reviewCount": 19,
+    "id": "ombre-leather",
+    "slug": "ombre-leather",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Most Wanted (By Azaro)",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Azzaro The Most Wanted — a amber spicy formulation.",
+    "description": "Most Wanted (By Azaro) is our independent interpretation inspired by Azzaro The Most Wanted, built as a amber spicy composition around toffee, cardamom, amberwood, vanilla. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Azzaro The Most Wanted",
+      "countryOfOrigin": "India",
+      "aroma": "Amber Spicy",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "toffee, cardamom, amberwood, vanilla"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "amber"
+    ],
+    "featured": false,
+    "rating": 4.5,
+    "reviewCount": 17,
+    "id": "most-wanted-by-azaro",
+    "slug": "most-wanted-by-azaro",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Tamdao (By Dyptique)",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Diptyque Tam Dao — a woody sandalwood formulation.",
+    "description": "Tamdao (By Dyptique) is our independent interpretation inspired by Diptyque Tam Dao, built as a woody sandalwood composition around sandalwood, cedar, cypress, soft spice. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Diptyque Tam Dao",
+      "countryOfOrigin": "India",
+      "aroma": "Woody Sandalwood",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "sandalwood, cedar, cypress, soft spice"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "woody"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "id": "tamdao-by-dyptique",
+    "slug": "tamdao-by-dyptique",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Icon (By Dunhill)",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Dunhill Icon — a woody aromatic formulation.",
+    "description": "Icon (By Dunhill) is our independent interpretation inspired by Dunhill Icon, built as a woody aromatic composition around neroli, lavender, black pepper, leather, oakmoss. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Dunhill Icon",
+      "countryOfOrigin": "India",
+      "aroma": "Woody Aromatic",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "neroli, lavender, black pepper, leather, oakmoss"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "woody"
+    ],
+    "featured": false,
+    "rating": 4.4,
+    "reviewCount": 14,
+    "id": "icon-by-dunhill",
+    "slug": "icon-by-dunhill",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Creed Aventus",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Creed Aventus — a fruity chypre formulation.",
+    "description": "Creed Aventus is our independent interpretation inspired by Creed Aventus, built as a fruity chypre composition around pineapple, blackcurrant, birch, oakmoss, musk. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Creed Aventus",
+      "countryOfOrigin": "India",
+      "aroma": "Fruity Chypre",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "pineapple, blackcurrant, birch, oakmoss, musk"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "fruity"
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 57,
+    "id": "creed-aventus",
+    "slug": "creed-aventus",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Burberry London",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Burberry London for Men — a spicy oriental formulation.",
+    "description": "Burberry London is our independent interpretation inspired by Burberry London for Men, built as a spicy oriental composition around bergamot, cinnamon, leather, tobacco, oakmoss. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Burberry London for Men",
+      "countryOfOrigin": "India",
+      "aroma": "Spicy Oriental",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "bergamot, cinnamon, leather, tobacco, oakmoss"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "spicy"
+    ],
+    "featured": false,
+    "rating": 4.4,
+    "reviewCount": 12,
+    "id": "burberry-london",
+    "slug": "burberry-london",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Hugo Boss",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Hugo Boss Bottled — a woody spicy formulation.",
+    "description": "Hugo Boss is our independent interpretation inspired by Hugo Boss Bottled, built as a woody spicy composition around apple, cinnamon, sandalwood, vetiver. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Hugo Boss Bottled",
+      "countryOfOrigin": "India",
+      "aroma": "Woody Spicy",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "apple, cinnamon, sandalwood, vetiver"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "woody"
+    ],
+    "featured": false,
+    "rating": 4.5,
+    "reviewCount": 24,
+    "id": "hugo-boss",
+    "slug": "hugo-boss",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Good Girl (By Carolina Herrera)",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Carolina Herrera Good Girl — a oriental floral formulation.",
+    "description": "Good Girl (By Carolina Herrera) is our independent interpretation inspired by Carolina Herrera Good Girl, built as a oriental floral composition around jasmine, tuberose, tonka, cocoa, coffee. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Carolina Herrera Good Girl",
+      "countryOfOrigin": "India",
+      "aroma": "Oriental Floral",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "jasmine, tuberose, tonka, cocoa, coffee"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "oriental"
+    ],
+    "featured": false,
+    "rating": 4.6,
+    "reviewCount": 29,
+    "id": "good-girl-by-carolina-herrera",
+    "slug": "good-girl-by-carolina-herrera",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Bombshell (By Victoria's Secret)",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Victoria's Secret Bombshell — a fruity floral formulation.",
+    "description": "Bombshell (By Victoria's Secret) is our independent interpretation inspired by Victoria's Secret Bombshell, built as a fruity floral composition around passion fruit, peony, vanilla orchid, musk. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Victoria's Secret Bombshell",
+      "countryOfOrigin": "India",
+      "aroma": "Fruity Floral",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "passion fruit, peony, vanilla orchid, musk"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "fruity"
+    ],
+    "featured": false,
+    "rating": 4.5,
+    "reviewCount": 31,
+    "id": "bombshell-by-victorias-secret",
+    "slug": "bombshell-by-victorias-secret",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Gucci Flora",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Gucci Flora — a floral formulation.",
+    "description": "Gucci Flora is our independent interpretation inspired by Gucci Flora, built as a floral composition around citrus, peony, rose, sandalwood. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Gucci Flora",
+      "countryOfOrigin": "India",
+      "aroma": "Floral",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "citrus, peony, rose, sandalwood"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "floral"
+    ],
+    "featured": false,
+    "rating": 4.4,
+    "reviewCount": 15,
+    "id": "gucci-flora",
+    "slug": "gucci-flora",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Gucci Oud",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Gucci Intense Oud — a woody oud formulation.",
+    "description": "Gucci Oud is our independent interpretation inspired by Gucci Intense Oud, built as a woody oud composition around oud, saffron, rose, amber, leather. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Gucci Intense Oud",
+      "countryOfOrigin": "India",
+      "aroma": "Woody Oud",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "oud, saffron, rose, amber, leather"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "woody"
+    ],
+    "featured": false,
+    "rating": 4.7,
+    "reviewCount": 20,
+    "id": "gucci-oud",
+    "slug": "gucci-oud",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Cool Water (Men/Women)",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Davidoff Cool Water — a aquatic fresh formulation.",
+    "description": "Cool Water (Men/Women) is our independent interpretation inspired by Davidoff Cool Water, built as a aquatic fresh composition around sea notes, mint, lavender, sandalwood, musk. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Davidoff Cool Water",
+      "countryOfOrigin": "India",
+      "aroma": "Aquatic Fresh",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "sea notes, mint, lavender, sandalwood, musk"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "aquatic"
+    ],
+    "featured": false,
+    "rating": 4.5,
+    "reviewCount": 27,
+    "id": "cool-water-men-women",
+    "slug": "cool-water-men-women",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "CR-7",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Cristiano Ronaldo CR7 — a aromatic fougère formulation.",
+    "description": "CR-7 is our independent interpretation inspired by Cristiano Ronaldo CR7, built as a aromatic fougère composition around lavender, apple, star anise, amber, cedar. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Cristiano Ronaldo CR7",
+      "countryOfOrigin": "India",
+      "aroma": "Aromatic Fougère",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "lavender, apple, star anise, amber, cedar"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "aromatic"
+    ],
+    "featured": false,
+    "rating": 4.3,
+    "reviewCount": 11,
+    "id": "cr-7",
+    "slug": "cr-7",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Chanel No. 5",
+    "category": "fragrances",
+    "baseRatePerKg": 10000,
+    "shortDescription": "Inspired by Chanel No. 5 — a aldehydic floral formulation.",
+    "description": "Chanel No. 5 is our independent interpretation inspired by Chanel No. 5, built as a aldehydic floral composition around aldehydes, ylang-ylang, rose, jasmine, sandalwood. Long-lasting, skin-friendly and supplied as a concentrated fragrance oil. This is an original formulation and is not affiliated with, endorsed by, or connected to the referenced brand or its trademark owner.",
+    "spec": {
+      "inspiredBy": "Chanel No. 5",
+      "countryOfOrigin": "India",
+      "aroma": "Aldehydic Floral",
+      "color": "Colorless to Pale Yellow",
+      "form": "Concentrated Fragrance Oil",
+      "shelfLife": "3 Years",
+      "packaging": "Amber Glass / HDPE",
+      "extractionMethod": "Blended Formulation",
+      "solubility": "Soluble in Alcohol & Carrier Oils",
+      "majorConstituents": "aldehydes, ylang-ylang, rose, jasmine, sandalwood"
+    },
+    "tags": [
+      "fragrance",
+      "inspired-by",
+      "aldehydic"
+    ],
+    "featured": false,
+    "rating": 4.6,
+    "reviewCount": 23,
+    "id": "chanel-no-5",
+    "slug": "chanel-no-5",
+    "categoryLabel": "Fragrance",
+    "slabs": [
+      {
+        "qty": "250gm",
+        "grams": 250,
+        "price": 2600,
+        "perKgRate": 10400
+      },
+      {
+        "qty": "500gm",
+        "grams": 500,
+        "price": 5100,
+        "perKgRate": 10200
+      },
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 10000,
+        "perKgRate": 10000
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 49000,
+        "perKgRate": 9800
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Gulab Jal",
+    "nameHindi": "गुलाब जल",
+    "category": "hydrosols",
+    "baseRatePerKg": 350,
+    "shortDescription": "Pure rose water — gentle, hydrating floral toner & culinary water.",
+    "description": "Gulab Jal is 100% pure rose water, the aromatic distillate water of Rosa damascena petals. Soft and naturally hydrating, it is used as a facial toner, in cooking, and in religious and culinary traditions across India.",
+    "spec": {
+      "botanicalName": "Rosa damascena",
+      "countryOfOrigin": "India",
+      "aroma": "Soft, Fresh Rose",
+      "color": "Clear / Colorless",
+      "partUsed": "Flower Petals",
+      "form": "Liquid (Hydrosol)",
+      "ph": "4.0 – 5.0",
+      "shelfLife": "18 Months",
+      "packaging": "Food-grade HDPE / Glass",
+      "extractionMethod": "Steam Distillation (aromatic water)",
+      "solubility": "Miscible in Water",
+      "majorConstituents": "phenylethyl alcohol, citronellol (trace), water",
+      "blendsWith": [
+        "Kewda Jal",
+        "Kesar Water",
+        "Panch Pushpa Jal"
+      ]
+    },
+    "tags": [
+      "hydrosol",
+      "rose",
+      "skincare",
+      "culinary"
+    ],
+    "featured": true,
+    "rating": 4.7,
+    "reviewCount": 34,
+    "id": "gulab-jal",
+    "slug": "gulab-jal",
+    "categoryLabel": "Hydrosol",
+    "slabs": [
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 350,
+        "perKgRate": 350
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 1715,
+        "perKgRate": 343
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 8400,
+        "perKgRate": 336
+      },
+      {
+        "qty": "35kg",
+        "grams": 35000,
+        "price": 11515,
+        "perKgRate": 329
+      },
+      {
+        "qty": "200kg",
+        "grams": 200000,
+        "price": 64400,
+        "perKgRate": 322
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "rare": false
+  },
+  {
+    "name": "Kesar Water",
+    "nameHindi": "केसर जल",
+    "category": "hydrosols",
+    "baseRatePerKg": 900,
+    "shortDescription": "Saffron-infused aromatic water — warm, luxurious and golden.",
+    "description": "Kesar Water is a delicate saffron-infused aromatic water with a warm, sweet character. It is used in premium skincare, desserts, beverages and devotional preparations.",
+    "spec": {
+      "botanicalName": "Crocus sativus",
+      "countryOfOrigin": "India",
+      "aroma": "Warm, Sweet Saffron",
+      "color": "Pale Golden",
+      "partUsed": "Stigma",
+      "form": "Liquid (Hydrosol)",
+      "ph": "4.5 – 5.5",
+      "shelfLife": "18 Months",
+      "packaging": "Food-grade HDPE / Glass",
+      "extractionMethod": "Steam Distillation / Aromatic Infusion",
+      "solubility": "Miscible in Water",
+      "majorConstituents": "safranal (trace), water-soluble aromatics, water",
+      "blendsWith": [
+        "Gulab Jal",
+        "Kewda Jal",
+        "Panch Pushpa Jal"
+      ]
+    },
+    "tags": [
+      "hydrosol",
+      "saffron",
+      "luxury",
+      "culinary"
+    ],
+    "rating": 4.6,
+    "reviewCount": 16,
+    "id": "kesar-water",
+    "slug": "kesar-water",
+    "categoryLabel": "Hydrosol",
+    "slabs": [
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 900,
+        "perKgRate": 900
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 4410,
+        "perKgRate": 882
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 21600,
+        "perKgRate": 864
+      },
+      {
+        "qty": "35kg",
+        "grams": 35000,
+        "price": 29610,
+        "perKgRate": 846
+      },
+      {
+        "qty": "200kg",
+        "grams": 200000,
+        "price": 165600,
+        "perKgRate": 828
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Kewda Jal",
+    "nameHindi": "केवड़ा जल",
+    "category": "hydrosols",
+    "baseRatePerKg": 450,
+    "shortDescription": "Screw-pine aromatic water — sweet, exotic flavouring & toner.",
+    "description": "Kewda Jal is the pure aromatic water of screw-pine (Pandanus) flowers. Sweet and exotic, it is a classic Indian flavouring for sweets and biryanis, and a refreshing skin mist.",
+    "spec": {
+      "botanicalName": "Pandanus odoratissimus",
+      "countryOfOrigin": "India",
+      "aroma": "Sweet, Exotic Floral",
+      "color": "Clear / Colorless",
+      "partUsed": "Flower",
+      "form": "Liquid (Hydrosol)",
+      "ph": "4.0 – 5.5",
+      "shelfLife": "18 Months",
+      "packaging": "Food-grade HDPE / Glass",
+      "extractionMethod": "Steam Distillation (aromatic water)",
+      "solubility": "Miscible in Water",
+      "majorConstituents": "2-phenylethyl methyl ether (trace), water",
+      "blendsWith": [
+        "Gulab Jal",
+        "Kesar Water",
+        "Panch Pushpa Jal"
+      ]
+    },
+    "tags": [
+      "hydrosol",
+      "kewda",
+      "culinary",
+      "skincare"
+    ],
+    "rating": 4.5,
+    "reviewCount": 13,
+    "id": "kewda-jal",
+    "slug": "kewda-jal",
+    "categoryLabel": "Hydrosol",
+    "slabs": [
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 450,
+        "perKgRate": 450
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 2205,
+        "perKgRate": 441
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 10800,
+        "perKgRate": 432
+      },
+      {
+        "qty": "35kg",
+        "grams": 35000,
+        "price": 14805,
+        "perKgRate": 423
+      },
+      {
+        "qty": "200kg",
+        "grams": 200000,
+        "price": 82800,
+        "perKgRate": 414
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Khus Jal",
+    "nameHindi": "खस जल",
+    "category": "hydrosols",
+    "baseRatePerKg": 750,
+    "shortDescription": "Cooling vetiver water — earthy, refreshing summer hydrosol.",
+    "description": "Khus Jal is the cooling aromatic water of vetiver roots. Earthy and refreshing, it is a traditional Indian summer drink flavour and a soothing skin mist.",
+    "spec": {
+      "botanicalName": "Chrysopogon zizanioides",
+      "countryOfOrigin": "India",
+      "aroma": "Earthy, Green & Cooling",
+      "color": "Clear / Pale",
+      "partUsed": "Root",
+      "form": "Liquid (Hydrosol)",
+      "ph": "4.5 – 6.0",
+      "shelfLife": "18 Months",
+      "packaging": "Food-grade HDPE / Glass",
+      "extractionMethod": "Steam Distillation (aromatic water)",
+      "solubility": "Miscible in Water",
+      "majorConstituents": "vetiver aromatics (trace), water",
+      "blendsWith": [
+        "Gulab Jal",
+        "Kewda Jal",
+        "Panch Pushpa Jal"
+      ]
+    },
+    "tags": [
+      "hydrosol",
+      "vetiver",
+      "cooling",
+      "summer"
+    ],
+    "rating": 4.5,
+    "reviewCount": 10,
+    "id": "khus-jal",
+    "slug": "khus-jal",
+    "categoryLabel": "Hydrosol",
+    "slabs": [
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 750,
+        "perKgRate": 750
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 3675,
+        "perKgRate": 735
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 18000,
+        "perKgRate": 720
+      },
+      {
+        "qty": "35kg",
+        "grams": 35000,
+        "price": 24675,
+        "perKgRate": 705
+      },
+      {
+        "qty": "200kg",
+        "grams": 200000,
+        "price": 138000,
+        "perKgRate": 690
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  },
+  {
+    "name": "Panch Pushpa Jal",
+    "nameHindi": "पंच पुष्प जल",
+    "category": "hydrosols",
+    "baseRatePerKg": 500,
+    "shortDescription": "Five-flower aromatic water — balanced, devotional floral blend.",
+    "description": "Panch Pushpa Jal is a harmonious blend of five sacred flower waters. Balanced and gently floral, it is used in devotional rituals, ambient freshening and skincare.",
+    "spec": {
+      "countryOfOrigin": "India",
+      "aroma": "Balanced Floral Bouquet",
+      "color": "Clear / Colorless",
+      "partUsed": "Five Flowers (Blend)",
+      "form": "Liquid (Hydrosol)",
+      "ph": "4.0 – 5.5",
+      "shelfLife": "18 Months",
+      "packaging": "Food-grade HDPE / Glass",
+      "extractionMethod": "Steam Distillation (blended aromatic waters)",
+      "solubility": "Miscible in Water",
+      "majorConstituents": "blended floral aromatics, water",
+      "blendsWith": [
+        "Gulab Jal",
+        "Kewda Jal",
+        "Kesar Water"
+      ]
+    },
+    "tags": [
+      "hydrosol",
+      "blend",
+      "devotional",
+      "floral"
+    ],
+    "rating": 4.4,
+    "reviewCount": 8,
+    "id": "panch-pushpa-jal",
+    "slug": "panch-pushpa-jal",
+    "categoryLabel": "Hydrosol",
+    "slabs": [
+      {
+        "qty": "1kg",
+        "grams": 1000,
+        "price": 500,
+        "perKgRate": 500
+      },
+      {
+        "qty": "5kg",
+        "grams": 5000,
+        "price": 2450,
+        "perKgRate": 490
+      },
+      {
+        "qty": "25kg",
+        "grams": 25000,
+        "price": 12000,
+        "perKgRate": 480
+      },
+      {
+        "qty": "35kg",
+        "grams": 35000,
+        "price": 16450,
+        "perKgRate": 470
+      },
+      {
+        "qty": "200kg",
+        "grams": 200000,
+        "price": 92000,
+        "perKgRate": 460
+      }
+    ],
+    "coaAvailable": true,
+    "msdsAvailable": true,
+    "allergenSheetAvailable": true,
+    "stock": "in",
+    "featured": false,
+    "rare": false
+  }
+]
