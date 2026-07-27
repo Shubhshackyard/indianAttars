@@ -107,7 +107,7 @@ export function MobileNav() {
       </AnimatePresence>
 
       {/* Bottom tab bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-line bg-bg/95 backdrop-blur-md lg:hidden">
+      <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-[#E5E7EB] dark:border-[#1F2937] bg-white dark:bg-[#111827] lg:hidden">
         <div className="mx-auto grid max-w-md grid-cols-5">
           {tabs.slice(0, 2).map((t) => {
             const active = pathname === t.href;

@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import { CategoryIcon } from "./CategoryIcon";
 import type { CategoryMeta, ProductCategory } from "@/types/product";
@@ -43,7 +46,9 @@ export function ProductImage({
   priority?: boolean;
   sizes?: string;
 }) {
-  if (src) {
+  const [error, setError] = useState(false);
+
+  if (src && !error) {
     return (
       <div className={cn("relative h-full w-full overflow-hidden bg-surface", className)}>
         <Image
@@ -53,6 +58,7 @@ export function ProductImage({
           sizes={sizes}
           className="object-cover"
           priority={priority}
+          onError={() => setError(true)}
         />
       </div>
     );

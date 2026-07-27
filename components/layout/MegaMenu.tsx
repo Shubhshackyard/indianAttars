@@ -14,7 +14,7 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 8 }}
       transition={{ duration: 0.18 }}
-      className="absolute left-0 right-0 top-full border-b border-line bg-bg/95 shadow-lift backdrop-blur-md"
+      className="absolute left-0 right-0 top-full border-b border-[#E5E7EB] dark:border-[#1F2937] bg-white dark:bg-[#111827] shadow-lift"
     >
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-6 py-8 md:grid-cols-3 lg:grid-cols-5">
         {CATEGORIES.map((cat) => {
@@ -26,10 +26,10 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
                 onClick={onNavigate}
                 className="group flex items-center gap-2"
               >
-                <span className="flex h-9 w-9 items-center justify-center rounded-md bg-surface text-primary">
+                <span className="flex h-9 w-9 items-center justify-center rounded-md bg-[#F3F4F6] text-[#1F2937] dark:bg-[#1F2937] dark:text-[#F9FAFB]">
                   <CategoryIcon icon={cat.icon} size={18} />
                 </span>
-                <span className="font-label text-[0.7rem] uppercase tracking-[0.12em] text-ink group-hover:text-primary">
+                <span className="font-label text-[0.7rem] uppercase tracking-[0.12em] text-[#1F2937] group-hover:text-primary dark:text-[#F9FAFB] dark:group-hover:text-[#57c08c]">
                   {cat.label}
                 </span>
               </Link>
@@ -39,7 +39,7 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
                     <Link
                       href={`/products/${p.slug}`}
                       onClick={onNavigate}
-                      className="text-sm text-muted transition-colors hover:text-primary"
+                      className="text-sm font-medium text-[#374151] hover:text-[#000000] dark:text-[#E5E7EB] dark:hover:text-white transition-colors"
                     >
                       {p.name}
                     </Link>
@@ -50,15 +50,15 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
           );
         })}
       </div>
-      <div className="border-t border-line bg-surface/60">
+      <div className="border-t border-[#E5E7EB] dark:border-[#1F2937] bg-[#F9FAFB] dark:bg-[#161E2E]">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
-          <span className="text-sm text-muted">
+          <span className="text-sm text-[#6B7280] dark:text-[#D1D5DB]">
             Browse all 69 products across 5 categories
           </span>
           <Link
             href="/products"
             onClick={onNavigate}
-            className="inline-flex items-center gap-1.5 font-label text-[0.7rem] uppercase tracking-[0.12em] text-primary hover:text-primary-hover"
+            className="inline-flex items-center gap-1.5 font-label text-[0.7rem] uppercase tracking-[0.12em] font-semibold text-primary dark:text-[#57c08c] hover:underline"
           >
             View All Products <ArrowRight size={14} />
           </Link>

@@ -57,10 +57,10 @@
   /* ---- Surfaces & materials ---- */
   --color-card: var(--color-elevated);
   --color-section: var(--color-surface);
-  --color-navbar: rgba(250, 249, 246, 0.85);
+  --color-navbar: #ffffff;
   --color-footer: var(--color-surface);
   --color-overlay: rgba(20, 26, 22, 0.55); /* modal scrim */
-  --color-glass: rgba(250, 249, 246, 0.72); /* frosted material */
+  --color-glass: #ffffff; /* solid material */
   --color-modal: var(--color-elevated);
   --color-tooltip: #21261f;
   --color-tooltip-fg: #faf9f6;
@@ -126,10 +126,10 @@
   --color-info: #5aa6d6;
   --color-info-soft: rgba(90, 166, 214, 0.15);
 
-  --color-navbar: rgba(18, 20, 17, 0.85);
+  --color-navbar: #111827;
   --color-footer: var(--color-surface);
   --color-overlay: rgba(0, 0, 0, 0.6);
-  --color-glass: rgba(18, 20, 17, 0.72);
+  --color-glass: #111827;
   --color-tooltip: #ece9e1;
   --color-tooltip-fg: #121411;
 

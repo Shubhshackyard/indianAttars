@@ -72,17 +72,17 @@ export function Header() {
       {/* Main nav */}
       <div
         className={cn(
-          "border-b transition-all duration-300",
+          "border-b transition-colors duration-200 bg-white dark:bg-[#111827]",
           scrolled
-            ? "border-line bg-bg/85 shadow-card backdrop-blur-md"
-            : "border-transparent bg-bg",
+            ? "border-[#E5E7EB] dark:border-[#1F2937] shadow-card"
+            : "border-transparent",
         )}
       >
         <nav className="mx-auto flex h-[68px] max-w-7xl items-center justify-between px-4 sm:px-6">
           <div className="flex items-center gap-3">
             <button
               onClick={openMobileNav}
-              className="rounded-md p-2 text-ink hover:bg-surface lg:hidden"
+              className="rounded-md p-2 text-[#1F2937] hover:bg-[#F3F4F6] dark:text-[#F9FAFB] dark:hover:bg-[#1F2937] lg:hidden"
               aria-label="Open menu"
             >
               <Menu size={20} />
@@ -99,12 +99,12 @@ export function Header() {
             >
               <Link
                 href="/products"
-                className="flex items-center gap-1 py-6 font-label text-[0.7rem] uppercase tracking-[0.14em] text-ink transition-colors hover:text-primary"
+                className="flex items-center gap-1 py-6 font-label text-[0.7rem] uppercase tracking-[0.14em] text-[#1F2937] transition-colors hover:text-[#000000] dark:text-[#F9FAFB] dark:hover:text-white"
               >
                 Shop
                 <ChevronDown
                   size={14}
-                  className={cn("transition-transform", shopOpen && "rotate-180")}
+                  className={cn("text-[#1F2937] dark:text-[#F9FAFB] transition-transform", shopOpen && "rotate-180")}
                 />
               </Link>
             </li>
@@ -112,7 +112,7 @@ export function Header() {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className="font-label text-[0.7rem] uppercase tracking-[0.14em] text-ink transition-colors hover:text-primary"
+                  className="font-label text-[0.7rem] uppercase tracking-[0.14em] text-[#1F2937] transition-colors hover:text-[#000000] dark:text-[#F9FAFB] dark:hover:text-white"
                 >
                   {l.label}
                 </Link>
@@ -124,14 +124,14 @@ export function Header() {
           <div className="flex items-center gap-1.5">
             <button
               onClick={openSearch}
-              className="rounded-md p-2 text-ink hover:bg-surface"
+              className="rounded-md p-2 text-[#1F2937] hover:bg-[#F3F4F6] dark:text-[#F9FAFB] dark:hover:bg-[#1F2937]"
               aria-label="Search products"
             >
               <Search size={19} />
             </button>
             <button
               onClick={toggleCart}
-              className="relative rounded-md p-2 text-ink hover:bg-surface"
+              className="relative rounded-md p-2 text-[#1F2937] hover:bg-[#F3F4F6] dark:text-[#F9FAFB] dark:hover:bg-[#1F2937]"
               aria-label="Open cart"
             >
               <ShoppingBag size={19} />
@@ -145,7 +145,7 @@ export function Header() {
               href="/bulk-inquiry"
               className={cn(
                 buttonClasses({ variant: "outline", size: "sm" }),
-                "ml-1 hidden sm:inline-flex",
+                "ml-1 hidden sm:inline-flex border-[#1F2937] text-[#1F2937] hover:bg-[#1F2937] hover:text-white dark:border-[#F9FAFB] dark:text-[#F9FAFB] dark:hover:bg-[#F9FAFB] dark:hover:text-[#111827]",
               )}
             >
               Get a Quote

@@ -7,9 +7,19 @@ import type { Product } from "@/types/product";
 import { cn } from "@/lib/utils";
 
 export function ProductGallery({ product }: { product: Product }) {
-  const images = product.images ?? [];
+  const flatLayPath = `/products/${product.slug}/flat_lay.png`;
+  const fetchedImages = product.images ?? [];
+
+  // Exclude duplicate flat_lay.png from fetched array
+  const otherImages = fetchedImages.filter(
+    (img) => img !== flatLayPath && !img.endsWith("/flat_lay.png"),
+  );
+
+  // Hardcode flat_lay.png at index 0, followed by up to 3 database images (strictly 4 max)
+  const images = [flatLayPath, ...otherImages].slice(0, 4);
+
   const [active, setActive] = useState(0);
-  const activeSrc = images[active];
+  const activeSrc = images[active] ?? images[0];
 
   return (
     <div>
@@ -34,15 +44,17 @@ export function ProductGallery({ product }: { product: Product }) {
         )}
       </div>
       {images.length > 1 && (
-        <div className="mt-3 grid grid-cols-5 gap-2">
+        <div className="mt-3 grid grid-cols-4 gap-2">
           {images.map((src, i) => (
             <button
-              key={src}
+              key={`${src}-${i}`}
               onClick={() => setActive(i)}
-              aria-label={`View ${i + 1}`}
+              aria-label={`View photo ${i + 1}`}
               className={cn(
                 "relative aspect-square overflow-hidden rounded-md border-2 transition-colors",
-                active === i ? "border-primary" : "border-line hover:border-primary/50",
+                active === i
+                  ? "border-primary"
+                  : "border-line hover:border-primary/50",
               )}
             >
               <ProductImage
