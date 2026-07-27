@@ -33,7 +33,7 @@ export function CookieConsent() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 24 }}
-          className="fixed bottom-20 left-1/2 z-[130] w-[calc(100vw-2rem)] max-w-xl -translate-x-1/2 rounded-lg border border-line bg-bg/95 p-4 shadow-lift backdrop-blur lg:bottom-4"
+          className="fixed bottom-20 inset-x-0 mx-auto z-[130] w-[calc(100vw-2rem)] max-w-xl rounded-lg border border-line bg-bg/95 p-4 shadow-lift backdrop-blur lg:bottom-4"
         >
           <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
             <p className="flex-1 text-sm text-muted">

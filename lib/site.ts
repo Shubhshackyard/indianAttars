@@ -5,7 +5,7 @@ export const SITE = {
   tagline: "The Art of Pure Indian Fragrance",
   email: process.env.NEXT_PUBLIC_EMAIL ?? "info@indianattars.com",
   // Digits only, international format, for wa.me links.
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "919876543210",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "917905337598",
   phone: "+91 98765 43210",
   address: "Kannauj & Kanpur, Uttar Pradesh, India",
   hours: "Mon–Sat, 10am–6pm IST",

@@ -19,7 +19,7 @@ export function ComparisonBar() {
     .filter((p): p is Product => Boolean(p));
 
   return (
-    <div className="fixed bottom-16 left-1/2 z-40 w-[calc(100vw-2rem)] max-w-2xl -translate-x-1/2 rounded-lg border border-line bg-bg/95 p-3 shadow-lift backdrop-blur lg:bottom-4">
+    <div className="fixed bottom-16 inset-x-0 mx-auto z-40 w-[calc(100vw-2rem)] max-w-2xl rounded-lg border border-line bg-bg/95 p-3 shadow-lift backdrop-blur lg:bottom-4">
       <div className="flex items-center gap-3">
         <span className="hidden shrink-0 font-label text-[0.6rem] uppercase tracking-[0.12em] text-muted sm:block">
           Compare
