@@ -65,11 +65,11 @@ export function PricingTable() {
             {products.map((p) => (
               <tr
                 key={p.slug}
-                className="border-t border-line transition-colors hover:bg-primary-soft"
+                className="group border-t border-line transition-colors hover:bg-primary-soft"
               >
                 <th
                   scope="row"
-                  className="sticky left-0 z-10 max-w-[180px] truncate bg-bg px-4 py-3 text-left font-display text-base font-normal text-ink"
+                  className="sticky left-0 z-10 max-w-[180px] truncate bg-bg px-4 py-3 text-left font-display text-base font-normal text-ink group-hover:bg-primary-soft"
                 >
                   {p.name}
                 </th>

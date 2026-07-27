@@ -35,7 +35,7 @@ export function SpecificationTable({ product }: { product: Product }) {
         {rows.map((f, i) => (
           <div
             key={f.key}
-            className={`grid grid-cols-[140px_1fr] gap-3 px-4 py-3 text-sm sm:grid-cols-[200px_1fr] ${
+            className={`grid grid-cols-1 gap-1 px-4 py-3 text-sm sm:grid-cols-[200px_1fr] sm:gap-3 ${
               i % 2 === 0 ? "bg-surface/40" : "bg-white"
             }`}
           >

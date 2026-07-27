@@ -84,7 +84,7 @@ export function ProductActions({ product }: { product: Product }) {
         </button>
       </div>
 
-      <div className="mt-5 grid grid-cols-2 gap-3 rounded-lg border border-line bg-surface/40 p-4 text-xs text-muted sm:grid-cols-4">
+      <div className="mt-5 grid grid-cols-1 gap-3 rounded-lg border border-line bg-surface/40 p-4 text-xs text-muted sm:grid-cols-2 lg:grid-cols-4">
         <span className="flex items-center gap-1.5">
           <Leaf size={14} className="text-primary" /> Pure &amp; Unadulterated
         </span>
