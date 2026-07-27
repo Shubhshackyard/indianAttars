@@ -33,20 +33,20 @@ export function CookieConsent() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 24 }}
-          className="fixed bottom-20 inset-x-0 mx-auto z-[130] w-[calc(100vw-2rem)] max-w-xl rounded-lg border border-line bg-bg/95 p-4 shadow-lift backdrop-blur lg:bottom-4"
+          className="fixed bottom-20 inset-x-0 mx-auto z-[130] w-[calc(100vw-2rem)] max-w-xl rounded-lg border border-[#E5E7EB] dark:border-[#1F2937] bg-white dark:bg-[#111827] p-4 shadow-lift lg:bottom-4"
         >
           <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
-            <p className="flex-1 text-sm text-muted">
+            <p className="flex-1 text-sm text-[#374151] dark:text-[#E5E7EB]">
               We use cookies to improve your browsing experience. By continuing,
               you agree to our{" "}
-              <Link href="/privacy" className="text-primary hover:underline">
+              <Link href="/privacy" className="font-semibold text-primary dark:text-[#57c08c] hover:underline">
                 Privacy Policy
               </Link>
               .
             </p>
             <button
               onClick={accept}
-              className="shrink-0 rounded-pill bg-primary px-5 py-2 font-label text-[0.65rem] uppercase tracking-[0.12em] text-primary-fg hover:bg-primary-hover"
+              className="shrink-0 rounded-pill bg-[#1F2937] px-5 py-2 font-label text-[0.65rem] uppercase tracking-[0.12em] text-white transition-colors hover:bg-[#000000] dark:bg-[#F9FAFB] dark:text-[#111827] dark:hover:bg-white"
             >
               Accept
             </button>

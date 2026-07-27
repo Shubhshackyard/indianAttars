@@ -12,7 +12,7 @@ export const SITE = {
   gst: "09XXXXXXXXXXXZX",
   since: 2010,
   social: {
-    instagram: "https://instagram.com/",
+    instagram: "https://www.instagram.com/indianattars?igsh=MTV6aTZxY3RiZnJrNw==",
     linkedin: "https://linkedin.com/",
     youtube: "https://youtube.com/",
   },
