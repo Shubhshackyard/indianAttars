@@ -10,6 +10,7 @@
     "gen:products": "tsx scripts/generate-products.ts"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.6.5",
     "@hookform/resolvers": "^5.4.0",
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "^8.6.0",
@@ -17,9 +18,11 @@
     "framer-motion": "^12.41.0",
     "lucide-react": "^1.21.0",
     "next": "^16.2.11",
+    "razorpay": "^2.9.8",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.80.0",
+    "resend": "^6.18.1",
     "zod": "^4.4.3",
     "zustand": "^5.0.14"
   },

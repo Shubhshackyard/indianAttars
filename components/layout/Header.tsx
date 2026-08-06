@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, Search, ShoppingBag } from "lucide-react";
@@ -12,18 +13,20 @@ import { useUIStore } from "@/lib/ui";
 import { useCartStore } from "@/lib/cart";
 import { useCartCount, useCartHydrated } from "@/hooks/useCart";
 import { cn } from "@/lib/utils";
+import { SignInButton, SignUpButton, Show, UserButton } from "@clerk/nextjs";
+
 
 function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2" aria-label="indianattars home">
-      <span className="flex h-8 w-8 items-center justify-center rounded-pill bg-primary-soft">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-          <path
-            d="M12 2c1.5 3 4 4.5 4 8a4 4 0 1 1-8 0c0-3.5 2.5-5 4-8Z"
-            fill="var(--color-gold)"
-          />
-        </svg>
-      </span>
+      <Image
+        src="/assets/logo.png"
+        alt=""
+        width={38}
+        height={38}
+        className="object-contain"
+        priority
+      />
       <span className="font-display text-2xl italic leading-none text-ink">
         indian<span className="text-gold">attars</span>
       </span>
@@ -150,6 +153,30 @@ export function Header() {
             >
               Get a Quote
             </Link>
+
+            <div className="ml-2 flex items-center gap-2">
+              <Show when="signed-out">
+                <SignInButton mode="modal">
+                  <button className="rounded-md border border-[#1F2937] px-3 py-1.5 font-label text-[0.68rem] uppercase tracking-[0.1em] text-[#1F2937] hover:bg-[#1F2937] hover:text-white dark:border-[#F9FAFB] dark:text-[#F9FAFB] dark:hover:bg-[#F9FAFB] dark:hover:text-[#111827] transition-colors">
+                    Sign In
+                  </button>
+                </SignInButton>
+                <SignUpButton mode="modal">
+                  <button className="hidden sm:inline-flex rounded-md bg-primary px-3 py-1.5 font-label text-[0.68rem] uppercase tracking-[0.1em] text-primary-fg hover:brightness-110 transition-all">
+                    Sign Up
+                  </button>
+                </SignUpButton>
+              </Show>
+              <Show when="signed-in">
+                <Link
+                  href="/orders"
+                  className="hidden sm:inline-flex rounded-md border border-[#1F2937] px-2.5 py-1.5 font-label text-[0.68rem] uppercase tracking-[0.1em] text-[#1F2937] hover:bg-[#1F2937] hover:text-white dark:border-[#F9FAFB] dark:text-[#F9FAFB] dark:hover:bg-[#F9FAFB] dark:hover:text-[#111827] transition-colors"
+                >
+                  My Orders
+                </Link>
+                <UserButton userProfileMode="navigation" userProfileUrl="/user-profile" />
+              </Show>
+            </div>
           </div>
         </nav>
       </div>

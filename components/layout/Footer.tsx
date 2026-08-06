@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import {
   InstagramIcon,
@@ -27,9 +28,18 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-5">
         {/* Brand */}
         <div className="lg:col-span-1">
-          <span className="font-display text-3xl italic text-ink">
-            indian<span className="text-gold">attars</span>
-          </span>
+          <Link href="/" className="inline-flex items-center gap-3" aria-label="indianattars home">
+            <Image
+              src="/assets/logo.png"
+              alt=""
+              width={56}
+              height={56}
+              className="object-contain"
+            />
+            <span className="font-display text-3xl italic text-ink">
+              indian<span className="text-gold">attars</span>
+            </span>
+          </Link>
           <p className="mt-3 text-sm text-muted">
             Pure, certified Indian essential oils, attars, ruh & absolutes —
             distilled at source, documented at every step.

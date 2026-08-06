@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Minus, Plus, Trash2, ShoppingBag, ArrowRight } from "lucide-react";
+import { useUser, useClerk } from "@clerk/nextjs";
+import { Minus, Plus, Trash2, ShoppingBag, ArrowRight, Lock } from "lucide-react";
 import { useCartStore, selectCartSubtotal } from "@/lib/cart";
 import { useCartHydrated } from "@/hooks/useCart";
 import { ProductImage } from "@/components/ui/ProductImage";
@@ -10,6 +11,7 @@ import { WhatsAppIcon } from "@/components/ui/SocialIcons";
 import { toast } from "@/lib/toast";
 import { formatINR } from "@/lib/utils";
 import { waLink } from "@/lib/site";
+import { processRazorpayCheckout } from "@/lib/razorpay";
 
 export function CartView() {
   const hydrated = useCartHydrated();
@@ -19,7 +21,10 @@ export function CartView() {
   const clear = useCartStore((s) => s.clear);
   const subtotal = useCartStore(selectCartSubtotal);
 
-  if (!hydrated) {
+  const { isLoaded, isSignedIn, user } = useUser();
+  const { openSignIn } = useClerk();
+
+  if (!hydrated || !isLoaded) {
     return (
       <div className="py-20 text-center text-muted">Loading your cart…</div>
     );
@@ -42,10 +47,51 @@ export function CartView() {
     );
   }
 
-  const checkout = () => {
-    toast.info(
-      "Online checkout is being set up. We'll confirm your order via WhatsApp/email.",
-    );
+  const handleCheckout = () => {
+    // Redirect Logic: Intercept guest checkout attempts
+    if (!isSignedIn || !user) {
+      toast.info("Please sign in or create an account to proceed with checkout.");
+      openSignIn({
+        fallbackRedirectUrl: "/cart",
+      });
+      return;
+    }
+
+    // Persist cart items for order success receipt page
+    try {
+      sessionStorage.setItem(
+        "last_order",
+        JSON.stringify({
+          items,
+          total: subtotal,
+          date: new Date().toISOString(),
+        }),
+      );
+    } catch (e) {
+      console.error("Could not persist order details into sessionStorage:", e);
+    }
+
+    // Process checkout with Clerk User Profile data
+    processRazorpayCheckout({
+      amountInINR: subtotal,
+      description: `Order (${items.length} item${items.length > 1 ? "s" : ""})`,
+      items: items.map((i) => ({
+        productSlug: i.productSlug,
+        name: i.name,
+        categoryLabel: i.categoryLabel,
+        qty: i.qty,
+        unitPrice: i.unitPrice,
+        quantity: i.quantity,
+      })),
+      customer: {
+        userId: user.id,
+        name: user.fullName || user.firstName || "Customer",
+        email: user.primaryEmailAddress?.emailAddress || "",
+      },
+      onSuccess: () => {
+        clear();
+      },
+    });
   };
 
   return (
@@ -147,14 +193,27 @@ export function CartView() {
           + GST as applicable · Shipping calculated at confirmation · Prices
           ex-Kanpur
         </p>
+
+        {isSignedIn ? (
+          <div className="mt-4 rounded-md border border-line bg-surface/60 p-3 text-xs text-ink">
+            <p className="font-medium text-primary">Signed in as:</p>
+            <p className="truncate font-mono">{user.primaryEmailAddress?.emailAddress}</p>
+          </div>
+        ) : (
+          <div className="mt-4 flex items-center gap-2 rounded-md border border-line bg-primary-soft/40 p-3 text-xs text-muted">
+            <Lock size={14} className="text-primary shrink-0" />
+            <span>Sign in required to link order to your profile for tracking.</span>
+          </div>
+        )}
+
         <Button
           variant="primary"
           size="lg"
           fullWidth
           className="mt-5"
-          onClick={checkout}
+          onClick={handleCheckout}
         >
-          Proceed to Checkout
+          {isSignedIn ? "Proceed to Checkout" : "Sign In to Checkout"}
         </Button>
         <a
           href={waLink("Hi! I'd like to place this order from my cart.")}

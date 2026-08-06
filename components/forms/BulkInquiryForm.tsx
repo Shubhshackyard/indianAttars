@@ -42,11 +42,20 @@ export function BulkInquiryForm() {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   const onSubmit = async (data: FormData) => {
-    await new Promise((r) => setTimeout(r, 600));
-    // Phase 1: no backend — would POST to Formspree / sheet webhook here.
-    console.log("Bulk inquiry:", data);
-    toast.success("Inquiry received! We'll respond within 24 hours.");
-    reset();
+    try {
+      const res = await fetch("/api/bulk-inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      const resData = await res.json();
+      if (!res.ok) {
+        throw new Error(resData.error || "Failed to submit inquiry.");
+      }
+      toast.success("Inquiry received! Check your inbox for confirmation.");
+    } catch (err: any) {
+      toast.error(err.message || "Failed to submit inquiry. Please try again.");
+    }
   };
 
   if (isSubmitSuccessful) {

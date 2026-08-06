@@ -1,0 +1,12 @@
+[
+  {
+    "orderId": "order_TMSMApFJLTl5Gh",
+    "paymentId": "pay_TMSNpWMtEaSYHz",
+    "clerkUserId": "user_3HXS4jUOx3Mvafo7e8OBcICnpHb",
+    "amount": 45900,
+    "currency": "INR",
+    "items": [],
+    "date": "2026-08-06T10:49:32.387Z",
+    "status": "Paid & Processing"
+  }
+]

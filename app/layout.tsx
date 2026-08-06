@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter, Cinzel } from "next/font/google";
 import "./globals.css";
@@ -40,6 +41,15 @@ export const metadata: Metadata = {
   },
   description:
     "Buy pure Indian essential oils, attars, ruh & absolutes, fragrances and hydrosols. ISO 9001:2015, GMP, HACCP, Halal & Kosher certified. Slab pricing from 50gm to 25kg. COA & MSDS available.",
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [{ url: "/favicon/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/favicon/site.webmanifest",
   keywords: [
     "essential oils India",
     "indian attars",
@@ -77,18 +87,20 @@ export default function RootLayout({
       className={`${display.variable} ${body.variable} ${label.variable}`}
     >
       <body className="min-h-screen bg-bg pb-14 font-body text-ink antialiased lg:pb-0">
-        <RouteProgress />
-        <Header />
-        <MobileNav />
-        <main className="min-h-[60vh]">{children}</main>
-        <Footer />
-        <CartDrawer />
-        <SearchModal />
-        <Toaster />
-        <WhatsAppFloat />
-        <ScrollToTop />
-        <ComparisonBar />
-        <CookieConsent />
+        <ClerkProvider>
+          <RouteProgress />
+          <Header />
+          <MobileNav />
+          <main className="min-h-[60vh]">{children}</main>
+          <Footer />
+          <CartDrawer />
+          <SearchModal />
+          <Toaster />
+          <WhatsAppFloat />
+          <ScrollToTop />
+          <ComparisonBar />
+          <CookieConsent />
+        </ClerkProvider>
       </body>
     </html>
   );
