@@ -26,9 +26,13 @@ export interface OrderRecord {
 const ORDERS_FILE_PATH = path.join(process.cwd(), "data", "orders.json");
 
 function ensureDirectoryExists() {
-  const dir = path.dirname(ORDERS_FILE_PATH);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
+  try {
+    const dir = path.dirname(ORDERS_FILE_PATH);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+  } catch (error) {
+    console.warn("[Orders DB] Could not create orders data directory:", error);
   }
 }
 
@@ -41,7 +45,7 @@ export function getAllOrders(): OrderRecord[] {
     const data = fs.readFileSync(ORDERS_FILE_PATH, "utf-8");
     return JSON.parse(data) as OrderRecord[];
   } catch (error) {
-    console.error("[Orders DB] Error reading orders file:", error);
+    console.warn("[Orders DB] Error reading orders file:", error);
     return [];
   }
 }
@@ -60,7 +64,7 @@ export function saveOrder(order: OrderRecord): boolean {
     fs.writeFileSync(ORDERS_FILE_PATH, JSON.stringify(orders, null, 2), "utf-8");
     return true;
   } catch (error) {
-    console.error("[Orders DB] Error saving order record:", error);
+    console.warn("[Orders DB] Error saving order record:", error);
     return false;
   }
 }
