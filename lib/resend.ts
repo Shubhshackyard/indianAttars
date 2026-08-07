@@ -8,7 +8,7 @@ export const DEFAULT_FROM_EMAIL =
   process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev";
 
 export const ADMIN_EMAIL =
-  process.env.ADMIN_NOTIFICATION_EMAIL || "info@indianattars.com";
+  process.env.ADMIN_NOTIFICATION_EMAIL || "shivaayessentials@gmail.com";
 
 interface SendEmailParams {
   to: string | string[];
