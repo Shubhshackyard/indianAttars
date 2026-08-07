@@ -154,37 +154,22 @@ export function CartDrawer() {
                   <p className="mt-1 text-xs text-muted">
                     + GST as applicable · Prices ex-Kanpur
                   </p>
-                  <button
-                    onClick={() => {
-                      processRazorpayCheckout({
-                        amountInINR: subtotal,
-                        description: `Payment for ${items.length} item(s)`,
-                        onSuccess: () => {
-                          useCartStore.getState().clear();
-                          close();
-                        },
-                      });
-                    }}
+                  <Link
+                    href="/cart"
+                    onClick={close}
                     className={buttonClasses({
                       variant: "primary",
                       size: "lg",
                       fullWidth: true,
-                      className: "mt-4",
+                      className: "mt-4 gap-2",
                     })}
                   >
-                    Pay Now with Razorpay <ArrowRight size={16} />
-                  </button>
-                  <Link
-                    href="/cart"
-                    onClick={close}
-                    className="mt-2 block text-center text-sm text-ink hover:underline"
-                  >
-                    View Cart Details →
+                    Proceed to Checkout <ArrowRight size={16} />
                   </Link>
                   <Link
                     href="/bulk-inquiry"
                     onClick={close}
-                    className="mt-1 block text-center text-xs text-primary hover:underline"
+                    className="mt-3 block text-center text-xs text-muted hover:text-ink"
                   >
                     Request a bulk quote instead →
                   </Link>
