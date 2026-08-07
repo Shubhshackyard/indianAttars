@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useUser } from "@clerk/nextjs";
-import { X, MapPin, Phone, User, Building, Compass } from "lucide-react";
+import { X, MapPin, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { toast } from "@/lib/toast";
 
@@ -24,6 +24,17 @@ interface ShippingFormModalProps {
 const inputCls =
   "mt-1 w-full rounded-md border border-line bg-bg px-3 py-2 text-sm text-ink focus:border-primary focus:outline-none focus:ring-1 focus:ring-gold";
 
+const errorInputCls =
+  "mt-1 w-full rounded-md border border-red-500 bg-red-500/5 px-3 py-2 text-sm text-ink focus:border-red-500 focus:outline-none focus:ring-1 focus:ring-red-500";
+
+// Regular Expressions for strict data validation
+const REGEX_NAME = /^[a-zA-Z\s'.]{2,50}$/;
+const REGEX_PHONE = /^(?:\+91[\-\s]?)?[6-9]\d{9}$|^\+?[1-9]\d{9,14}$/; // Supports 10-digit Indian numbers & standard international
+const REGEX_ADDRESS = /^[a-zA-Z0-9\s,.\/#-]{8,150}$/;
+const REGEX_CITY = /^[a-zA-Z\s.-]{2,50}$/;
+const REGEX_STATE = /^[a-zA-Z\s.-]{2,50}$/;
+const REGEX_PINCODE = /^[1-9][0-9]{5}$/; // 6-digit Indian PIN code
+
 export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModalProps) {
   const { user } = useUser();
   const [loading, setLoading] = useState(false);
@@ -37,6 +48,8 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
     pincode: "",
   });
 
+  const [errors, setErrors] = useState<Partial<Record<keyof ShippingDetails, string>>>({});
+
   useEffect(() => {
     if (user) {
       const savedAddress = (user.unsafeMetadata?.shippingAddress as ShippingDetails) || {};
@@ -48,16 +61,68 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
         state: savedAddress.state || "",
         pincode: savedAddress.pincode || "",
       });
+      setErrors({});
     }
   }, [user, open]);
 
   if (!open) return null;
 
+  const validate = (): boolean => {
+    const newErrors: Partial<Record<keyof ShippingDetails, string>> = {};
+
+    // 1. Full Name validation
+    if (!form.name.trim()) {
+      newErrors.name = "Full name is required.";
+    } else if (!REGEX_NAME.test(form.name.trim())) {
+      newErrors.name = "Enter a valid full name (letters only, min 2 characters).";
+    }
+
+    // 2. Phone validation
+    const cleanPhone = form.phone.trim().replace(/\s+/g, "");
+    if (!cleanPhone) {
+      newErrors.phone = "Phone number is required.";
+    } else if (!REGEX_PHONE.test(cleanPhone)) {
+      newErrors.phone = "Enter a valid 10-digit mobile number (e.g. 9876543210).";
+    }
+
+    // 3. Street Address validation
+    if (!form.address.trim()) {
+      newErrors.address = "Street address is required.";
+    } else if (!REGEX_ADDRESS.test(form.address.trim()) || form.address.trim().length < 8) {
+      newErrors.address = "Please enter a detailed street address/landmark (min 8 characters).";
+    }
+
+    // 4. City validation
+    if (!form.city.trim()) {
+      newErrors.city = "City is required.";
+    } else if (!REGEX_CITY.test(form.city.trim())) {
+      newErrors.city = "Enter a valid city name.";
+    }
+
+    // 5. State validation
+    if (!form.state.trim()) {
+      newErrors.state = "State is required.";
+    } else if (!REGEX_STATE.test(form.state.trim())) {
+      newErrors.state = "Enter a valid state name.";
+    }
+
+    // 6. Pincode validation
+    const cleanPincode = form.pincode.trim();
+    if (!cleanPincode) {
+      newErrors.pincode = "Pincode is required.";
+    } else if (!REGEX_PINCODE.test(cleanPincode)) {
+      newErrors.pincode = "Enter a valid 6-digit PIN code (e.g. 400001).";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!form.name || !form.phone || !form.address || !form.city || !form.pincode) {
-      toast.error("Please fill in all required shipping fields.");
+    if (!validate()) {
+      toast.error("Please fix validation errors before proceeding.");
       return;
     }
 
@@ -97,7 +162,7 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
             </span>
             <div>
               <h3 className="font-display text-xl text-ink">Shipping &amp; Contact Details</h3>
-              <p className="text-xs text-muted">Required for order delivery &amp; official receipt</p>
+              <p className="text-xs text-muted">Verified details required for order delivery &amp; receipt</p>
             </div>
           </div>
           <button onClick={onClose} className="rounded-md p-1 text-muted hover:text-ink">
@@ -105,31 +170,45 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
           </button>
         </div>
 
-        <form onSubmit={handleSubmit} className="mt-5 space-y-3.5">
+        <form onSubmit={handleSubmit} className="mt-5 space-y-3.5" noValidate>
           <div className="grid gap-3 sm:grid-cols-2">
             <div>
               <label className="text-xs font-medium text-ink">Full Name *</label>
-              <div className="relative">
-                <input
-                  required
-                  className={inputCls}
-                  value={form.name}
-                  onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  placeholder="e.g. Rahul Sharma"
-                />
-              </div>
+              <input
+                required
+                className={errors.name ? errorInputCls : inputCls}
+                value={form.name}
+                onChange={(e) => {
+                  setForm({ ...form, name: e.target.value });
+                  if (errors.name) setErrors({ ...errors, name: undefined });
+                }}
+                placeholder="e.g. Rahul Sharma"
+              />
+              {errors.name && (
+                <p className="mt-1 flex items-center gap-1 text-[0.7rem] text-red-500">
+                  <AlertCircle size={11} /> {errors.name}
+                </p>
+              )}
             </div>
+
             <div>
               <label className="text-xs font-medium text-ink">Phone / WhatsApp *</label>
-              <div className="relative">
-                <input
-                  required
-                  className={inputCls}
-                  value={form.phone}
-                  onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                  placeholder="+91 98765 43210"
-                />
-              </div>
+              <input
+                required
+                type="tel"
+                className={errors.phone ? errorInputCls : inputCls}
+                value={form.phone}
+                onChange={(e) => {
+                  setForm({ ...form, phone: e.target.value });
+                  if (errors.phone) setErrors({ ...errors, phone: undefined });
+                }}
+                placeholder="10-digit mobile e.g. 9876543210"
+              />
+              {errors.phone && (
+                <p className="mt-1 flex items-center gap-1 text-[0.7rem] text-red-500">
+                  <AlertCircle size={11} /> {errors.phone}
+                </p>
+              )}
             </div>
           </div>
 
@@ -138,11 +217,19 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
             <textarea
               required
               rows={2}
-              className={inputCls}
+              className={errors.address ? errorInputCls : inputCls}
               value={form.address}
-              onChange={(e) => setForm({ ...form, address: e.target.value })}
+              onChange={(e) => {
+                setForm({ ...form, address: e.target.value });
+                if (errors.address) setErrors({ ...errors, address: undefined });
+              }}
               placeholder="Flat / House No., Colony / Street, Landmark"
             />
+            {errors.address && (
+              <p className="mt-1 flex items-center gap-1 text-[0.7rem] text-red-500">
+                <AlertCircle size={11} /> {errors.address}
+              </p>
+            )}
           </div>
 
           <div className="grid grid-cols-3 gap-3">
@@ -150,36 +237,63 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
               <label className="text-xs font-medium text-ink">City *</label>
               <input
                 required
-                className={inputCls}
+                className={errors.city ? errorInputCls : inputCls}
                 value={form.city}
-                onChange={(e) => setForm({ ...form, city: e.target.value })}
+                onChange={(e) => {
+                  setForm({ ...form, city: e.target.value });
+                  if (errors.city) setErrors({ ...errors, city: undefined });
+                }}
                 placeholder="e.g. Mumbai"
               />
+              {errors.city && (
+                <p className="mt-1 flex items-center gap-1 text-[0.7rem] text-red-500">
+                  <AlertCircle size={11} /> {errors.city}
+                </p>
+              )}
             </div>
+
             <div>
               <label className="text-xs font-medium text-ink">State *</label>
               <input
                 required
-                className={inputCls}
+                className={errors.state ? errorInputCls : inputCls}
                 value={form.state}
-                onChange={(e) => setForm({ ...form, state: e.target.value })}
+                onChange={(e) => {
+                  setForm({ ...form, state: e.target.value });
+                  if (errors.state) setErrors({ ...errors, state: undefined });
+                }}
                 placeholder="e.g. Maharashtra"
               />
+              {errors.state && (
+                <p className="mt-1 flex items-center gap-1 text-[0.7rem] text-red-500">
+                  <AlertCircle size={11} /> {errors.state}
+                </p>
+              )}
             </div>
+
             <div>
               <label className="text-xs font-medium text-ink">Pincode *</label>
               <input
                 required
-                className={inputCls}
+                maxLength={6}
+                className={errors.pincode ? errorInputCls : inputCls}
                 value={form.pincode}
-                onChange={(e) => setForm({ ...form, pincode: e.target.value })}
-                placeholder="400001"
+                onChange={(e) => {
+                  setForm({ ...form, pincode: e.target.value });
+                  if (errors.pincode) setErrors({ ...errors, pincode: undefined });
+                }}
+                placeholder="6-digit PIN"
               />
+              {errors.pincode && (
+                <p className="mt-1 flex items-center gap-1 text-[0.7rem] text-red-500">
+                  <AlertCircle size={11} /> {errors.pincode}
+                </p>
+              )}
             </div>
           </div>
 
           <p className="pt-1 text-[0.7rem] text-muted">
-            🔒 Your shipping profile is securely synchronized with your Clerk account.
+            🔒 RegEx validated data is securely synchronized with your Clerk profile.
           </p>
 
           <div className="flex items-center justify-end gap-3 pt-3">
