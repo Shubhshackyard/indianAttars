@@ -11,6 +11,7 @@ import {
   X,
   MessageSquareText,
   ArrowRight,
+  Package,
 } from "lucide-react";
 import { NAV_LINKS, CATEGORY_HREF } from "@/lib/constants";
 import { CATEGORIES } from "@/lib/products";
@@ -19,6 +20,7 @@ import { useUIStore } from "@/lib/ui";
 import { useCartStore } from "@/lib/cart";
 import { useCartCount, useCartHydrated } from "@/hooks/useCart";
 import { cn } from "@/lib/utils";
+import { useUser, Show, SignInButton, UserButton } from "@clerk/nextjs";
 
 export function MobileNav() {
   const open = useUIStore((s) => s.mobileNavOpen);
@@ -62,9 +64,43 @@ export function MobileNav() {
                 <span className="font-display text-2xl italic text-ink">
                   indian<span className="text-gold">attars</span>
                 </span>
-                <button onClick={close} aria-label="Close menu" className="p-1.5">
+                <button onClick={close} aria-label="Close menu" className="p-1.5 text-muted hover:text-ink">
                   <X size={20} />
                 </button>
+              </div>
+
+              {/* User Account / Profile Card */}
+              <div className="border-b border-line bg-surface/50 p-4">
+                <Show when="signed-in">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <UserButton userProfileMode="navigation" userProfileUrl="/user-profile" />
+                      <div>
+                        <p className="text-xs font-semibold text-ink">My Account</p>
+                        <Link
+                          href="/orders"
+                          onClick={close}
+                          className="mt-0.5 inline-flex items-center gap-1 font-label text-[0.65rem] uppercase tracking-[0.12em] text-primary hover:underline"
+                        >
+                          <Package size={12} /> View My Orders
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Show>
+
+                <Show when="signed-out">
+                  <div className="flex items-center gap-2">
+                    <SignInButton mode="modal">
+                      <button
+                        onClick={close}
+                        className="w-full rounded-md border border-line bg-bg py-2 text-center font-label text-[0.68rem] uppercase tracking-[0.12em] text-ink hover:bg-surface"
+                      >
+                        Sign In / Register
+                      </button>
+                    </SignInButton>
+                  </div>
+                </Show>
               </div>
 
               <nav className="flex flex-col gap-1 px-3 py-4">

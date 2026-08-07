@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useUser, useClerk } from "@clerk/nextjs";
 import { Minus, Plus, Trash2, ShoppingBag, ArrowRight, Lock } from "lucide-react";
@@ -12,6 +13,7 @@ import { toast } from "@/lib/toast";
 import { formatINR } from "@/lib/utils";
 import { waLink } from "@/lib/site";
 import { processRazorpayCheckout } from "@/lib/razorpay";
+import { ShippingFormModal, ShippingDetails } from "./ShippingFormModal";
 
 export function CartView() {
   const hydrated = useCartHydrated();
@@ -23,6 +25,7 @@ export function CartView() {
 
   const { isLoaded, isSignedIn, user } = useUser();
   const { openSignIn } = useClerk();
+  const [shippingModalOpen, setShippingModalOpen] = useState(false);
 
   if (!hydrated || !isLoaded) {
     return (
@@ -47,7 +50,7 @@ export function CartView() {
     );
   }
 
-  const handleCheckout = () => {
+  const handleCheckoutClick = () => {
     // Redirect Logic: Intercept guest checkout attempts
     if (!isSignedIn || !user) {
       toast.info("Please sign in or create an account to proceed with checkout.");
@@ -57,7 +60,14 @@ export function CartView() {
       return;
     }
 
-    // Persist cart items for order success receipt page
+    // Open pre-checkout shipping details modal
+    setShippingModalOpen(true);
+  };
+
+  const handleShippingSubmit = (shippingDetails: ShippingDetails) => {
+    setShippingModalOpen(false);
+
+    // Persist cart items and shipping info for order success receipt page
     try {
       sessionStorage.setItem(
         "last_order",
@@ -65,13 +75,14 @@ export function CartView() {
           items,
           total: subtotal,
           date: new Date().toISOString(),
+          shippingAddress: shippingDetails,
         }),
       );
     } catch (e) {
       console.error("Could not persist order details into sessionStorage:", e);
     }
 
-    // Process checkout with Clerk User Profile data
+    // Process checkout with Clerk User Profile data and shipping details
     processRazorpayCheckout({
       amountInINR: subtotal,
       description: `Order (${items.length} item${items.length > 1 ? "s" : ""})`,
@@ -84,9 +95,10 @@ export function CartView() {
         quantity: i.quantity,
       })),
       customer: {
-        userId: user.id,
-        name: user.fullName || user.firstName || "Customer",
-        email: user.primaryEmailAddress?.emailAddress || "",
+        userId: user?.id,
+        name: shippingDetails.name || user?.fullName || "Customer",
+        email: user?.primaryEmailAddress?.emailAddress || "",
+        contact: shippingDetails.phone,
       },
       onSuccess: () => {
         clear();
@@ -211,7 +223,7 @@ export function CartView() {
           size="lg"
           fullWidth
           className="mt-5"
-          onClick={handleCheckout}
+          onClick={handleCheckoutClick}
         >
           {isSignedIn ? "Proceed to Checkout" : "Sign In to Checkout"}
         </Button>
@@ -219,14 +231,9 @@ export function CartView() {
           href={waLink("Hi! I'd like to place this order from my cart.")}
           target="_blank"
           rel="noopener noreferrer"
-          className={buttonClasses({
-            variant: "whatsapp",
-            size: "md",
-            fullWidth: true,
-            className: "mt-2",
-          })}
+          className="mt-3 flex items-center justify-center gap-2 text-xs text-muted hover:text-ink"
         >
-          <WhatsAppIcon /> Order via WhatsApp
+          Need assistance? Talk via WhatsApp
         </a>
         <Link
           href="/products"
@@ -235,6 +242,12 @@ export function CartView() {
           Continue shopping →
         </Link>
       </aside>
+
+      <ShippingFormModal
+        open={shippingModalOpen}
+        onClose={() => setShippingModalOpen(false)}
+        onSubmit={handleShippingSubmit}
+      />
     </div>
   );
 }

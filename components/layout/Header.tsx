@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import { ChevronDown, Menu, Search, ShoppingBag } from "lucide-react";
+import { ChevronDown, Menu, Search, ShoppingBag, Package } from "lucide-react";
 import { MegaMenu } from "./MegaMenu";
 import { Marquee } from "@/components/ui/Marquee";
 import { buttonClasses } from "@/components/ui/Button";
@@ -168,13 +168,15 @@ export function Header() {
                 </SignUpButton>
               </Show>
               <Show when="signed-in">
-                <Link
-                  href="/orders"
-                  className="hidden sm:inline-flex rounded-md border border-[#1F2937] px-2.5 py-1.5 font-label text-[0.68rem] uppercase tracking-[0.1em] text-[#1F2937] hover:bg-[#1F2937] hover:text-white dark:border-[#F9FAFB] dark:text-[#F9FAFB] dark:hover:bg-[#F9FAFB] dark:hover:text-[#111827] transition-colors"
-                >
-                  My Orders
-                </Link>
-                <UserButton userProfileMode="navigation" userProfileUrl="/user-profile" />
+                <UserButton userProfileMode="navigation" userProfileUrl="/user-profile">
+                  <UserButton.MenuItems>
+                    <UserButton.Link
+                      label="My Orders"
+                      labelIcon={<Package size={15} />}
+                      href="/orders"
+                    />
+                  </UserButton.MenuItems>
+                </UserButton>
               </Show>
             </div>
           </div>

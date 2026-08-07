@@ -29,6 +29,15 @@ interface OrderEmailParams {
   currency?: string;
   customerName?: string;
   customerEmail?: string;
+  customerPhone?: string;
+  shippingAddress?: {
+    name?: string;
+    phone?: string;
+    address?: string;
+    city?: string;
+    state?: string;
+    pincode?: string;
+  };
   clerkUserId?: string;
   items?: Array<{ name: string; qty: string; unitPrice: number; quantity: number }>;
 }
@@ -218,6 +227,16 @@ export function renderOrderCustomerEmail(params: OrderEmailParams): string {
         <td style="padding: 6px 0; font-size: 13px; font-weight: bold; color: #78716C;">Total Amount Paid:</td>
         <td style="padding: 6px 0; font-size: 16px; font-weight: bold; color: #7A1C30;">${amountFormatted}</td>
       </tr>
+      ${params.shippingAddress ? `
+      <tr>
+        <td style="padding: 6px 0; font-size: 13px; font-weight: bold; color: #78716C; vertical-align: top;">Shipping Address:</td>
+        <td style="padding: 6px 0; font-size: 14px; color: #1C1A17;">
+          <strong>${params.shippingAddress.name || params.customerName || ""}</strong><br>
+          ${params.shippingAddress.address || ""}<br>
+          ${params.shippingAddress.city || ""}, ${params.shippingAddress.state || ""} ${params.shippingAddress.pincode || ""}<br>
+          ${params.shippingAddress.phone || params.customerPhone || ""}
+        </td>
+      </tr>` : ""}
     </table>
 
     <p style="margin: 0 0 20px 0; font-size: 14px; line-height: 1.6; color: #57534E;">Our dispatch center in Kannauj &amp; Kanpur will begin carefully hand-packing your pure aromatics in tamper-proof glass packaging. You will receive tracking updates shortly.</p>
@@ -256,6 +275,16 @@ export function renderOrderAdminEmail(params: OrderEmailParams): string {
         <td style="padding: 6px 0; font-size: 13px; font-weight: bold; color: #78716C;">Amount Verified:</td>
         <td style="padding: 6px 0; font-size: 16px; font-weight: bold; color: #7A1C30;">${amountFormatted}</td>
       </tr>
+      ${params.shippingAddress ? `
+      <tr>
+        <td style="padding: 6px 0; font-size: 13px; font-weight: bold; color: #78716C; vertical-align: top;">Shipping Address:</td>
+        <td style="padding: 6px 0; font-size: 14px; color: #1C1A17;">
+          <strong>${params.shippingAddress.name || params.customerName || ""}</strong><br>
+          ${params.shippingAddress.address || ""}<br>
+          ${params.shippingAddress.city || ""}, ${params.shippingAddress.state || ""} ${params.shippingAddress.pincode || ""}<br>
+          Phone: ${params.shippingAddress.phone || params.customerPhone || ""}
+        </td>
+      </tr>` : ""}
     </table>
   `);
 }

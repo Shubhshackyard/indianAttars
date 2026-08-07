@@ -23,6 +23,14 @@ interface SavedOrder {
   items: SavedOrderItem[];
   total: number;
   date: string;
+  shippingAddress?: {
+    name?: string;
+    phone?: string;
+    address?: string;
+    city?: string;
+    state?: string;
+    pincode?: string;
+  };
 }
 
 function OrderSuccessContent() {
@@ -124,6 +132,16 @@ function OrderSuccessContent() {
             <p className="font-label text-[0.6rem] uppercase tracking-[0.14em] text-muted">Razorpay Payment ID</p>
             <p className="mt-1 font-mono text-sm font-semibold text-primary">{paymentId}</p>
           </div>
+          {order?.shippingAddress && (
+            <div className="rounded-lg border border-line bg-surface/30 p-4 sm:col-span-2">
+              <p className="font-label text-[0.6rem] uppercase tracking-[0.14em] text-muted">Shipping Destination</p>
+              <p className="mt-1 text-sm font-semibold text-ink">{order.shippingAddress.name}</p>
+              <p className="text-xs text-muted">
+                {order.shippingAddress.address}, {order.shippingAddress.city}, {order.shippingAddress.state} - {order.shippingAddress.pincode}
+              </p>
+              <p className="mt-1 text-xs text-muted">Phone: {order.shippingAddress.phone}</p>
+            </div>
+          )}
         </div>
 
         {/* Purchased Items List */}

@@ -16,6 +16,15 @@ export interface OrderRecord {
   clerkUserId: string;
   customerName?: string;
   customerEmail?: string;
+  customerPhone?: string;
+  shippingAddress?: {
+    name?: string;
+    phone?: string;
+    address?: string;
+    city?: string;
+    state?: string;
+    pincode?: string;
+  };
   amount: number; // in INR
   currency: string;
   items: OrderItemRecord[];

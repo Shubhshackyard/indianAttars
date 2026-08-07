@@ -20,6 +20,8 @@ export async function POST(request: Request) {
       currency = "INR",
       customerEmail,
       customerName,
+      customerPhone,
+      shippingAddress,
       userId: bodyUserId,
       items = [],
     } = body;
@@ -71,6 +73,8 @@ export async function POST(request: Request) {
       clerkUserId,
       customerName,
       customerEmail,
+      customerPhone,
+      shippingAddress,
       amount: Number(amount) / 100, // convert paise to INR
       currency,
       items,
@@ -86,6 +90,8 @@ export async function POST(request: Request) {
       currency,
       customerEmail,
       customerName,
+      customerPhone,
+      shippingAddress,
       clerkUserId,
     };
 
