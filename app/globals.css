@@ -248,6 +248,17 @@ body {
   }
 }
 
+/* Hide Clerk Development Mode badges & watermarks in UI */
+.cl-dev-mode,
+.cl-internal-dev-mode-badge,
+[class*="cl-internal-dev-mode"],
+[class*="cl-devMode"],
+div[class*="cl-internal-"][class*="-badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
 @media print {
   header,
   footer,
