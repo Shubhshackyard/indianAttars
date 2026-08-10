@@ -4,8 +4,11 @@ const apiKey = process.env.RESEND_API_KEY;
 
 export const resend = apiKey ? new Resend(apiKey) : null;
 
+const envFrom = process.env.RESEND_FROM_EMAIL;
 export const DEFAULT_FROM_EMAIL =
-  process.env.RESEND_FROM_EMAIL || "indianattars <orders@indianattars.com>";
+  envFrom && !envFrom.includes("onboarding@resend.dev")
+    ? envFrom
+    : "indianattars <orders@indianattars.com>";
 
 export const ADMIN_EMAIL =
   process.env.ADMIN_NOTIFICATION_EMAIL || "shivaayessentials@gmail.com";
