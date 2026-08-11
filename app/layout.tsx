@@ -84,6 +84,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${display.variable} ${body.variable} ${label.variable}`}
     >
       <body className="min-h-screen bg-bg pb-14 font-body text-ink antialiased lg:pb-0">

@@ -29,7 +29,7 @@ export interface OrderRecord {
   currency: string;
   items: OrderItemRecord[];
   date: string;
-  status: "Paid & Processing" | "Dispatched" | "Delivered";
+  status: "Paid & Processing" | "Dispatched" | "Delivered" | "Paid & Confirmed" | "Failed" | "Cancelled";
 }
 
 const ORDERS_FILE_PATH = path.join(process.cwd(), "data", "orders.json");

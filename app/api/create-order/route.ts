@@ -64,9 +64,13 @@ export async function POST(request: Request) {
     });
   } catch (error: any) {
     console.error("Error creating Razorpay order:", error);
-    return NextResponse.json(
-      { error: error?.message || "Failed to create Razorpay order" },
-      { status: 500 },
-    );
+    const isAuthError =
+      error?.statusCode === 401 ||
+      error?.error?.description === "Authentication failed";
+    const msg = isAuthError
+      ? "Razorpay Authentication Failed: Invalid Key ID or Secret. Please update RAZORPAY_KEY_ID and RAZORPAY_KEY_SECRET in dashboard.razorpay.com."
+      : error?.message || "Failed to create Razorpay order";
+
+    return NextResponse.json({ error: msg }, { status: isAuthError ? 401 : 500 });
   }
 }

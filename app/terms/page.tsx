@@ -40,7 +40,7 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc space-y-1.5 pl-5">
               <li><strong>Bulk Slab Pricing:</strong> Discounted tier prices (e.g. 50g, 250g, 1kg, 5kg+) are automatically calculated at checkout or quoted via our wholesale inquiry desk.</li>
-              <li><strong>Taxes &amp; Duties:</strong> Applicable GST is calculated at final checkout. Export buyers are responsible for any destination customs clearance fees.</li>
+              <li><strong>Taxes &amp; Duties:</strong> All listed product prices are inclusive of GST (GST Included). Export buyers are responsible for any destination customs clearance fees.</li>
               <li><strong>Price Revisions:</strong> Due to natural harvest cycles of botanical crops (such as Damask Rose, Sandalwood, and Jasmine), wholesale prices are subject to seasonal updates.</li>
             </ul>
           </div>

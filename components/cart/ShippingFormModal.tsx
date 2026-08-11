@@ -130,12 +130,21 @@ export function ShippingFormModal({ open, onClose, onSubmit }: ShippingFormModal
     try {
       // Save/sync shipping details into Clerk User Metadata
       if (user) {
-        await user.update({
-          unsafeMetadata: {
-            ...user.unsafeMetadata,
-            shippingAddress: form,
-          },
-        });
+        if (typeof (user as any).updateMetadata === "function") {
+          await (user as any).updateMetadata({
+            unsafeMetadata: {
+              ...user.unsafeMetadata,
+              shippingAddress: form,
+            },
+          });
+        } else {
+          await user.update({
+            unsafeMetadata: {
+              ...user.unsafeMetadata,
+              shippingAddress: form,
+            },
+          });
+        }
       }
     } catch (err: any) {
       console.warn("Could not save shipping address to Clerk metadata:", err);

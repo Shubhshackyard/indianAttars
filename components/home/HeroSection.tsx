@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
@@ -9,6 +10,7 @@ const headlineLines = ["The Art of", "Pure Indian", "Fragrance."];
 
 export function HeroSection() {
   const reduce = useReducedMotion();
+  const [isVideoReady, setIsVideoReady] = useState(false);
 
   return (
     <section className="relative overflow-hidden border-b border-line">
@@ -72,14 +74,28 @@ export function HeroSection() {
           style={{ animationDelay: "220ms" }}
         >
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-lg shadow-lift">
+            {/* Fallback Image displayed until video is downloaded */}
+            <img
+              src="/assets/frame-1.png"
+              alt="Luxury Indian Fragrance"
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
+                isVideoReady ? "opacity-0 pointer-events-none" : "opacity-100"
+              }`}
+            />
+
             <video
               src="/assets/hero.mp4"
+              poster="/assets/frame-1.png"
               autoPlay
               loop
               muted
               playsInline
+              onLoadedData={() => setIsVideoReady(true)}
+              onCanPlay={() => setIsVideoReady(true)}
               aria-label="Luxury Indian attar fragrance video"
-              className="h-full w-full object-cover"
+              className={`h-full w-full object-cover transition-opacity duration-700 ${
+                isVideoReady ? "opacity-100" : "opacity-0"
+              }`}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink/30 via-transparent to-ink/10" />
 

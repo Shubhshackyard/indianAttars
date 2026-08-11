@@ -82,7 +82,7 @@ export function SlabPriceSelector({
               </span>
             )}
           </div>
-          <p className="mt-2 text-xs text-muted">+ GST as applicable</p>
+          <p className="mt-2 text-xs text-muted">GST Included</p>
           {value.grams >= 25000 && (
             <p className="mt-1 text-xs text-primary">
               For 25kg+ orders, request a custom quote for the best rate →

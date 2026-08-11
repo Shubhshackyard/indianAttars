@@ -97,7 +97,7 @@ export function PricingTable() {
 
       <p className="mt-3 text-xs text-muted">
         Pricing Logic: Base Rate ±2% per slab. Lower qty → +2% each step. Higher
-        qty → −2% each step. Prices ex-Kanpur, GST applicable.
+        qty → −2% each step. Prices ex-Kanpur, GST Included.
       </p>
     </section>
   );

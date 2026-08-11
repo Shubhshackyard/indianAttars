@@ -202,7 +202,7 @@ export function CartView() {
           </span>
         </div>
         <p className="mt-1 text-xs text-muted">
-          + GST as applicable · Shipping calculated at confirmation · Prices
+          GST Included · Shipping calculated at confirmation · Prices
           ex-Kanpur
         </p>
 

@@ -152,7 +152,7 @@ export function CartDrawer() {
                     </span>
                   </div>
                   <p className="mt-1 text-xs text-muted">
-                    + GST as applicable · Prices ex-Kanpur
+                    GST Included · Prices ex-Kanpur
                   </p>
                   <Link
                     href="/cart"

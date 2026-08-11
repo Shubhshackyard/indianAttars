@@ -140,6 +140,23 @@ export async function processRazorpayCheckout(options: CheckoutOptions) {
             const err = verifyData.error || "Payment signature verification failed.";
             toast.error(err);
             options.onError?.(err);
+
+            // Dispatch Failed Payment Email Receipt
+            fetch("/api/payment-status", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                orderId: response.razorpay_order_id,
+                paymentId: response.razorpay_payment_id,
+                status: "failed",
+                errorMessage: err,
+                amount: amountInPaise,
+                customerEmail: options.customer?.email,
+                customerName: options.customer?.name,
+                customerPhone: options.customer?.contact,
+                clerkUserId: options.customer?.userId,
+              }),
+            }).catch(() => {});
           }
         } catch (err: any) {
           toast.error("Failed to verify payment with server.");
@@ -158,6 +175,21 @@ export async function processRazorpayCheckout(options: CheckoutOptions) {
         ondismiss: function () {
           toast.info("Payment cancelled.");
           options.onCancel?.();
+
+          // Dispatch Cancelled Payment Email Receipt
+          fetch("/api/payment-status", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              orderId: orderData.order_id,
+              status: "cancelled",
+              amount: amountInPaise,
+              customerEmail: options.customer?.email,
+              customerName: options.customer?.name,
+              customerPhone: options.customer?.contact,
+              clerkUserId: options.customer?.userId,
+            }),
+          }).catch(() => {});
         },
       },
     };
@@ -170,6 +202,23 @@ export async function processRazorpayCheckout(options: CheckoutOptions) {
       const msg = response.error?.description || "Payment failed.";
       toast.error(`Payment Failed: ${msg}`);
       options.onError?.(msg);
+
+      // Dispatch Failed Payment Email Receipt
+      fetch("/api/payment-status", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          orderId: orderData.order_id,
+          paymentId: response.error?.metadata?.payment_id,
+          status: "failed",
+          errorMessage: msg,
+          amount: amountInPaise,
+          customerEmail: options.customer?.email,
+          customerName: options.customer?.name,
+          customerPhone: options.customer?.contact,
+          clerkUserId: options.customer?.userId,
+        }),
+      }).catch(() => {});
     });
 
     razorpayInstance.open();

@@ -2,9 +2,20 @@ import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs/server";
 import { getOrdersByUserId } from "@/lib/orders-db";
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
+    const { searchParams } = new URL(request.url);
+    const orderIdParam = searchParams.get("orderId");
+
     const { userId } = await auth();
+
+    if (orderIdParam) {
+      const { getOrderById } = await import("@/lib/orders-db");
+      const singleOrder = getOrderById(orderIdParam);
+      if (singleOrder) {
+        return NextResponse.json({ success: true, order: singleOrder });
+      }
+    }
 
     if (!userId) {
       return NextResponse.json(

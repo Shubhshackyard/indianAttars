@@ -82,17 +82,36 @@ export async function POST(request: Request) {
       status: "Paid & Processing",
     });
 
+    const resolvedPhone = customerPhone || shippingAddress?.phone || "";
+    const resolvedName = customerName || shippingAddress?.name || "";
+    const resolvedEmail = customerEmail || shippingAddress?.email || "";
+
+    // Synchronize rich order metadata to Clerk User Dashboard for Admin
+    const { syncOrderToClerkUser } = await import("@/lib/clerk-sync");
+    syncOrderToClerkUser({
+      clerkUserId,
+      orderId: razorpay_order_id,
+      paymentId: razorpay_payment_id,
+      amountInINR: Number(amount) > 1000 ? Number(amount) / 100 : Number(amount),
+      status: "Paid & Confirmed",
+      items,
+      shippingAddress,
+      customerPhone: resolvedPhone,
+      customerName: resolvedName,
+    }).catch(() => {});
+
     // Send order confirmation emails via Resend with Clerk User Profile linkage
     const orderPayload = {
       orderId: razorpay_order_id,
       paymentId: razorpay_payment_id,
       amount: Number(amount),
       currency,
-      customerEmail,
-      customerName,
-      customerPhone,
+      customerEmail: resolvedEmail,
+      customerName: resolvedName,
+      customerPhone: resolvedPhone,
       shippingAddress,
       clerkUserId,
+      items,
     };
 
     const adminEmailResult = await sendEmail({
