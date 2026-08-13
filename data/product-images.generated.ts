@@ -970,5 +970,17 @@ export const PRODUCT_IMAGES: Record<string, ProductImageSet> = {
       "/products/panch-pushpa-jal/gift_packaging.png",
       "/products/panch-pushpa-jal/flat_lay.png"
     ]
+  },
+  "premium-rose-mist": {
+    "card": "/assets/premiumROSE.jpeg",
+    "gallery": [
+      "/assets/premiumROSE.jpeg"
+    ]
+  },
+  "rose-chamomile-mist": {
+    "card": "/assets/roseCHAMOMILE.jpeg",
+    "gallery": [
+      "/assets/roseCHAMOMILE.jpeg"
+    ]
   }
 };
