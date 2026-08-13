@@ -63,11 +63,11 @@ export function getReviews(product: Product, max = 5): Review[] {
     const day = 1 + (k % 27);
     const month = 1 + ((seed + i) % 12);
     reviews.push({
-      name: NAMES[(k >> 3) % NAMES.length],
-      city: CITIES[(k >> 7) % CITIES.length],
-      rating: Math.min(5, rating),
+      name: NAMES[Math.abs((k >>> 3) % NAMES.length)] || "Priya M.",
+      city: CITIES[Math.abs((k >>> 7) % CITIES.length)] || "Delhi",
+      rating: Math.min(5, Math.max(1, rating)),
       date: `${String(day).padStart(2, "0")}/${String(month).padStart(2, "0")}/2024`,
-      text: SNIPPETS[(k >> 5) % SNIPPETS.length],
+      text: SNIPPETS[Math.abs((k >>> 5) % SNIPPETS.length)] || "Excellent quality and authentic aroma.",
       verified: k % 5 !== 0,
     });
   }
