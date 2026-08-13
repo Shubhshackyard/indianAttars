@@ -1,16 +1,33 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { buttonClasses } from "@/components/ui/Button";
+
+import {
+  INDEPENDENCE_DAY_THEME,
+  checkIsIndependenceDaySeason,
+} from "@/lib/independence-day";
+import { IndependenceDayHero } from "./IndependenceDayHero";
 
 const headlineLines = ["The Art of", "Pure Indian", "Fragrance."];
 
 export function HeroSection() {
   const reduce = useReducedMotion();
   const [isVideoReady, setIsVideoReady] = useState(false);
+  const [showIndependenceHero, setShowIndependenceHero] = useState(INDEPENDENCE_DAY_THEME);
+
+  useEffect(() => {
+    if (checkIsIndependenceDaySeason()) {
+      setShowIndependenceHero(true);
+    }
+  }, []);
+
+  if (showIndependenceHero) {
+    return <IndependenceDayHero />;
+  }
 
   return (
     <section className="relative overflow-hidden border-b border-line">
