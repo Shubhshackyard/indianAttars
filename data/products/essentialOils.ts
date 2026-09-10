@@ -131,7 +131,7 @@ export const essentialOils: BaseProduct[] = [
     reviewCount: 22,
   },
   {
-    name: "Chamomile Oil German (Green)",
+    name: "Roman Chamomile Oil",
     category: "essential-oils",
     baseRatePerKg: 32000,
     shortDescription:
