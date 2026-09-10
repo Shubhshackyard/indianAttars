@@ -94,7 +94,7 @@ function buildSlabs(
 }
 
 function buildProduct(base: BaseProduct): Product {
-  const slug = slugify(base.name);
+  const slug = base.slug ?? slugify(base.name);
   return {
     ...base,
     id: slug,

@@ -37,6 +37,8 @@ export interface ProductSpec {
 
 export interface BaseProduct {
   name: string;
+  /** Stable URL identifier; defaults to a slug generated from name. */
+  slug?: string;
   nameHindi?: string;
   category: ProductCategory;
   baseRatePerKg: number;
