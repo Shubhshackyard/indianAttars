@@ -41,13 +41,13 @@ export const PRODUCT_IMAGES: Record<string, ProductImageSet> = {
       "/products/chamomile-oil-german-blue/4.png"
     ]
   },
-  "chamomile-oil-german-green": {
-    "card": "/products/chamomile-oil-german-green/1.png",
+  "roman-chamomile-oil": {
+    "card": "/products/roman-chamomile-oil/1.png",
     "gallery": [
-      "/products/chamomile-oil-german-green/1.png",
-      "/products/chamomile-oil-german-green/2.png",
-      "/products/chamomile-oil-german-green/3.png",
-      "/products/chamomile-oil-german-green/4.png"
+      "/products/roman-chamomile-oil/1.png",
+      "/products/roman-chamomile-oil/2.png",
+      "/products/roman-chamomile-oil/3.png",
+      "/products/roman-chamomile-oil/4.png"
     ]
   },
   "cinnamon-oil": {

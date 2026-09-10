@@ -392,7 +392,7 @@
   },
   {
     "name": "Roman Chamomile Oil",
-    "slug": "chamomile-oil-german-green",
+    "slug": "roman-chamomile-oil",
     "category": "essential-oils",
     "baseRatePerKg": 32000,
     "shortDescription": "Greenish chamomile distillate, soft and herbaceous, rich in bisabolol.",
@@ -428,7 +428,7 @@
     ],
     "rating": 4.7,
     "reviewCount": 14,
-    "id": "chamomile-oil-german-green",
+    "id": "roman-chamomile-oil",
     "categoryLabel": "Essential Oil",
     "slabs": [
       {

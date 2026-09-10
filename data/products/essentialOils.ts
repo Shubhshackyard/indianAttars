@@ -132,7 +132,7 @@ export const essentialOils: BaseProduct[] = [
   },
   {
     name: "Roman Chamomile Oil",
-    slug: "chamomile-oil-german-green",
+    slug: "roman-chamomile-oil",
     category: "essential-oils",
     baseRatePerKg: 32000,
     shortDescription:
