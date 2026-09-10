@@ -114,99 +114,147 @@ export const PRODUCT_IMAGES: Record<string, ProductImageSet> = {
     ]
   },
   "kapoor-kachri-oil": {
-    "card": "/products/kapoor-kachri-oil/flat_lay.png",
+    "card": "/products/kapoor-kachri-oil/1.png",
     "gallery": [
-      "/products/kapoor-kachri-oil/flat_lay.png"
+      "/products/kapoor-kachri-oil/1.png",
+      "/products/kapoor-kachri-oil/2.png",
+      "/products/kapoor-kachri-oil/3.png",
+      "/products/kapoor-kachri-oil/4.png"
     ]
   },
   "lavender-oil": {
-    "card": "/products/lavender-oil/flat_lay.png",
+    "card": "/products/lavender-oil/1.png",
     "gallery": [
-      "/products/lavender-oil/flat_lay.png"
+      "/products/lavender-oil/1.png",
+      "/products/lavender-oil/2.png",
+      "/products/lavender-oil/3.png",
+      "/products/lavender-oil/4.png"
     ]
   },
   "lemon-oil": {
-    "card": "/products/lemon-oil/flat_lay.png",
+    "card": "/products/lemon-oil/1.png",
     "gallery": [
-      "/products/lemon-oil/flat_lay.png"
+      "/products/lemon-oil/1.png",
+      "/products/lemon-oil/2.png",
+      "/products/lemon-oil/3.png",
+      "/products/lemon-oil/4.png"
     ]
   },
   "lemongrass-oil": {
-    "card": "/products/lemongrass-oil/flat_lay.png",
+    "card": "/products/lemongrass-oil/1.png",
     "gallery": [
-      "/products/lemongrass-oil/flat_lay.png"
+      "/products/lemongrass-oil/1.png",
+      "/products/lemongrass-oil/2.png",
+      "/products/lemongrass-oil/3.png",
+      "/products/lemongrass-oil/4.png"
     ]
   },
   "morpankhi-oil": {
-    "card": "/products/morpankhi-oil/flat_lay.png",
+    "card": "/products/morpankhi-oil/1.png",
     "gallery": [
-      "/products/morpankhi-oil/flat_lay.png"
+      "/products/morpankhi-oil/1.png",
+      "/products/morpankhi-oil/2.png",
+      "/products/morpankhi-oil/3.png",
+      "/products/morpankhi-oil/4.png"
     ]
   },
   "palmarosa-oil": {
-    "card": "/products/palmarosa-oil/flat_lay.png",
+    "card": "/products/palmarosa-oil/1.png",
     "gallery": [
-      "/products/palmarosa-oil/flat_lay.png"
+      "/products/palmarosa-oil/1.png",
+      "/products/palmarosa-oil/2.png",
+      "/products/palmarosa-oil/3.png",
+      "/products/palmarosa-oil/4.png"
     ]
   },
   "patchouli-oil": {
-    "card": "/products/patchouli-oil/flat_lay.png",
+    "card": "/products/patchouli-oil/1.png",
     "gallery": [
-      "/products/patchouli-oil/flat_lay.png"
+      "/products/patchouli-oil/1.png",
+      "/products/patchouli-oil/2.png",
+      "/products/patchouli-oil/3.png",
+      "/products/patchouli-oil/4.png"
     ]
   },
   "peppermint-oil-mentha-arvensis": {
-    "card": "/products/peppermint-oil-mentha-arvensis/flat_lay.png",
+    "card": "/products/peppermint-oil-mentha-arvensis/1.png",
     "gallery": [
-      "/products/peppermint-oil-mentha-arvensis/flat_lay.png"
+      "/products/peppermint-oil-mentha-arvensis/1.png",
+      "/products/peppermint-oil-mentha-arvensis/2.png",
+      "/products/peppermint-oil-mentha-arvensis/3.png",
+      "/products/peppermint-oil-mentha-arvensis/4.png"
     ]
   },
   "rosemary-oil": {
-    "card": "/products/rosemary-oil/flat_lay.png",
+    "card": "/products/rosemary-oil/1.png",
     "gallery": [
-      "/products/rosemary-oil/flat_lay.png"
+      "/products/rosemary-oil/1.png",
+      "/products/rosemary-oil/2.png",
+      "/products/rosemary-oil/3.png",
+      "/products/rosemary-oil/4.png"
     ]
   },
   "spikenard-oil": {
-    "card": "/products/spikenard-oil/flat_lay.png",
+    "card": "/products/spikenard-oil/1.png",
     "gallery": [
-      "/products/spikenard-oil/flat_lay.png"
+      "/products/spikenard-oil/1.png",
+      "/products/spikenard-oil/2.png",
+      "/products/spikenard-oil/3.png",
+      "/products/spikenard-oil/4.png"
     ]
   },
   "sugandh-kokila-oil": {
-    "card": "/products/sugandh-kokila-oil/flat_lay.png",
+    "card": "/products/sugandh-kokila-oil/1.png",
     "gallery": [
-      "/products/sugandh-kokila-oil/flat_lay.png"
+      "/products/sugandh-kokila-oil/1.png",
+      "/products/sugandh-kokila-oil/2.png",
+      "/products/sugandh-kokila-oil/3.png",
+      "/products/sugandh-kokila-oil/4.png"
     ]
   },
   "sugandh-mantri-oil": {
-    "card": "/products/sugandh-mantri-oil/flat_lay.png",
+    "card": "/products/sugandh-mantri-oil/1.png",
     "gallery": [
-      "/products/sugandh-mantri-oil/flat_lay.png"
+      "/products/sugandh-mantri-oil/1.png",
+      "/products/sugandh-mantri-oil/2.png",
+      "/products/sugandh-mantri-oil/3.png",
+      "/products/sugandh-mantri-oil/4.png"
     ]
   },
   "sweet-basil-oil": {
-    "card": "/products/sweet-basil-oil/flat_lay.png",
+    "card": "/products/sweet-basil-oil/1.png",
     "gallery": [
-      "/products/sweet-basil-oil/flat_lay.png"
+      "/products/sweet-basil-oil/1.png",
+      "/products/sweet-basil-oil/2.png",
+      "/products/sweet-basil-oil/3.png",
+      "/products/sweet-basil-oil/4.png"
     ]
   },
   "tagetes-oil": {
-    "card": "/products/tagetes-oil/flat_lay.png",
+    "card": "/products/tagetes-oil/1.png",
     "gallery": [
-      "/products/tagetes-oil/flat_lay.png"
+      "/products/tagetes-oil/1.png",
+      "/products/tagetes-oil/2.png",
+      "/products/tagetes-oil/3.png",
+      "/products/tagetes-oil/4.png"
     ]
   },
   "tea-tree-oil": {
-    "card": "/products/tea-tree-oil/flat_lay.png",
+    "card": "/products/tea-tree-oil/1.png",
     "gallery": [
-      "/products/tea-tree-oil/flat_lay.png"
+      "/products/tea-tree-oil/1.png",
+      "/products/tea-tree-oil/2.png",
+      "/products/tea-tree-oil/3.png",
+      "/products/tea-tree-oil/4.png"
     ]
   },
   "vetiver-oil": {
-    "card": "/products/vetiver-oil/flat_lay.png",
+    "card": "/products/vetiver-oil/1.png",
     "gallery": [
-      "/products/vetiver-oil/flat_lay.png"
+      "/products/vetiver-oil/1.png",
+      "/products/vetiver-oil/2.png",
+      "/products/vetiver-oil/3.png",
+      "/products/vetiver-oil/4.png"
     ]
   },
   "chandan-attar": {
