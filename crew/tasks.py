@@ -54,3 +54,16 @@ class DevTeamTasks:
             ),
             agent=agent
         )
+
+    def seo_schema_audit_task(self, agent: Agent) -> Task:
+        return Task(
+            description=(
+                "Audit Product page JSON-LD structured data to resolve Google Search Console issues "
+                "(missing offers/review/aggregateRating, product image requirements, and offer pricing)."
+            ),
+            expected_output=(
+                "Audit verification confirming valid Product schema with offers, aggregateRating, image, and canonical URLs."
+            ),
+            agent=agent
+        )
+

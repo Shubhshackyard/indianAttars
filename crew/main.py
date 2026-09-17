@@ -20,20 +20,23 @@ def run_dev_crew():
     email_specialist = agents.email_specialist_agent()
     qa_engineer = agents.qa_engineer_agent()
     ops_lead = agents.operations_lead_agent()
+    seo_specialist = agents.seo_specialist_agent()
 
     # Instantiate Tasks
     task1 = tasks.architecture_audit_task(tech_lead)
     task2 = tasks.email_verification_task(email_specialist)
     task3 = tasks.qa_validation_task(qa_engineer)
     task4 = tasks.wholesale_workflow_task(ops_lead)
+    task5 = tasks.seo_schema_audit_task(seo_specialist)
 
     # Form the Crew
     crew = Crew(
-        agents=[tech_lead, email_specialist, qa_engineer, ops_lead],
-        tasks=[task1, task2, task3, task4],
+        agents=[tech_lead, email_specialist, qa_engineer, ops_lead, seo_specialist],
+        tasks=[task1, task2, task3, task4, task5],
         process=Process.sequential,
         verbose=True
     )
+
 
     print("\nStarting Crew Execution...")
     result = crew.kickoff()

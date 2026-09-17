@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ShieldCheck } from "lucide-react";
+import { ShieldCheck, FileText, ExternalLink, Download } from "lucide-react";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CERTIFICATIONS } from "@/lib/constants";
@@ -8,7 +8,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Certifications — Documented Quality",
   description:
-    "HACCP, Kosher, ISO 9001:2015, Halal, GMP and Non-Toxic certified. COA, MSDS and allergen sheets available for every product.",
+    "HACCP, Kosher, Organic, Halal, GMP, ISO 9001:2015 and Non-Toxic certified. COA, MSDS and allergen sheets available for every product.",
 };
 
 const faqs = [
@@ -23,6 +23,10 @@ const faqs = [
   {
     q: "How often are products tested?",
     a: "Every production batch is tested before dispatch. We also conduct periodic third-party verification.",
+  },
+  {
+    q: "Are the official certificate documents verified?",
+    a: "Yes. All our certificates are issued by accredited international bodies (such as RCS CERT / PQC) and remain active with regular surveillance audits.",
   },
 ];
 
@@ -45,17 +49,78 @@ export default function CertificationsPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-section sm:px-6">
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {CERTIFICATIONS.map((c) => (
             <div
               key={c.short}
-              className="rounded-lg border border-line bg-bg p-6 shadow-card"
+              className="flex flex-col justify-between rounded-xl border border-line bg-card p-6 shadow-card transition-all hover:shadow-card-hover"
             >
-              <span className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-primary/25 text-primary">
-                <ShieldCheck size={24} />
-              </span>
-              <h3 className="mt-4 font-display text-xl text-ink">{c.name}</h3>
-              <p className="mt-2 text-sm text-muted">{c.description}</p>
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary/25 bg-primary/5 text-primary">
+                    <ShieldCheck size={22} />
+                  </span>
+                  {c.pdf ? (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                      <FileText size={12} />
+                      Verified PDF
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center rounded-full bg-surface px-2.5 py-0.5 text-xs font-medium text-muted">
+                      Quality Standard
+                    </span>
+                  )}
+                </div>
+
+                <h3 className="mt-4 font-display text-xl text-ink">{c.name}</h3>
+                <p className="mt-2 text-sm text-muted">{c.description}</p>
+
+                {c.certNo && (
+                  <div className="mt-4 rounded-lg bg-surface/70 p-3 text-xs text-muted">
+                    <div className="flex justify-between">
+                      <span className="text-faint">Certificate No:</span>
+                      <span className="font-mono font-medium text-ink">
+                        {c.certNo}
+                      </span>
+                    </div>
+                    {c.validUntil && (
+                      <div className="mt-1 flex justify-between">
+                        <span className="text-faint">Valid Until:</span>
+                        <span className="font-medium text-ink">
+                          {c.validUntil}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              {c.pdf ? (
+                <div className="mt-6 flex items-center gap-2 border-t border-line/60 pt-4">
+                  <a
+                    href={c.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2 text-xs font-medium text-white transition-colors hover:bg-primary/90"
+                  >
+                    <ExternalLink size={14} />
+                    View Certificate
+                  </a>
+                  <a
+                    href={c.pdf}
+                    download
+                    className="flex items-center justify-center rounded-lg border border-line bg-bg p-2 text-ink transition-colors hover:bg-surface hover:text-primary"
+                    title={`Download ${c.name} PDF`}
+                    aria-label={`Download ${c.name} PDF`}
+                  >
+                    <Download size={14} />
+                  </a>
+                </div>
+              ) : (
+                <div className="mt-6 border-t border-line/60 pt-4 text-xs text-faint">
+                  Available upon batch inquiry &amp; order documentation
+                </div>
+              )}
             </div>
           ))}
         </div>

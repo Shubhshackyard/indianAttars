@@ -56,3 +56,17 @@ class DevTeamAgents:
             verbose=True,
             allow_delegation=True
         )
+
+    def seo_specialist_agent(self) -> Agent:
+        return Agent(
+            role="SEO & Structured Data Specialist",
+            goal="Audit and optimize schema.org JSON-LD markup, Google Search Console rich results eligibility, and canonical metadata.",
+            backstory=(
+                "You are an e-commerce Technical SEO specialist. You ensure all product pages render "
+                "valid schema.org Product, Offer, AggregateOffer, and AggregateRating JSON-LD metadata, "
+                "resolving Google Search Console rich result warnings and errors."
+            ),
+            verbose=True,
+            allow_delegation=False
+        )
+

@@ -4,6 +4,9 @@ export interface Certification {
   name: string;
   short: string;
   description: string;
+  pdf?: string;
+  certNo?: string;
+  validUntil?: string;
 }
 
 export const CERTIFICATIONS: Certification[] = [
@@ -12,29 +15,50 @@ export const CERTIFICATIONS: Certification[] = [
     short: "HACCP",
     description:
       "Hazard Analysis & Critical Control Points — food-safety controls across our entire process.",
+    pdf: "/certificates/haccp-certificate.pdf",
+    certNo: "HU-100226/0926",
+    validUntil: "02.09.2029",
   },
   {
     name: "Kosher Certified",
     short: "Kosher",
     description:
       "Independently audited to meet kosher production and handling standards.",
-  },
-  {
-    name: "ISO 9001:2015",
-    short: "ISO 9001",
-    description:
-      "International quality-management standard for consistent, documented, tested production.",
+    pdf: "/certificates/kosher-certificate.pdf",
+    certNo: "KU-100228/0926",
+    validUntil: "02.09.2029",
   },
   {
     name: "100% Halal Certified",
     short: "Halal",
     description: "Certified halal — permissible and ethically produced.",
+    pdf: "/certificates/halal-certificate.pdf",
+    certNo: "HU-100225/0926",
+    validUntil: "02.09.2029",
   },
   {
     name: "GMP Certified",
     short: "GMP",
     description:
       "Good Manufacturing Practice — controlled, hygienic, repeatable manufacturing.",
+    pdf: "/certificates/gmp-certificate.pdf",
+    certNo: "GU-100227/0926",
+    validUntil: "02.09.2029",
+  },
+  {
+    name: "Organic Certified",
+    short: "Organic",
+    description:
+      "Independently assessed organic compliance for natural essential oils, attars, and extracts.",
+    pdf: "/certificates/organic-certificate.pdf",
+    certNo: "OU-100229/0926",
+    validUntil: "02.09.2029",
+  },
+  {
+    name: "ISO 9001:2015",
+    short: "ISO 9001",
+    description:
+      "International quality-management standard for consistent, documented, tested production.",
   },
   {
     name: "Non Toxic",
