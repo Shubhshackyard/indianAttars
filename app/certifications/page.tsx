@@ -8,7 +8,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Certifications — Documented Quality",
   description:
-    "HACCP, Kosher, Organic, Halal, GMP, ISO 9001:2015 and Non-Toxic certified. COA, MSDS and allergen sheets available for every product.",
+    "ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, HACCP, Kosher, Organic, Halal, GMP, and GST certified. COA, MSDS and allergen sheets available for every product.",
 };
 
 const faqs = [

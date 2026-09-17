@@ -11,6 +11,33 @@ export interface Certification {
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    name: "ISO 9001:2015",
+    short: "ISO 9001",
+    description:
+      "International quality-management standard for consistent, documented, tested production.",
+    pdf: "/certificates/iso-9001-certificate.pdf",
+    certNo: "QM/UP-3547-0825",
+    validUntil: "22.08.2028",
+  },
+  {
+    name: "ISO 14001:2015",
+    short: "ISO 14001",
+    description:
+      "Environmental Management System — certified eco-compliant distillation and sustainable resource management.",
+    pdf: "/certificates/iso-14001-certificate.pdf",
+    certNo: "EM/UP-3548-0825",
+    validUntil: "22.08.2028",
+  },
+  {
+    name: "ISO 45001:2018",
+    short: "ISO 45001",
+    description:
+      "Occupational Health & Safety Management System — ensuring workplace safety and responsible operational standards.",
+    pdf: "/certificates/iso-45001-certificate.pdf",
+    certNo: "OS/UP-3549-0825",
+    validUntil: "22.08.2028",
+  },
+  {
     name: "HACCP Certified",
     short: "HACCP",
     description:
@@ -55,10 +82,13 @@ export const CERTIFICATIONS: Certification[] = [
     validUntil: "02.09.2029",
   },
   {
-    name: "ISO 9001:2015",
-    short: "ISO 9001",
+    name: "GST Registered",
+    short: "GSTIN",
     description:
-      "International quality-management standard for consistent, documented, tested production.",
+      "Government of India Goods and Services Tax registered enterprise (Shivaay Naturals & Essentials).",
+    pdf: "/certificates/gst-registration-certificate.pdf",
+    certNo: "09AJPK7407Q1ZO",
+    validUntil: "Active / Regular",
   },
   {
     name: "Non Toxic",
