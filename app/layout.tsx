@@ -87,6 +87,10 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
       className={`${display.variable} ${body.variable} ${label.variable}`}
     >
+      <head>
+        <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+      </head>
       <body className="min-h-screen bg-bg pb-14 font-body text-ink antialiased lg:pb-0">
         <ClerkProvider>
           <RouteProgress />

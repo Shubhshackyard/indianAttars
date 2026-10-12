@@ -50,9 +50,14 @@ export function getCloudinaryUrl(
   transformations.push(`f_${fmt}`);
   transformations.push(`q_${q}`);
 
-  if (options.width) transformations.push(`w_${options.width}`);
+  if (options.width) {
+    transformations.push(`w_${options.width}`);
+    transformations.push(`c_${options.crop || "limit"}`);
+  } else {
+    transformations.push("c_limit,w_1000");
+  }
+
   if (options.height) transformations.push(`h_${options.height}`);
-  if (options.crop) transformations.push(`c_${options.crop}`);
 
   const transformString = transformations.join(",");
 
