@@ -44,7 +44,7 @@ export function ContactForm() {
   return (
     <form
       onSubmit={submit}
-      className="space-y-4 rounded-lg border border-line bg-bg p-6 shadow-card"
+      className="h-fit self-start space-y-4 rounded-lg border border-line bg-bg p-6 sm:p-7 shadow-card"
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
@@ -70,3 +70,4 @@ export function ContactForm() {
     </form>
   );
 }
+

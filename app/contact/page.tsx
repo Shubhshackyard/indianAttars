@@ -27,7 +27,7 @@ export default function ContactPage() {
         Questions, samples, or bulk supply — we’re happy to help.
       </p>
 
-      <div className="mt-8 grid gap-10 lg:grid-cols-[2fr_3fr]">
+      <div className="mt-8 grid items-start gap-10 lg:grid-cols-[2fr_3fr]">
         <div className="space-y-4">
           {details.map((d) => (
             <div
