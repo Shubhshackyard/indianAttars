@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { FileCheck2, Quote, PackageCheck, CreditCard } from "lucide-react";
+import { FileCheck2, Quote, PackageCheck, CreditCard, Globe, Layers } from "lucide-react";
 import { BulkInquiryForm } from "@/components/forms/BulkInquiryForm";
 import { WhatsAppIcon } from "@/components/ui/SocialIcons";
 import { CERTIFICATIONS } from "@/lib/constants";
@@ -74,12 +74,30 @@ export default function BulkInquiryPage() {
             </ol>
           </div>
 
+          <div className="rounded-lg border border-line bg-surface/40 p-6">
+            <h3 className="flex items-center gap-2 font-display text-xl text-ink">
+              <Layers size={18} className="text-primary" /> Private Label & Contract
+            </h3>
+            <p className="mt-2 text-sm text-muted">
+              Open to private label brands with industry-lowest MOQs, custom formulations, bottle filling, and turnkey packaging.
+            </p>
+          </div>
+
+          <div className="rounded-lg border border-line bg-surface/40 p-6">
+            <h3 className="flex items-center gap-2 font-display text-xl text-ink">
+              <Globe size={18} className="text-primary" /> Export Destinations
+            </h3>
+            <p className="mt-2 text-sm text-muted">
+              Currently exporting to Middle East, Europe Region, USA, Russia, Indonesia, Sri Lanka, and expanding globally with complete customs documentation (MSDS, COA, COO, Phytosanitary certificates).
+            </p>
+          </div>
+
           <div className="rounded-lg border border-line p-6">
             <h3 className="flex items-center gap-2 font-display text-xl text-ink">
               <CreditCard size={18} className="text-primary" /> Payment Options
             </h3>
             <p className="mt-2 text-sm text-muted">
-              Bank Transfer · UPI · Letter of Credit (LC) for exporters.
+              Bank Transfer (NEFT/RTGS) · UPI · Letter of Credit (LC) / Wire Transfer for international export clients.
             </p>
           </div>
 

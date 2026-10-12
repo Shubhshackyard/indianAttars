@@ -94,7 +94,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/australian-sandalwood-oil/1.jpg",
+    "images": [
+      "/products/australian-sandalwood-oil/1.jpg",
+      "/products/australian-sandalwood-oil/2.jpg",
+      "/products/australian-sandalwood-oil/3.jpg",
+      "/products/australian-sandalwood-oil/4.jpg"
+    ]
   },
   {
     "name": "Cardamom Oil",
@@ -193,7 +200,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/cardamom-oil/1.png",
+    "images": [
+      "/products/cardamom-oil/1.png",
+      "/products/cardamom-oil/2.png",
+      "/products/cardamom-oil/3.png",
+      "/products/cardamom-oil/4.png"
+    ]
   },
   {
     "name": "Carrot Seed Oil",
@@ -290,7 +304,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/carrot-seed-oil/1.png",
+    "images": [
+      "/products/carrot-seed-oil/1.png",
+      "/products/carrot-seed-oil/2.png",
+      "/products/carrot-seed-oil/3.png",
+      "/products/carrot-seed-oil/4.png"
+    ]
   },
   {
     "name": "Chamomile Oil German (Blue)",
@@ -388,7 +409,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/chamomile-oil-german-blue/1.png",
+    "images": [
+      "/products/chamomile-oil-german-blue/1.png",
+      "/products/chamomile-oil-german-blue/2.png",
+      "/products/chamomile-oil-german-blue/3.png",
+      "/products/chamomile-oil-german-blue/4.png"
+    ]
   },
   {
     "name": "Roman Chamomile Oil",
@@ -483,7 +511,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/roman-chamomile-oil/1.png",
+    "images": [
+      "/products/roman-chamomile-oil/1.png",
+      "/products/roman-chamomile-oil/2.png",
+      "/products/roman-chamomile-oil/3.png",
+      "/products/roman-chamomile-oil/4.png"
+    ]
   },
   {
     "name": "Cinnamon Oil",
@@ -581,7 +616,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/cinnamon-oil/1.png",
+    "images": [
+      "/products/cinnamon-oil/1.png",
+      "/products/cinnamon-oil/2.png",
+      "/products/cinnamon-oil/3.png",
+      "/products/cinnamon-oil/4.png"
+    ]
   },
   {
     "name": "Citronella Oil",
@@ -678,7 +720,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/citronella-oil/1.png",
+    "images": [
+      "/products/citronella-oil/1.png",
+      "/products/citronella-oil/2.png",
+      "/products/citronella-oil/3.png",
+      "/products/citronella-oil/4.png"
+    ]
   },
   {
     "name": "Clove Bud Oil",
@@ -777,7 +826,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/clove-bud-oil/1.png",
+    "images": [
+      "/products/clove-bud-oil/1.png",
+      "/products/clove-bud-oil/2.png",
+      "/products/clove-bud-oil/3.png",
+      "/products/clove-bud-oil/4.png"
+    ]
   },
   {
     "name": "Cypriol Oil",
@@ -875,7 +931,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/cypriol-oil/1.png",
+    "images": [
+      "/products/cypriol-oil/1.png",
+      "/products/cypriol-oil/2.png",
+      "/products/cypriol-oil/3.png",
+      "/products/cypriol-oil/4.png"
+    ]
   },
   {
     "name": "Eucalyptus Oil",
@@ -973,7 +1036,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/eucalyptus-oil/1.png",
+    "images": [
+      "/products/eucalyptus-oil/1.png",
+      "/products/eucalyptus-oil/2.png",
+      "/products/eucalyptus-oil/3.png",
+      "/products/eucalyptus-oil/4.png"
+    ]
   },
   {
     "name": "Frankincense Oil",
@@ -1071,7 +1141,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/frankincense-oil/1.png",
+    "images": [
+      "/products/frankincense-oil/1.png",
+      "/products/frankincense-oil/2.png",
+      "/products/frankincense-oil/3.png",
+      "/products/frankincense-oil/4.png"
+    ]
   },
   {
     "name": "Indian Sandalwood Oil",
@@ -1171,7 +1248,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/indian-sandalwood-oil/1.png",
+    "images": [
+      "/products/indian-sandalwood-oil/1.png",
+      "/products/indian-sandalwood-oil/2.png",
+      "/products/indian-sandalwood-oil/3.png",
+      "/products/indian-sandalwood-oil/4.png"
+    ]
   },
   {
     "name": "Kapoor Kachri Oil",
@@ -1268,7 +1352,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/kapoor-kachri-oil/1.png",
+    "images": [
+      "/products/kapoor-kachri-oil/1.png",
+      "/products/kapoor-kachri-oil/2.png",
+      "/products/kapoor-kachri-oil/3.png",
+      "/products/kapoor-kachri-oil/4.png"
+    ]
   },
   {
     "name": "Lavender Oil",
@@ -1368,7 +1459,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/lavender-oil/1.png",
+    "images": [
+      "/products/lavender-oil/1.png",
+      "/products/lavender-oil/2.png",
+      "/products/lavender-oil/3.png",
+      "/products/lavender-oil/4.png"
+    ]
   },
   {
     "name": "Lemon Oil",
@@ -1467,7 +1565,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/lemon-oil/1.png",
+    "images": [
+      "/products/lemon-oil/1.png",
+      "/products/lemon-oil/2.png",
+      "/products/lemon-oil/3.png",
+      "/products/lemon-oil/4.png"
+    ]
   },
   {
     "name": "Lemongrass Oil",
@@ -1566,7 +1671,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/lemongrass-oil/1.png",
+    "images": [
+      "/products/lemongrass-oil/1.png",
+      "/products/lemongrass-oil/2.png",
+      "/products/lemongrass-oil/3.png",
+      "/products/lemongrass-oil/4.png"
+    ]
   },
   {
     "name": "Morpankhi Oil",
@@ -1662,7 +1774,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/morpankhi-oil/1.png",
+    "images": [
+      "/products/morpankhi-oil/1.png",
+      "/products/morpankhi-oil/2.png",
+      "/products/morpankhi-oil/3.png",
+      "/products/morpankhi-oil/4.png"
+    ]
   },
   {
     "name": "Palmarosa Oil",
@@ -1759,7 +1878,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/palmarosa-oil/1.png",
+    "images": [
+      "/products/palmarosa-oil/1.png",
+      "/products/palmarosa-oil/2.png",
+      "/products/palmarosa-oil/3.png",
+      "/products/palmarosa-oil/4.png"
+    ]
   },
   {
     "name": "Patchouli Oil",
@@ -1857,7 +1983,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/patchouli-oil/1.png",
+    "images": [
+      "/products/patchouli-oil/1.png",
+      "/products/patchouli-oil/2.png",
+      "/products/patchouli-oil/3.png",
+      "/products/patchouli-oil/4.png"
+    ]
   },
   {
     "name": "Peppermint Oil (Mentha Arvensis)",
@@ -1956,7 +2089,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/peppermint-oil-mentha-arvensis/1.png",
+    "images": [
+      "/products/peppermint-oil-mentha-arvensis/1.png",
+      "/products/peppermint-oil-mentha-arvensis/2.png",
+      "/products/peppermint-oil-mentha-arvensis/3.png",
+      "/products/peppermint-oil-mentha-arvensis/4.png"
+    ]
   },
   {
     "name": "Rosemary Oil",
@@ -2054,7 +2194,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/rosemary-oil/1.png",
+    "images": [
+      "/products/rosemary-oil/1.png",
+      "/products/rosemary-oil/2.png",
+      "/products/rosemary-oil/3.png",
+      "/products/rosemary-oil/4.png"
+    ]
   },
   {
     "name": "Spikenard Oil",
@@ -2152,7 +2299,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/spikenard-oil/1.png",
+    "images": [
+      "/products/spikenard-oil/1.png",
+      "/products/spikenard-oil/2.png",
+      "/products/spikenard-oil/3.png",
+      "/products/spikenard-oil/4.png"
+    ]
   },
   {
     "name": "Sugandh Kokila Oil",
@@ -2248,7 +2402,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/sugandh-kokila-oil/1.png",
+    "images": [
+      "/products/sugandh-kokila-oil/1.png",
+      "/products/sugandh-kokila-oil/2.png",
+      "/products/sugandh-kokila-oil/3.png",
+      "/products/sugandh-kokila-oil/4.png"
+    ]
   },
   {
     "name": "Sugandh Mantri Oil",
@@ -2344,7 +2505,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/sugandh-mantri-oil/1.png",
+    "images": [
+      "/products/sugandh-mantri-oil/1.png",
+      "/products/sugandh-mantri-oil/2.png",
+      "/products/sugandh-mantri-oil/3.png",
+      "/products/sugandh-mantri-oil/4.png"
+    ]
   },
   {
     "name": "Sweet Basil Oil",
@@ -2442,7 +2610,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/sweet-basil-oil/1.png",
+    "images": [
+      "/products/sweet-basil-oil/1.png",
+      "/products/sweet-basil-oil/2.png",
+      "/products/sweet-basil-oil/3.png",
+      "/products/sweet-basil-oil/4.png"
+    ]
   },
   {
     "name": "Tagetes Oil",
@@ -2541,7 +2716,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/tagetes-oil/1.png",
+    "images": [
+      "/products/tagetes-oil/1.png",
+      "/products/tagetes-oil/2.png",
+      "/products/tagetes-oil/3.png",
+      "/products/tagetes-oil/4.png"
+    ]
   },
   {
     "name": "Tea Tree Oil",
@@ -2638,7 +2820,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/tea-tree-oil/1.png",
+    "images": [
+      "/products/tea-tree-oil/1.png",
+      "/products/tea-tree-oil/2.png",
+      "/products/tea-tree-oil/3.png",
+      "/products/tea-tree-oil/4.png"
+    ]
   },
   {
     "name": "Vetiver Oil",
@@ -2737,7 +2926,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/vetiver-oil/1.png",
+    "images": [
+      "/products/vetiver-oil/1.png",
+      "/products/vetiver-oil/2.png",
+      "/products/vetiver-oil/3.png",
+      "/products/vetiver-oil/4.png"
+    ]
   },
   {
     "name": "Chandan Attar",
@@ -2831,7 +3027,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/chandan-attar/1.png",
+    "images": [
+      "/products/chandan-attar/1.png",
+      "/products/chandan-attar/2.png",
+      "/products/chandan-attar/3.png",
+      "/products/chandan-attar/4.png"
+    ]
   },
   {
     "name": "Genda Attar",
@@ -2924,7 +3127,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/genda-attar/1.png",
+    "images": [
+      "/products/genda-attar/1.png",
+      "/products/genda-attar/2.png",
+      "/products/genda-attar/3.png",
+      "/products/genda-attar/4.png"
+    ]
   },
   {
     "name": "Gulab Attar",
@@ -3018,7 +3228,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/gulab-attar/1.png",
+    "images": [
+      "/products/gulab-attar/1.png",
+      "/products/gulab-attar/2.png",
+      "/products/gulab-attar/3.png",
+      "/products/gulab-attar/4.png"
+    ]
   },
   {
     "name": "Hina Attar",
@@ -3111,7 +3328,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/hina-attar/1.png",
+    "images": [
+      "/products/hina-attar/1.png",
+      "/products/hina-attar/2.png",
+      "/products/hina-attar/3.png",
+      "/products/hina-attar/4.png"
+    ]
   },
   {
     "name": "Kesar Attar",
@@ -3205,7 +3429,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/kesar-attar/1.png",
+    "images": [
+      "/products/kesar-attar/1.png",
+      "/products/kesar-attar/2.png",
+      "/products/kesar-attar/3.png",
+      "/products/kesar-attar/4.png"
+    ]
   },
   {
     "name": "Kewda Attar",
@@ -3298,7 +3529,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/kewda-attar/1.png",
+    "images": [
+      "/products/kewda-attar/1.png",
+      "/products/kewda-attar/2.png",
+      "/products/kewda-attar/3.png",
+      "/products/kewda-attar/4.png"
+    ]
   },
   {
     "name": "Khus Attar",
@@ -3392,7 +3630,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/khus-attar/1.png",
+    "images": [
+      "/products/khus-attar/1.png",
+      "/products/khus-attar/2.png",
+      "/products/khus-attar/3.png",
+      "/products/khus-attar/4.png"
+    ]
   },
   {
     "name": "Mehandi Attar",
@@ -3485,7 +3730,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/mehandi-attar/1.png",
+    "images": [
+      "/products/mehandi-attar/1.png",
+      "/products/mehandi-attar/2.png",
+      "/products/mehandi-attar/3.png",
+      "/products/mehandi-attar/4.png"
+    ]
   },
   {
     "name": "Mitti Attar",
@@ -3578,7 +3830,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/mitti-attar/1.png",
+    "images": [
+      "/products/mitti-attar/1.png",
+      "/products/mitti-attar/2.png",
+      "/products/mitti-attar/3.png",
+      "/products/mitti-attar/4.png"
+    ]
   },
   {
     "name": "Mora Attar",
@@ -3671,7 +3930,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/mora-attar/1.png",
+    "images": [
+      "/products/mora-attar/1.png",
+      "/products/mora-attar/2.png",
+      "/products/mora-attar/3.png",
+      "/products/mora-attar/4.png"
+    ]
   },
   {
     "name": "Motia / Belated Attar",
@@ -3765,7 +4031,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/motia-belated-attar/1.png",
+    "images": [
+      "/products/motia-belated-attar/1.png",
+      "/products/motia-belated-attar/2.png",
+      "/products/motia-belated-attar/3.png",
+      "/products/motia-belated-attar/4.png"
+    ]
   },
   {
     "name": "Mukhallat Attar",
@@ -3858,7 +4131,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/mukhallat-attar/1.png",
+    "images": [
+      "/products/mukhallat-attar/1.png",
+      "/products/mukhallat-attar/2.png",
+      "/products/mukhallat-attar/3.png",
+      "/products/mukhallat-attar/4.png"
+    ]
   },
   {
     "name": "Oudh Attar",
@@ -3953,7 +4233,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/oudh-attar/1.png",
+    "images": [
+      "/products/oudh-attar/1.png",
+      "/products/oudh-attar/2.png",
+      "/products/oudh-attar/3.png",
+      "/products/oudh-attar/4.png"
+    ]
   },
   {
     "name": "Shamama Attar",
@@ -4046,7 +4333,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/shamama-attar/1.png",
+    "images": [
+      "/products/shamama-attar/1.png",
+      "/products/shamama-attar/2.png",
+      "/products/shamama-attar/3.png",
+      "/products/shamama-attar/4.png"
+    ]
   },
   {
     "name": "Ruh Genda",
@@ -4121,7 +4415,14 @@
     "coaAvailable": true,
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
-    "featured": false
+    "featured": false,
+    "imageUrl": "/products/ruh-genda/1.png",
+    "images": [
+      "/products/ruh-genda/1.png",
+      "/products/ruh-genda/2.png",
+      "/products/ruh-genda/3.png",
+      "/products/ruh-genda/4.png"
+    ]
   },
   {
     "name": "Ruh Gulab",
@@ -4199,7 +4500,14 @@
     ],
     "coaAvailable": true,
     "msdsAvailable": true,
-    "allergenSheetAvailable": true
+    "allergenSheetAvailable": true,
+    "imageUrl": "/products/ruh-gulab/1.png",
+    "images": [
+      "/products/ruh-gulab/1.png",
+      "/products/ruh-gulab/2.png",
+      "/products/ruh-gulab/3.png",
+      "/products/ruh-gulab/4.png"
+    ]
   },
   {
     "name": "Ruh Kewda",
@@ -4274,7 +4582,14 @@
     "coaAvailable": true,
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
-    "featured": false
+    "featured": false,
+    "imageUrl": "/products/ruh-kewda/1.png",
+    "images": [
+      "/products/ruh-kewda/1.png",
+      "/products/ruh-kewda/2.png",
+      "/products/ruh-kewda/3.png",
+      "/products/ruh-kewda/4.png"
+    ]
   },
   {
     "name": "Ruh Khus",
@@ -4351,7 +4666,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "featured": false
+    "featured": false,
+    "imageUrl": "/products/ruh-khus/1.png",
+    "images": [
+      "/products/ruh-khus/1.png",
+      "/products/ruh-khus/2.png",
+      "/products/ruh-khus/3.png",
+      "/products/ruh-khus/4.png"
+    ]
   },
   {
     "name": "Ruh Motia",
@@ -4427,7 +4749,14 @@
     "coaAvailable": true,
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
-    "featured": false
+    "featured": false,
+    "imageUrl": "/products/ruh-motia/1.png",
+    "images": [
+      "/products/ruh-motia/1.png",
+      "/products/ruh-motia/2.png",
+      "/products/ruh-motia/3.png",
+      "/products/ruh-motia/4.png"
+    ]
   },
   {
     "name": "One Million",
@@ -4489,7 +4818,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/one-million/1.png",
+    "images": [
+      "/products/one-million/1.png",
+      "/products/one-million/2.png",
+      "/products/one-million/3.png",
+      "/products/one-million/4.png"
+    ]
   },
   {
     "name": "Emperio Armani",
@@ -4550,7 +4886,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/emperio-armani/1.png",
+    "images": [
+      "/products/emperio-armani/1.png",
+      "/products/emperio-armani/2.png",
+      "/products/emperio-armani/3.png",
+      "/products/emperio-armani/4.png"
+    ]
   },
   {
     "name": "Armani Code Men",
@@ -4611,7 +4954,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/armani-code-men/1.png",
+    "images": [
+      "/products/armani-code-men/1.png",
+      "/products/armani-code-men/2.png",
+      "/products/armani-code-men/3.png",
+      "/products/armani-code-men/4.png"
+    ]
   },
   {
     "name": "Ombre Leather",
@@ -4672,7 +5022,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/ombre-leather/1.png",
+    "images": [
+      "/products/ombre-leather/1.png",
+      "/products/ombre-leather/2.png",
+      "/products/ombre-leather/3.png",
+      "/products/ombre-leather/4.png"
+    ]
   },
   {
     "name": "Most Wanted (By Azaro)",
@@ -4733,7 +5090,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/most-wanted-by-azaro/1.png",
+    "images": [
+      "/products/most-wanted-by-azaro/1.png",
+      "/products/most-wanted-by-azaro/2.png",
+      "/products/most-wanted-by-azaro/3.png",
+      "/products/most-wanted-by-azaro/4.png"
+    ]
   },
   {
     "name": "Tamdao (By Dyptique)",
@@ -4794,7 +5158,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/tamdao-by-dyptique/1.png",
+    "images": [
+      "/products/tamdao-by-dyptique/1.png",
+      "/products/tamdao-by-dyptique/2.png",
+      "/products/tamdao-by-dyptique/3.png",
+      "/products/tamdao-by-dyptique/4.png"
+    ]
   },
   {
     "name": "Icon (By Dunhill)",
@@ -4855,7 +5226,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/icon-by-dunhill/1.png",
+    "images": [
+      "/products/icon-by-dunhill/1.png",
+      "/products/icon-by-dunhill/2.png",
+      "/products/icon-by-dunhill/3.png",
+      "/products/icon-by-dunhill/4.png"
+    ]
   },
   {
     "name": "Creed Aventus",
@@ -4916,7 +5294,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/creed-aventus/1.png",
+    "images": [
+      "/products/creed-aventus/1.png",
+      "/products/creed-aventus/2.png",
+      "/products/creed-aventus/3.png",
+      "/products/creed-aventus/4.png"
+    ]
   },
   {
     "name": "Burberry London",
@@ -4977,7 +5362,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/burberry-london/1.png",
+    "images": [
+      "/products/burberry-london/1.png",
+      "/products/burberry-london/2.png",
+      "/products/burberry-london/3.png",
+      "/products/burberry-london/4.png"
+    ]
   },
   {
     "name": "Hugo Boss",
@@ -5038,7 +5430,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/hugo-boss/1.png",
+    "images": [
+      "/products/hugo-boss/1.png",
+      "/products/hugo-boss/2.png",
+      "/products/hugo-boss/3.png",
+      "/products/hugo-boss/4.png"
+    ]
   },
   {
     "name": "Good Girl (By Carolina Herrera)",
@@ -5099,7 +5498,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/good-girl-by-carolina-herrera/1.png",
+    "images": [
+      "/products/good-girl-by-carolina-herrera/1.png",
+      "/products/good-girl-by-carolina-herrera/2.png",
+      "/products/good-girl-by-carolina-herrera/3.png",
+      "/products/good-girl-by-carolina-herrera/4.png"
+    ]
   },
   {
     "name": "Bombshell (By Victoria's Secret)",
@@ -5160,7 +5566,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/bombshell-by-victorias-secret/1.png",
+    "images": [
+      "/products/bombshell-by-victorias-secret/1.png",
+      "/products/bombshell-by-victorias-secret/2.png",
+      "/products/bombshell-by-victorias-secret/3.png",
+      "/products/bombshell-by-victorias-secret/4.png"
+    ]
   },
   {
     "name": "Gucci Flora",
@@ -5221,7 +5634,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/gucci-flora/1.png",
+    "images": [
+      "/products/gucci-flora/1.png",
+      "/products/gucci-flora/2.png",
+      "/products/gucci-flora/3.png",
+      "/products/gucci-flora/4.png"
+    ]
   },
   {
     "name": "Gucci Oud",
@@ -5282,7 +5702,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/gucci-oud/1.png",
+    "images": [
+      "/products/gucci-oud/1.png",
+      "/products/gucci-oud/2.png",
+      "/products/gucci-oud/3.png",
+      "/products/gucci-oud/4.png"
+    ]
   },
   {
     "name": "Cool Water (Men/Women)",
@@ -5343,7 +5770,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/cool-water-men-women/1.png",
+    "images": [
+      "/products/cool-water-men-women/1.png",
+      "/products/cool-water-men-women/2.png",
+      "/products/cool-water-men-women/3.png",
+      "/products/cool-water-men-women/4.png"
+    ]
   },
   {
     "name": "CR-7",
@@ -5404,7 +5838,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/cr-7/1.png",
+    "images": [
+      "/products/cr-7/1.png",
+      "/products/cr-7/2.png",
+      "/products/cr-7/3.png",
+      "/products/cr-7/4.png"
+    ]
   },
   {
     "name": "Chanel No. 5",
@@ -5465,7 +5906,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/chanel-no-5/1.png",
+    "images": [
+      "/products/chanel-no-5/1.png",
+      "/products/chanel-no-5/2.png",
+      "/products/chanel-no-5/3.png",
+      "/products/chanel-no-5/4.png"
+    ]
   },
   {
     "name": "Gulab Jal",
@@ -5541,7 +5989,14 @@
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/gulab-jal/1.png",
+    "images": [
+      "/products/gulab-jal/1.png",
+      "/products/gulab-jal/2.png",
+      "/products/gulab-jal/3.png",
+      "/products/gulab-jal/4.png"
+    ]
   },
   {
     "name": "Kesar Water",
@@ -5617,7 +6072,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/kesar-water/1.png",
+    "images": [
+      "/products/kesar-water/1.png",
+      "/products/kesar-water/2.png",
+      "/products/kesar-water/3.png",
+      "/products/kesar-water/4.png"
+    ]
   },
   {
     "name": "Kewda Jal",
@@ -5693,7 +6155,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/kewda-jal/1.png",
+    "images": [
+      "/products/kewda-jal/1.png",
+      "/products/kewda-jal/2.png",
+      "/products/kewda-jal/3.png",
+      "/products/kewda-jal/4.png"
+    ]
   },
   {
     "name": "Khus Jal",
@@ -5769,7 +6238,14 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/khus-jal/1.png",
+    "images": [
+      "/products/khus-jal/1.png",
+      "/products/khus-jal/2.png",
+      "/products/khus-jal/3.png",
+      "/products/khus-jal/4.png"
+    ]
   },
   {
     "name": "Panch Pushpa Jal",
@@ -5844,13 +6320,21 @@
     "allergenSheetAvailable": true,
     "stock": "in",
     "featured": false,
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/panch-pushpa-jal/1.png",
+    "images": [
+      "/products/panch-pushpa-jal/1.png",
+      "/products/panch-pushpa-jal/2.png",
+      "/products/panch-pushpa-jal/3.png",
+      "/products/panch-pushpa-jal/4.png"
+    ]
   },
   {
     "name": "Premium Rose Mist",
+    "slug": "premium-rose-mist",
     "nameHindi": "प्रीमियम गुलाब जल मिस्ट",
-    "category": "hydrosols",
-    "baseRatePerKg": 1200,
+    "category": "mist",
+    "baseRatePerKg": 4990,
     "shortDescription": "Handcrafted 100% natural facial & body mist steam-distilled from premium Roses of Kannauj.",
     "description": "Our Premium Rose Mist is hydro-distilled in traditional Kannauj copper stills using handpicked Damask roses. Rich in natural floral waters and subtle essential oil micro-droplets, this face and body mist balances skin pH, calms inflammation, and leaves a delicate, enchanting rose fragrance. 100ml spray bottle designed for face and body.",
     "spec": {
@@ -5874,61 +6358,44 @@
       ]
     },
     "tags": [
-      "hydrosol",
-      "rose",
       "mist",
+      "rose",
       "skincare",
-      "kannauj"
+      "kannauj",
+      "hydrosol"
     ],
     "featured": true,
     "rating": 4.9,
     "reviewCount": 24,
     "id": "premium-rose-mist",
-    "slug": "premium-rose-mist",
-    "categoryLabel": "Hydrosol",
+    "categoryLabel": "Mist",
     "slabs": [
       {
-        "qty": "1kg",
-        "grams": 1000,
-        "price": 1200,
-        "perKgRate": 1200
-      },
-      {
-        "qty": "5kg",
-        "grams": 5000,
-        "price": 5880,
-        "perKgRate": 1176
-      },
-      {
-        "qty": "25kg",
-        "grams": 25000,
-        "price": 28800,
-        "perKgRate": 1152
-      },
-      {
-        "qty": "35kg",
-        "grams": 35000,
-        "price": 39480,
-        "perKgRate": 1128
-      },
-      {
-        "qty": "200kg",
-        "grams": 200000,
-        "price": 220800,
-        "perKgRate": 1104
+        "qty": "100ml",
+        "grams": 100,
+        "price": 499,
+        "perKgRate": 4990
       }
     ],
     "coaAvailable": true,
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/premium-rose-mist/1.png",
+    "images": [
+      "/products/premium-rose-mist/1.png",
+      "/products/premium-rose-mist/2.png",
+      "/products/premium-rose-mist/3.png",
+      "/products/premium-rose-mist/4.png"
+    ]
   },
   {
     "name": "Rose & Chamomile Mist",
+    "slug": "rose-chamomile-mist",
     "nameHindi": "गुलाब एवं कैमोमाइल मिस्ट",
-    "category": "hydrosols",
-    "baseRatePerKg": 1400,
+    "category": "mist",
+    "baseRatePerKg": 4990,
     "shortDescription": "Calming botanical face & body mist blending steam-distilled Kannauj Rose with German Chamomile.",
     "description": "Handmade and naturally sourced, the Rose & Chamomile Mist unites the soothing anti-inflammatory properties of German Chamomile with the rich hydration of Kannauj Damask Roses. Designed for face and body, it reduces redness, tightens pores, and relaxes the mind with a tranquil herbaceous floral aroma. 100ml spray bottle.",
     "spec": {
@@ -5944,7 +6411,7 @@
       "extractionMethod": "Steam Distillation",
       "solubility": "Miscible in Water",
       "majorConstituents": "alpha-bisabolol, chamazulene (trace), phenylethyl alcohol, pure floral hydrosol",
-      "casNumber": "84082-60-0",
+      "casNumber": "NA",
       "blendsWith": [
         "Premium Rose Mist",
         "Chamomile Oil German (Blue)",
@@ -5952,54 +6419,36 @@
       ]
     },
     "tags": [
-      "hydrosol",
+      "mist",
       "rose",
       "chamomile",
-      "mist",
-      "calming"
+      "calming",
+      "skincare"
     ],
     "featured": true,
     "rating": 4.8,
     "reviewCount": 19,
     "id": "rose-chamomile-mist",
-    "slug": "rose-chamomile-mist",
-    "categoryLabel": "Hydrosol",
+    "categoryLabel": "Mist",
     "slabs": [
       {
-        "qty": "1kg",
-        "grams": 1000,
-        "price": 1400,
-        "perKgRate": 1400
-      },
-      {
-        "qty": "5kg",
-        "grams": 5000,
-        "price": 6860,
-        "perKgRate": 1372
-      },
-      {
-        "qty": "25kg",
-        "grams": 25000,
-        "price": 33600,
-        "perKgRate": 1344
-      },
-      {
-        "qty": "35kg",
-        "grams": 35000,
-        "price": 46060,
-        "perKgRate": 1316
-      },
-      {
-        "qty": "200kg",
-        "grams": 200000,
-        "price": 257600,
-        "perKgRate": 1288
+        "qty": "100ml",
+        "grams": 100,
+        "price": 499,
+        "perKgRate": 4990
       }
     ],
     "coaAvailable": true,
     "msdsAvailable": true,
     "allergenSheetAvailable": true,
     "stock": "in",
-    "rare": false
+    "rare": false,
+    "imageUrl": "/products/rose-chamomile-mist/1.png",
+    "images": [
+      "/products/rose-chamomile-mist/1.png",
+      "/products/rose-chamomile-mist/2.png",
+      "/products/rose-chamomile-mist/3.png",
+      "/products/rose-chamomile-mist/4.png"
+    ]
   }
 ]

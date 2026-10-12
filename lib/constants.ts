@@ -123,6 +123,7 @@ export const CATEGORY_HREF: Record<ProductCategory, string> = {
   "ruh-absolutes": "/category/ruh-absolutes",
   fragrances: "/category/fragrances",
   hydrosols: "/category/hydrosols",
+  mist: "/category/mist",
 };
 
 export const PROMO_ITEMS = [

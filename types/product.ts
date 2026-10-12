@@ -3,7 +3,8 @@ export type ProductCategory =
   | "attars"
   | "ruh-absolutes"
   | "fragrances"
-  | "hydrosols";
+  | "hydrosols"
+  | "mist";
 
 export interface PricingSlab {
   qty: string; // "50gm", "1kg"
@@ -77,5 +78,7 @@ export interface CategoryMeta {
   shortLabel: string;
   tagline: string;
   description: string;
-  icon: "leaf" | "incense" | "droplet" | "bottle" | "wave";
+  icon: "leaf" | "incense" | "droplet" | "bottle" | "wave" | "sparkles";
+  bannerImage?: string;
+  theme?: "light" | "dark";
 }

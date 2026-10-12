@@ -14,6 +14,7 @@ import { attars } from "../data/products/attars";
 import { ruhAbsolutes } from "../data/products/ruhAbsolutes";
 import { fragrances } from "../data/products/fragrances";
 import { hydrosols } from "../data/products/hydrosols";
+import { mists } from "../data/products/mists";
 import type {
   BaseProduct,
   PricingSlab,
@@ -64,6 +65,9 @@ const SLAB_SETS: Record<ProductCategory, SlabDef[]> = {
     { qty: "35kg", grams: 35000, mult: 0.94 },
     { qty: "200kg", grams: 200000, mult: 0.92 },
   ],
+  mist: [
+    { qty: "100ml", grams: 100, mult: 1.0 },
+  ],
 };
 
 const CATEGORY_LABEL: Record<ProductCategory, string> = {
@@ -72,6 +76,7 @@ const CATEGORY_LABEL: Record<ProductCategory, string> = {
   "ruh-absolutes": "Ruh & Absolute",
   fragrances: "Fragrance",
   hydrosols: "Hydrosol",
+  mist: "Mist",
 };
 
 function slugify(input: string): string {
@@ -93,9 +98,11 @@ function buildSlabs(
   });
 }
 
+import { PRODUCT_IMAGES } from "../data/product-images.generated";
+
 function buildProduct(base: BaseProduct): Product {
   const slug = base.slug ?? slugify(base.name);
-  return {
+  const p: Product = {
     ...base,
     id: slug,
     slug,
@@ -108,6 +115,8 @@ function buildProduct(base: BaseProduct): Product {
     featured: base.featured ?? false,
     rare: base.rare ?? false,
   };
+  const imgs = PRODUCT_IMAGES[slug];
+  return imgs ? { ...p, imageUrl: imgs.card, images: imgs.gallery } : p;
 }
 
 const baseProducts: BaseProduct[] = [
@@ -116,6 +125,7 @@ const baseProducts: BaseProduct[] = [
   ...ruhAbsolutes,
   ...fragrances,
   ...hydrosols,
+  ...mists,
 ];
 
 const products = baseProducts.map(buildProduct);
@@ -126,5 +136,5 @@ writeFileSync(outPath, JSON.stringify(products, null, 2) + "\n", "utf8");
 
 console.log(
   `Wrote ${products.length} products to data/products.json ` +
-    `(EO:${essentialOils.length} Attar:${attars.length} Ruh:${ruhAbsolutes.length} Frag:${fragrances.length} Hydro:${hydrosols.length})`,
+    `(EO:${essentialOils.length} Attar:${attars.length} Ruh:${ruhAbsolutes.length} Frag:${fragrances.length} Hydro:${hydrosols.length} Mist:${mists.length})`,
 );

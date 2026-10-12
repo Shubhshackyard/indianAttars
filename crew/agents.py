@@ -57,6 +57,19 @@ class DevTeamAgents:
             allow_delegation=True
         )
 
+    def catalog_media_specialist_agent(self) -> Agent:
+        return Agent(
+            role="Catalog Media & Asset Management Specialist",
+            goal="Audit, organize, and map high-resolution product imagery and multi-angle galleries for all catalog items.",
+            backstory=(
+                "You are an e-commerce digital asset manager. You ensure every product across Essential Oils, "
+                "Indian Attars, Ruh & Absolutes, Fragrances, and Hydrosols has verified high-resolution "
+                "hero cards, flat lays, and multi-angle packaging galleries without broken links."
+            ),
+            verbose=True,
+            allow_delegation=False
+        )
+
     def seo_specialist_agent(self) -> Agent:
         return Agent(
             role="SEO & Structured Data Specialist",

@@ -6,7 +6,7 @@ import { Breadcrumb } from "@/components/ui/Breadcrumb";
 export const metadata: Metadata = {
   title: "All Products",
   description:
-    "Browse all 69 products — pure essential oils, Indian attars, ruh & absolutes, fragrances and hydrosols. Transparent slab pricing, COA & MSDS available.",
+    "Browse all 71 products — pure essential oils, Indian attars, ruh & absolutes, fragrances and hydrosols. Transparent slab pricing, COA & MSDS available.",
 };
 
 export default function ProductsPage() {
@@ -17,8 +17,7 @@ export default function ProductsPage() {
       <div className="mb-8 mt-4">
         <h1 className="font-display text-h1 text-ink">All Products</h1>
         <p className="mt-1 text-muted">
-          {TOTAL_PRODUCTS} products · Essential Oils · Attars · Ruh &amp;
-          Absolutes · Fragrances · Hydrosols
+          {TOTAL_PRODUCTS+" "} products · Essential Oils · Attars · Ruh &amp; Absolutes · Fragrances · Hydrosols · Mists
         </p>
       </div>
       <ProductsExplorer products={products} />

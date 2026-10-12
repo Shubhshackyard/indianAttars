@@ -16,7 +16,7 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
       transition={{ duration: 0.18 }}
       className="absolute left-0 right-0 top-full border-b border-[#E5E7EB] dark:border-[#1F2937] bg-white dark:bg-[#111827] shadow-lift"
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-6 py-8 md:grid-cols-3 lg:grid-cols-5">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-6 py-8 md:grid-cols-3 lg:grid-cols-6">
         {CATEGORIES.map((cat) => {
           const top = getProductsByCategory(cat.slug).slice(0, 5);
           return (
@@ -53,7 +53,7 @@ export function MegaMenu({ onNavigate }: { onNavigate?: () => void }) {
       <div className="border-t border-[#E5E7EB] dark:border-[#1F2937] bg-[#F9FAFB] dark:bg-[#161E2E]">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
           <span className="text-sm text-[#6B7280] dark:text-[#D1D5DB]">
-            Browse all 69 products across 5 categories
+            Browse all 71 products across {CATEGORIES.length} categories
           </span>
           <Link
             href="/products"

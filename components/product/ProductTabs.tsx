@@ -5,6 +5,7 @@ import { SpecificationTable } from "./SpecificationTable";
 import { DocumentDownloads } from "./DocumentDownloads";
 import { ReviewsSection } from "./ReviewsSection";
 import { BlendsWithStrip } from "./BlendsWithStrip";
+import { AvailableSizesSection } from "./AvailableSizesSection";
 import { SITE } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import type { Product } from "@/types/product";
@@ -36,7 +37,7 @@ export function ProductTabs({ product }: { product: Product }) {
 
       <div className="py-6">
         {tab === "Overview" && (
-          <div className="space-y-6">
+          <div className="space-y-8">
             <p className="max-w-2xl leading-relaxed text-muted">
               {product.description}
             </p>
@@ -48,6 +49,7 @@ export function ProductTabs({ product }: { product: Product }) {
                 <BlendsWithStrip product={product} />
               </div>
             ) : null}
+            <AvailableSizesSection product={product} />
           </div>
         )}
 

@@ -63,6 +63,7 @@ export interface BlogPost {
   category: string;
   date: string;
   slug: string;
+  image: string;
   readTime?: string;
   author?: string;
   content: string[];
@@ -78,6 +79,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: "5 min read",
     author: "Master Distiller S. K. Tandon",
     slug: "identify-pure-essential-oils",
+    image: "/products/lavender-oil/1.png",
     content: [
       "In the world of natural aromatics, purity is everything. Adulterated essential oils diluted with synthetic dipropylene glycol (DPG), mineral oil, or paraffin not only lose their therapeutic efficacy but can also cause skin sensitization.",
       "1. The Blotting Paper Test: Drop a single droplet of essential oil onto clean white filter paper. Pure unadulterated essential oils (like Lavender or Tea Tree) evaporate completely within 24 to 48 hours without leaving a greasy oil ring.",
@@ -96,6 +98,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: "7 min read",
     author: "Kannauj Heritage Guild",
     slug: "art-of-attar-making",
+    image: "/homepage/usp/distillation.png",
     content: [
       "Kannauj, situated on the banks of the sacred Ganges in Uttar Pradesh, is celebrated as the Perfume Capital of India. For over 400 years, master artisans (Bhapkiwalas) have practiced traditional Deg-Bhapka hydro-distillation without modern electrical machinery.",
       "The Deg (Copper Still): Freshly hand-picked flower petals — such as Damask Rose (Gulab) or Jasminum sambac (Motiya) — are placed inside massive copper cauldrons called Degs, sealed with clay and cotton strips (Sarposh).",
@@ -113,6 +116,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: "6 min read",
     author: "Research Perfumer A. Khan",
     slug: "ruh-vs-absolute",
+    image: "/products/ruh-gulab/1.png",
     content: [
       "When sourcing premium Indian botanical extracts, understanding the distinction between a Ruh, an Absolute, and an Essential Oil is essential for accurate formulation.",
       "What is a Ruh? 'Ruh' translates to 'Soul' in Arabic. A Ruh is a 100% pure, unblended hydro-distilled extract without any base oil carrier (such as Sandalwood or DPG). Examples include Ruh Gulab (Rose Otto) and Ruh Khus (Wild Vetiver).",

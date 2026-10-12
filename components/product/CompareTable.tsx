@@ -71,10 +71,13 @@ export function CompareTable() {
                   </button>
                   <div className="mx-auto h-20 w-20 overflow-hidden rounded-md">
                     <ProductImage
-                      name=""
+                      name={p.name}
+                      src={p.imageUrl}
+                      alt={p.name}
                       category={p.category}
                       showName={false}
                       iconSize={36}
+                      sizes="80px"
                     />
                   </div>
                   <Link

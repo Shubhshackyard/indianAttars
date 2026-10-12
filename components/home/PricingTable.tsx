@@ -11,6 +11,7 @@ const tabs: { label: string; cat: ProductCategory }[] = [
   { label: "Essential Oils", cat: "essential-oils" },
   { label: "Attars", cat: "attars" },
   { label: "Hydrosols", cat: "hydrosols" },
+  { label: "Mists", cat: "mist" },
 ];
 
 export function PricingTable() {

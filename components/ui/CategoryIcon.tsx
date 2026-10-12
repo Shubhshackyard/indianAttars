@@ -4,6 +4,7 @@ import {
   Droplet,
   FlaskRound,
   Waves,
+  Sparkles,
   type LucideProps,
 } from "lucide-react";
 import type { CategoryMeta } from "@/types/product";
@@ -14,6 +15,7 @@ const map = {
   droplet: Droplet,
   bottle: FlaskRound,
   wave: Waves,
+  sparkles: Sparkles,
 } as const;
 
 export function CategoryIcon({

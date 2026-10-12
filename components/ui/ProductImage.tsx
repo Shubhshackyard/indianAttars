@@ -13,6 +13,7 @@ const gradients: Record<ProductCategory, string> = {
   "ruh-absolutes": "from-[#cdd6bd] via-[#9aa87f] to-[#5f6f49]",
   fragrances: "from-[#d2c7b6] via-[#a8977f] to-[#6d5f4c]",
   hydrosols: "from-[#cfe0d8] via-[#a7c2b6] to-[#6f8f80]",
+  mist: "from-[#d4e4db] via-[#a8c6b8] to-[#6c9181]",
 };
 
 const iconForCategory: Record<ProductCategory, CategoryMeta["icon"]> = {
@@ -21,6 +22,7 @@ const iconForCategory: Record<ProductCategory, CategoryMeta["icon"]> = {
   "ruh-absolutes": "droplet",
   fragrances: "bottle",
   hydrosols: "wave",
+  mist: "sparkles",
 };
 
 export function ProductImage({
@@ -58,6 +60,7 @@ export function ProductImage({
           sizes={sizes}
           className="object-cover"
           priority={priority}
+          loading={priority ? "eager" : undefined}
           onError={() => setError(true)}
         />
       </div>

@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, User, Calendar, Share2, Award, CheckCircle2 } from "lucide-react";
 import { BLOG_POSTS } from "@/data/content";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { buttonClasses } from "@/components/ui/Button";
+import { getCloudinaryUrl } from "@/lib/cloudinary";
 
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -75,6 +77,20 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </span>
         </div>
       </header>
+
+      {/* Featured Image */}
+      {post.image && (
+        <div className="relative mt-8 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-line bg-surface shadow-card sm:aspect-[21/9]">
+          <Image
+            src={getCloudinaryUrl(post.image)}
+            alt={post.title}
+            fill
+            priority
+            sizes="(max-width: 1024px) 100vw, 896px"
+            className="object-cover"
+          />
+        </div>
+      )}
 
       {/* Excerpt Hero Banner */}
       <div className="my-8 rounded-2xl border border-gold/30 bg-gold/10 p-6 text-ink/90">

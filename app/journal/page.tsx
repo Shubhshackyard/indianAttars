@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, BookOpen, Clock, User } from "lucide-react";
 import { BLOG_POSTS } from "@/data/content";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
+import { getCloudinaryUrl } from "@/lib/cloudinary";
 
 export const metadata: Metadata = {
   title: "Fragrance Journal & Heritage Articles | indianattars",
@@ -30,11 +32,20 @@ export default function JournalPage() {
             key={post.slug}
             className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-bg shadow-card transition-all hover:-translate-y-1 hover:shadow-card-hover"
           >
-            <div className="relative aspect-[16/10] overflow-hidden bg-gradient-to-br from-surface to-primary-soft/40 p-6">
-              <span className="inline-block rounded-pill bg-bg/90 px-3 py-1 font-label text-[0.6rem] uppercase tracking-[0.14em] text-primary shadow-sm">
+            <div className="relative aspect-[16/10] overflow-hidden bg-surface">
+              {post.image && (
+                <Image
+                  src={getCloudinaryUrl(post.image)}
+                  alt={post.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
+              <span className="absolute left-4 top-4 z-10 inline-block rounded-pill bg-bg/90 px-3 py-1 font-label text-[0.6rem] uppercase tracking-[0.14em] text-primary shadow-sm backdrop-blur">
                 {post.category}
               </span>
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_25%,rgba(30,92,68,0.12),transparent_60%)]" />
             </div>
 
             <div className="flex flex-1 flex-col p-6">

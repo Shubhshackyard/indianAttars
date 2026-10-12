@@ -1,0 +1,66 @@
+import type { BaseProduct } from "@/types/product";
+
+export const mists: BaseProduct[] = [
+  {
+    name: "Premium Rose Mist",
+    slug: "premium-rose-mist",
+    nameHindi: "प्रीमियम गुलाब जल मिस्ट",
+    category: "mist",
+    baseRatePerKg: 4990,
+    shortDescription:
+      "Handcrafted 100% natural facial & body mist steam-distilled from premium Roses of Kannauj.",
+    description:
+      "Our Premium Rose Mist is hydro-distilled in traditional Kannauj copper stills using handpicked Damask roses. Rich in natural floral waters and subtle essential oil micro-droplets, this face and body mist balances skin pH, calms inflammation, and leaves a delicate, enchanting rose fragrance. 100ml spray bottle designed for face and body.",
+    spec: {
+      botanicalName: "Rosa damascena",
+      countryOfOrigin: "Kannauj, India",
+      aroma: "Rich, Fresh Damask Rose",
+      color: "Clear / Colorless",
+      partUsed: "Premium Flower Petals",
+      form: "Liquid Mist Spray",
+      ph: "4.2 – 5.2",
+      shelfLife: "24 Months",
+      packaging: "Dark Spray Bottle with Gold Pump",
+      extractionMethod: "Traditional Hydro Distillation (Deg & Bhapka)",
+      solubility: "Miscible in Water",
+      majorConstituents: "phenylethyl alcohol, citronellol, geraniol (trace), pure rose floral water",
+      casNumber: "90106-38-0",
+      blendsWith: ["Rose & Chamomile Mist", "Gulab Jal", "Kewda Jal"],
+    },
+    tags: ["mist", "rose", "skincare", "kannauj", "hydrosol"],
+    featured: true,
+    rating: 4.9,
+    reviewCount: 24,
+  },
+  {
+    name: "Rose & Chamomile Mist",
+    slug: "rose-chamomile-mist",
+    nameHindi: "गुलाब एवं कैमोमाइल मिस्ट",
+    category: "mist",
+    baseRatePerKg: 4990,
+    shortDescription:
+      "Calming botanical face & body mist blending steam-distilled Kannauj Rose with German Chamomile.",
+    description:
+      "Handmade and naturally sourced, the Rose & Chamomile Mist unites the soothing anti-inflammatory properties of German Chamomile with the rich hydration of Kannauj Damask Roses. Designed for face and body, it reduces redness, tightens pores, and relaxes the mind with a tranquil herbaceous floral aroma. 100ml spray bottle.",
+    spec: {
+      botanicalName: "Rosa damascena & Matricaria chamomilla",
+      countryOfOrigin: "Kannauj & Kanpur, India",
+      aroma: "Tranquil Herbaceous Rose & Chamomile",
+      color: "Clear Soft Hydrosol",
+      partUsed: "Rose Petals & Chamomile Flowers",
+      form: "Liquid Mist Spray",
+      ph: "4.5 – 5.5",
+      shelfLife: "24 Months",
+      packaging: "Dark Spray Bottle with Gold Pump",
+      extractionMethod: "Steam Distillation",
+      solubility: "Miscible in Water",
+      majorConstituents: "alpha-bisabolol, chamazulene (trace), phenylethyl alcohol, pure floral hydrosol",
+      casNumber: "NA",
+      blendsWith: ["Premium Rose Mist", "Chamomile Oil German (Blue)", "Gulab Jal"],
+    },
+    tags: ["mist", "rose", "chamomile", "calming", "skincare"],
+    featured: true,
+    rating: 4.8,
+    reviewCount: 19,
+  },
+];

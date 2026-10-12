@@ -24,7 +24,15 @@ import type { PricingSlab, Product } from "@/types/product";
 export function ProductActions({ product }: { product: Product }) {
   const defaultSlab =
     product.slabs.find((s) => s.grams === 1000) ?? product.slabs[0];
-  const [slab, setSlab] = useState<PricingSlab>(defaultSlab);
+  
+  const storedQty = useUIStore((s) => s.selectedSlabs[product.slug]);
+  const setSelectedSlab = useUIStore((s) => s.setSelectedSlab);
+
+  const slab = product.slabs.find((s) => s.qty.toLowerCase() === storedQty?.toLowerCase()) ?? defaultSlab;
+
+  const setSlab = (newSlab: PricingSlab) => {
+    setSelectedSlab(product.slug, newSlab.qty);
+  };
 
   const addItem = useCartStore((s) => s.addItem);
   const openCart = useCartStore((s) => s.openCart);
@@ -49,7 +57,7 @@ export function ProductActions({ product }: { product: Product }) {
   );
 
   return (
-    <div>
+    <div id="product-quantity-selector">
       <SlabPriceSelector product={product} value={slab} onChange={setSlab} />
 
       <div className="mt-5 flex flex-col gap-2">

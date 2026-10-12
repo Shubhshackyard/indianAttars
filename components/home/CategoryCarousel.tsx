@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { CATEGORIES, getCategoryCount } from "@/lib/products";
+import { CATEGORIES, getCategoryCount, getProductsByCategory } from "@/lib/products";
 import { CATEGORY_HREF } from "@/lib/constants";
 import { CategoryIcon } from "@/components/ui/CategoryIcon";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -60,39 +60,48 @@ export function CategoryCarousel() {
 
       <div className="mt-8 overflow-hidden" ref={emblaRef}>
         <div className="flex gap-5">
-          {CATEGORIES.map((cat) => (
-            <Link
-              key={cat.slug}
-              href={CATEGORY_HREF[cat.slug]}
-              className="group relative flex min-w-[260px] max-w-[280px] flex-[0_0_78%] flex-col overflow-hidden rounded-lg border border-line bg-elevated transition-all hover:-translate-y-1 hover:border-line-strong hover:shadow-lift sm:flex-[0_0_42%] lg:flex-[0_0_22%]"
-            >
-              <div className="relative aspect-[4/3] w-full overflow-hidden">
-                <Image
-                  src={`/category/thumbnails/${cat.slug}.png`}
-                  alt={cat.label}
-                  fill
-                  sizes="(max-width: 640px) 78vw, 280px"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink/45 to-transparent" />
-                <span className="absolute left-3 top-3 flex h-11 w-11 items-center justify-center rounded-lg bg-white/85 text-primary backdrop-blur">
-                  <CategoryIcon icon={cat.icon} size={22} strokeWidth={1.5} />
-                </span>
-              </div>
-              <div className="flex flex-1 flex-col p-5">
-                <h3 className="font-display text-2xl leading-tight text-ink">
-                  {cat.label}
-                </h3>
-                <p className="mt-1 text-sm text-muted">{cat.tagline}</p>
-                <span className="mt-4 text-xs text-muted">
-                  {getCategoryCount(cat.slug)} products
-                </span>
-                <span className="mt-3 inline-flex items-center gap-1 font-label text-[0.65rem] uppercase tracking-[0.12em] text-primary">
-                  Explore <ArrowRight size={13} />
-                </span>
-              </div>
-            </Link>
-          ))}
+          {CATEGORIES.map((cat) => {
+            const categoryProducts = getProductsByCategory(cat.slug);
+            const categoryImg = categoryProducts[0]?.imageUrl;
+
+            return (
+              <Link
+                key={cat.slug}
+                href={CATEGORY_HREF[cat.slug]}
+                className="group relative flex min-w-[260px] max-w-[280px] flex-[0_0_78%] flex-col overflow-hidden rounded-lg border border-line bg-elevated transition-all hover:-translate-y-1 hover:border-line-strong hover:shadow-lift sm:flex-[0_0_42%] lg:flex-[0_0_22%]"
+              >
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-surface">
+                  {categoryImg ? (
+                    <Image
+                      src={categoryImg}
+                      alt={cat.label}
+                      fill
+                      sizes="(max-width: 640px) 78vw, 280px"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  ) : (
+                    <div className="h-full w-full bg-gradient-to-br from-primary/10 to-primary/30" />
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink/65 via-ink/20 to-transparent" />
+                  <span className="absolute left-3 top-3 flex h-11 w-11 items-center justify-center rounded-lg bg-white/85 text-primary backdrop-blur">
+                    <CategoryIcon icon={cat.icon} size={22} strokeWidth={1.5} />
+                  </span>
+                </div>
+                <div className="flex flex-1 flex-col p-5">
+                  <h3 className="font-display text-2xl leading-tight text-ink">
+                    {cat.label}
+                  </h3>
+                  <p className="mt-1 text-sm text-muted">{cat.tagline}</p>
+                  <span className="mt-4 text-xs text-muted">
+                    {categoryProducts.length} products
+                  </span>
+                  <span className="mt-3 inline-flex items-center gap-1 font-label text-[0.65rem] uppercase tracking-[0.12em] text-primary">
+                    Explore <ArrowRight size={13} />
+                  </span>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

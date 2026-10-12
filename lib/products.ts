@@ -1,12 +1,19 @@
 import { baseProducts } from "@/data/products.base";
 import { buildProduct } from "@/lib/pricing";
 import { PRODUCT_IMAGES } from "@/data/product-images.generated";
+import { getCloudinaryUrl } from "@/lib/cloudinary";
 import type { CategoryMeta, Product, ProductCategory } from "@/types/product";
 
-/** All 69 products with computed slab pricing and generated imagery. */
+/** All products with computed slab pricing and Cloudinary-optimized imagery. */
 export const products: Product[] = baseProducts.map(buildProduct).map((p) => {
   const imgs = PRODUCT_IMAGES[p.slug];
-  return imgs ? { ...p, imageUrl: imgs.card, images: imgs.gallery } : p;
+  return imgs
+    ? {
+        ...p,
+        imageUrl: getCloudinaryUrl(imgs.card),
+        images: imgs.gallery.map((g) => getCloudinaryUrl(g)),
+      }
+    : p;
 });
 
 export const CATEGORIES: CategoryMeta[] = [
@@ -18,6 +25,8 @@ export const CATEGORIES: CategoryMeta[] = [
     description:
       "Single-origin essential oils, steam-distilled and batch-tested for purity. From everyday eucalyptus to rare Indian sandalwood.",
     icon: "leaf",
+    bannerImage: "/category/banners/essential-oils.png",
+    theme: "light",
   },
   {
     slug: "attars",
@@ -27,6 +36,8 @@ export const CATEGORIES: CategoryMeta[] = [
     description:
       "Heritage attars distilled the traditional deg-bhapka way in Kannauj — rose, oudh, saffron, mitti and more.",
     icon: "incense",
+    bannerImage: "/category/banners/attars.png",
+    theme: "dark",
   },
   {
     slug: "ruh-absolutes",
@@ -36,6 +47,8 @@ export const CATEGORIES: CategoryMeta[] = [
     description:
       "Base-free ruh and absolutes — the purest, rarest, most concentrated expressions of Indian flowers and roots.",
     icon: "droplet",
+    bannerImage: "/category/banners/ruh-absolutes.png",
+    theme: "dark",
   },
   {
     slug: "fragrances",
@@ -45,6 +58,8 @@ export const CATEGORIES: CategoryMeta[] = [
     description:
       "Long-lasting, skin-friendly fragrance oils — our independent interpretations inspired by iconic designer scents.",
     icon: "bottle",
+    bannerImage: "/category/banners/fragrances.jpg",
+    theme: "light",
   },
   {
     slug: "hydrosols",
@@ -54,6 +69,19 @@ export const CATEGORIES: CategoryMeta[] = [
     description:
       "100% pure aromatic waters — gulab jal, kewda jal and more — for skincare, culinary and devotional use.",
     icon: "wave",
+    bannerImage: "/category/banners/hydrosols.jpg",
+    theme: "light",
+  },
+  {
+    slug: "mist",
+    label: "Mist",
+    shortLabel: "Mist",
+    tagline: "Pure Botanical Face & Body Mists",
+    description:
+      "Handcrafted 100% natural facial & body mists steam-distilled from premium botanicals of Kannauj — convenient 100ml spray bottles.",
+    icon: "sparkles",
+    bannerImage: "/category/banners/mist.jpg",
+    theme: "light",
   },
 ];
 

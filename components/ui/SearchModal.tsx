@@ -85,7 +85,7 @@ export function SearchModal() {
                   setQuery(e.target.value);
                   setActive(0);
                 }}
-                placeholder="Search 69 products — oils, attars, ruh, hydrosols…"
+                placeholder="Search 71 products — oils, attars, ruh, hydrosols, mists…"
                 className="h-14 flex-1 bg-transparent text-base text-ink placeholder:text-muted/60 focus:outline-none"
               />
               <button onClick={close} aria-label="Close search" className="p-1.5">
@@ -117,9 +117,12 @@ export function SearchModal() {
                   <span className="h-11 w-11 shrink-0 overflow-hidden rounded-md">
                     <ProductImage
                       name={p.name}
+                      src={p.imageUrl}
+                      alt={p.name}
                       category={p.category}
                       showName={false}
                       iconSize={28}
+                      sizes="44px"
                     />
                   </span>
                   <span className="min-w-0 flex-1">

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { WhatsAppIcon } from "@/components/ui/SocialIcons";
@@ -59,11 +59,29 @@ export default function ContactPage() {
           >
             <WhatsAppIcon /> Message us on WhatsApp
           </a>
-          <div className="flex aspect-video items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-surface to-primary-soft text-muted">
-            <span className="flex items-center gap-2 text-sm">
-              <MapPin size={16} className="text-primary" /> Kannauj &amp; Kanpur,
-              Uttar Pradesh
-            </span>
+          <div className="overflow-hidden rounded-lg border border-line bg-surface/50 shadow-sm">
+            <div className="relative aspect-[16/10] w-full overflow-hidden">
+              <iframe
+                title="IndianAttars Kannauj Distillery Location"
+                src={`https://maps.google.com/maps?q=${SITE.coordinates.lat},${SITE.coordinates.lng}&z=15&output=embed`}
+                className="h-full w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            <div className="flex items-center justify-between border-t border-line bg-surface/80 p-3 text-xs">
+              <span className="flex items-center gap-1.5 font-medium text-ink">
+                <MapPin size={14} className="text-primary" /> Kannauj Distillery
+              </span>
+              <a
+                href={SITE.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 font-label text-[0.65rem] uppercase tracking-wider text-primary hover:underline"
+              >
+                Open in Google Maps <ExternalLink size={12} />
+              </a>
+            </div>
           </div>
         </div>
 

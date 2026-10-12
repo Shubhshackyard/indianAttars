@@ -8,7 +8,7 @@ import { ProductCard } from "./ProductCard";
 import { Button, buttonClasses } from "@/components/ui/Button";
 import { formatINRCompact, cn } from "@/lib/utils";
 
-const SLABS = ["50gm", "100gm", "250gm", "500gm", "1kg", "5kg", "10kg", "25kg", "35kg", "200kg"];
+const SLABS = ["100ml", "50gm", "100gm", "250gm", "500gm", "1kg", "5kg", "10kg", "25kg", "35kg", "200kg"];
 const CERTS = ["ISO 9001", "GMP", "Halal", "Kosher", "HACCP"];
 const SORTS = [
   { value: "featured", label: "Featured" },

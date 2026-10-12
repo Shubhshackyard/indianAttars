@@ -78,9 +78,12 @@ export function CartDrawer() {
                       >
                         <ProductImage
                           name={item.name}
+                          src={item.imageUrl}
+                          alt={item.name}
                           category={item.category}
                           showName={false}
                           iconSize={40}
+                          sizes="64px"
                         />
                       </Link>
                       <div className="min-w-0 flex-1">

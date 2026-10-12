@@ -32,10 +32,13 @@ export function ComparisonBar() {
               title={p.name}
             >
               <ProductImage
-                name=""
+                name={p.name}
+                src={p.imageUrl}
+                alt={p.name}
                 category={p.category}
                 showName={false}
                 iconSize={22}
+                sizes="48px"
               />
               <button
                 onClick={() => remove(p.slug)}

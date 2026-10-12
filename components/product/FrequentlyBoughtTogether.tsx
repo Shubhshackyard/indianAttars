@@ -44,12 +44,14 @@ export function FrequentlyBoughtTogether({
                 href={`/products/${p.slug}`}
                 className="flex w-28 flex-col items-center text-center"
               >
-                <span className="h-20 w-20 overflow-hidden rounded-md">
+                <span className="relative h-20 w-20 overflow-hidden rounded-md border border-line bg-surface">
                   <ProductImage
-                    name=""
+                    name={p.name}
                     category={p.category}
+                    src={p.imageUrl}
                     showName={false}
                     iconSize={34}
+                    sizes="80px"
                   />
                 </span>
                 <span className="mt-1.5 line-clamp-2 text-xs text-ink">

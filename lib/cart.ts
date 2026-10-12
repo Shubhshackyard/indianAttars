@@ -12,6 +12,7 @@ export interface CartItem {
   grams: number;
   unitPrice: number; // price for one unit of this slab
   quantity: number; // number of units
+  imageUrl?: string;
 }
 
 interface CartState {
@@ -99,5 +100,6 @@ export function toCartItem(
     qty: slab.qty,
     grams: slab.grams,
     unitPrice: slab.price,
+    imageUrl: product.imageUrl,
   };
 }

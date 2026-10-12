@@ -55,6 +55,19 @@ class DevTeamTasks:
             agent=agent
         )
 
+    def catalog_image_audit_task(self, agent: Agent) -> Task:
+        return Task(
+            description=(
+                "Audit product images across public/products/ and data/product-images.generated.ts. "
+                "Ensure every product in the catalog has valid card and gallery imagery, zero broken 404 paths, "
+                "and correct multi-angle gallery ordering."
+            ),
+            expected_output=(
+                "A complete verification report showing 100% valid image assets and gallery routes across all products."
+            ),
+            agent=agent
+        )
+
     def seo_schema_audit_task(self, agent: Agent) -> Task:
         return Task(
             description=(

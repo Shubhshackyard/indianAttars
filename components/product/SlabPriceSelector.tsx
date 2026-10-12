@@ -29,6 +29,9 @@ export function SlabPriceSelector({
         {product.category === "ruh-absolutes" && (
           <span className="text-xs text-primary">Min 50gm · Max 1kg</span>
         )}
+        {product.category === "mist" && (
+          <span className="text-xs text-primary">100ml spray bottle</span>
+        )}
       </div>
       <div className="mt-2 flex flex-wrap gap-2">
         {product.slabs.map((s) => {
@@ -61,7 +64,9 @@ export function SlabPriceSelector({
           <div className="flex items-end justify-between">
             <div>
               <span className="block text-xs text-muted">
-                {value.qty} · {formatINR(value.perKgRate)}/kg
+                {product.category === "mist"
+                  ? `${value.qty} · Spray Bottle`
+                  : `${value.qty} · ${formatINR(value.perKgRate)}/kg`}
               </span>
               <AnimatePresence mode="wait">
                 <motion.span

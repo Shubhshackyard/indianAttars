@@ -120,9 +120,12 @@ export function CartView() {
             >
               <ProductImage
                 name={item.name}
+                src={item.imageUrl}
+                alt={item.name}
                 category={item.category}
                 showName={false}
                 iconSize={44}
+                sizes="80px"
               />
             </Link>
             <div className="flex min-w-0 flex-1 flex-col">

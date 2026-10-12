@@ -54,6 +54,9 @@ export const SLAB_SETS: Record<ProductCategory, SlabDef[]> = {
     { qty: "35kg", grams: 35000, mult: 0.94 },
     { qty: "200kg", grams: 200000, mult: 0.92 },
   ],
+  mist: [
+    { qty: "100ml", grams: 100, mult: 1.0 },
+  ],
 };
 
 export const CATEGORY_LABEL: Record<ProductCategory, string> = {
@@ -62,6 +65,7 @@ export const CATEGORY_LABEL: Record<ProductCategory, string> = {
   "ruh-absolutes": "Ruh & Absolute",
   fragrances: "Fragrance",
   hydrosols: "Hydrosol",
+  mist: "Mist",
 };
 
 export function buildSlabs(

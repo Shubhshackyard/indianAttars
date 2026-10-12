@@ -4,6 +4,7 @@ interface UIState {
   searchOpen: boolean;
   mobileNavOpen: boolean;
   compare: string[]; // product slugs, max 3
+  selectedSlabs: Record<string, string>; // slug -> qty (e.g. "1kg")
   openSearch: () => void;
   closeSearch: () => void;
   openMobileNav: () => void;
@@ -11,6 +12,7 @@ interface UIState {
   toggleCompare: (slug: string) => boolean; // false if at limit
   removeCompare: (slug: string) => void;
   clearCompare: () => void;
+  setSelectedSlab: (slug: string, qty: string) => void;
 }
 
 export const MAX_COMPARE = 3;
@@ -19,6 +21,7 @@ export const useUIStore = create<UIState>((set, get) => ({
   searchOpen: false,
   mobileNavOpen: false,
   compare: [],
+  selectedSlabs: {},
   openSearch: () => set({ searchOpen: true }),
   closeSearch: () => set({ searchOpen: false }),
   openMobileNav: () => set({ mobileNavOpen: true }),
@@ -36,4 +39,6 @@ export const useUIStore = create<UIState>((set, get) => ({
   removeCompare: (slug) =>
     set((s) => ({ compare: s.compare.filter((x) => x !== slug) })),
   clearCompare: () => set({ compare: [] }),
+  setSelectedSlab: (slug, qty) =>
+    set((s) => ({ selectedSlabs: { ...s.selectedSlabs, [slug]: qty } })),
 }));

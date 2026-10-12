@@ -32,6 +32,8 @@ export function SpecHighlight() {
               name={p.name}
               category={p.category}
               categoryLabel={p.categoryLabel}
+              src={p.imageUrl}
+              priority
             />
           </div>
           <div className="p-6 sm:p-8">
