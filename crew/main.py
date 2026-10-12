@@ -22,6 +22,7 @@ def run_dev_crew():
     ops_lead = agents.operations_lead_agent()
     media_specialist = agents.catalog_media_specialist_agent()
     seo_specialist = agents.seo_specialist_agent()
+    geospatial_specialist = agents.geospatial_ui_specialist_agent()
 
     # Instantiate Tasks
     task1 = tasks.architecture_audit_task(tech_lead)
@@ -30,14 +31,24 @@ def run_dev_crew():
     task4 = tasks.wholesale_workflow_task(ops_lead)
     task5 = tasks.catalog_image_audit_task(media_specialist)
     task6 = tasks.seo_schema_audit_task(seo_specialist)
+    task7 = tasks.sourcing_map_visualization_task(geospatial_specialist)
 
     # Form the Crew
     crew = Crew(
-        agents=[tech_lead, email_specialist, qa_engineer, ops_lead, media_specialist, seo_specialist],
-        tasks=[task1, task2, task3, task4, task5, task6],
+        agents=[
+            tech_lead,
+            email_specialist,
+            qa_engineer,
+            ops_lead,
+            media_specialist,
+            seo_specialist,
+            geospatial_specialist,
+        ],
+        tasks=[task1, task2, task3, task4, task5, task6, task7],
         process=Process.sequential,
         verbose=True
     )
+
 
 
     print("\nStarting Crew Execution...")

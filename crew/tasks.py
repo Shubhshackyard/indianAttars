@@ -80,3 +80,19 @@ class DevTeamTasks:
             agent=agent
         )
 
+    def sourcing_map_visualization_task(self, agent: Agent) -> Task:
+        return Task(
+            description=(
+                "Audit and architect the interactive India Sourcing Map on /about. Ensure vector SVG state "
+                "paths for Uttar Pradesh, Rajasthan, Odisha, South India, and the Himalayas are interactively "
+                "bound to raw botanical lists (Damask Rose, Mitti, Khus, Kewda, Sandalwood, Spikenard), "
+                "with two-way pin selection and responsive mobile scaling."
+            ),
+            expected_output=(
+                "A verification report confirming state-level SVG mapping, raw botanical index completeness, "
+                "and two-way interactive synchronization between map pins and region details."
+            ),
+            agent=agent
+        )
+
+

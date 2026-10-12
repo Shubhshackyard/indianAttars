@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Sprout, FlaskConical, ClipboardCheck, Package, MapPin } from "lucide-react";
+import { Sprout, FlaskConical, ClipboardCheck, Package } from "lucide-react";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CertificationBadges } from "@/components/home/CertificationBadges";
+import { IndiaSourcingMap } from "@/components/about/IndiaSourcingMap";
 
 export const metadata: Metadata = {
   title: "About Us — Rooted in India",
@@ -31,14 +32,6 @@ const process = [
     title: "Packaging",
     text: "Inert, light-protective packaging for retail & bulk.",
   },
-];
-
-const regions = [
-  { name: "Kannauj, UP", note: "Attars & ruh — the perfume capital of India" },
-  { name: "South India", note: "Sandalwood & spice oils" },
-  { name: "Himalayas", note: "Spikenard, sugandh kokila & mantri" },
-  { name: "Rajasthan", note: "Vetiver (khus) roots" },
-  { name: "Odisha", note: "Kewda (screw pine) flowers" },
 ];
 
 const team = [
@@ -89,29 +82,10 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Our Sourcing"
             title="Where our aromatics come from"
+            subtitle="Explore our direct cultivation partnerships across India's premier aromatic terroirs. Tap any state or pin to inspect the raw botanicals, harvest cycles, and distillation traditions."
           />
-          <div className="mt-8 grid gap-8 lg:grid-cols-2">
-            <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-primary to-[#16271a]">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(255,255,255,0.08),transparent_60%)]" />
-              <MapPin size={72} className="text-white/80" strokeWidth={1} />
-              <span className="absolute bottom-4 font-label text-[0.62rem] uppercase tracking-[0.16em] text-white/70">
-                Sourcing across India
-              </span>
-            </div>
-            <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
-              {regions.map((r) => (
-                <li
-                  key={r.name}
-                  className="flex items-start gap-3 rounded-lg border border-line bg-bg p-4"
-                >
-                  <MapPin size={18} className="mt-0.5 shrink-0 text-primary" />
-                  <div>
-                    <p className="font-medium text-ink">{r.name}</p>
-                    <p className="text-sm text-muted">{r.note}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
+          <div className="mt-8">
+            <IndiaSourcingMap />
           </div>
         </div>
       </section>

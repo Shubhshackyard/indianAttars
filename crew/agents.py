@@ -83,3 +83,17 @@ class DevTeamAgents:
             allow_delegation=False
         )
 
+    def geospatial_ui_specialist_agent(self) -> Agent:
+        return Agent(
+            role="Geospatial UI & Interactive Cartography Specialist",
+            goal="Design, integrate, and verify responsive SVG geographic maps visualizing botanical terroir origins and raw materials across India.",
+            backstory=(
+                "You are an interactive data visualization and cartography specialist. You architect "
+                "vector-based geographic dashboards, interactive SVG state maps, coordinate pin systems, "
+                "and two-way synchronized botanical origin explorers for luxury brand storytelling."
+            ),
+            verbose=True,
+            allow_delegation=False
+        )
+
+
