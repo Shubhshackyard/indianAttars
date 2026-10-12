@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Droplets, BadgeCheck, FileText, Truck, type LucideIcon } from "lucide-react";
 import { USPS, type USPIcon } from "@/data/content";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { getCloudinaryUrl } from "@/lib/cloudinary";
 
 const iconMap: Record<USPIcon, LucideIcon> = {
   distill: Droplets,
@@ -16,7 +17,7 @@ export function USPSection() {
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-section sm:px-6 lg:grid-cols-2">
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line shadow-card">
           <Image
-            src="/homepage/usp/distillation.png"
+            src={getCloudinaryUrl("/homepage/usp/distillation.png")}
             alt="Traditional copper deg distillation of attar"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
