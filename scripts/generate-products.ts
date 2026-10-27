@@ -90,12 +90,15 @@ function slugify(input: string): string {
 function buildSlabs(
   baseRatePerKg: number,
   category: ProductCategory,
+  maxSlabGrams?: number,
 ): PricingSlab[] {
-  return SLAB_SETS[category].map((s) => {
-    const perKgRate = Math.round(baseRatePerKg * s.mult);
-    const price = Math.round(perKgRate * (s.grams / 1000));
-    return { qty: s.qty, grams: s.grams, price, perKgRate };
-  });
+  return SLAB_SETS[category]
+    .filter((s) => !maxSlabGrams || s.grams <= maxSlabGrams)
+    .map((s) => {
+      const perKgRate = Math.round(baseRatePerKg * s.mult);
+      const price = Math.round(perKgRate * (s.grams / 1000));
+      return { qty: s.qty, grams: s.grams, price, perKgRate };
+    });
 }
 
 import { PRODUCT_IMAGES } from "../data/product-images.generated";
@@ -107,7 +110,7 @@ function buildProduct(base: BaseProduct): Product {
     id: slug,
     slug,
     categoryLabel: CATEGORY_LABEL[base.category],
-    slabs: buildSlabs(base.baseRatePerKg, base.category),
+    slabs: buildSlabs(base.baseRatePerKg, base.category, base.maxSlabGrams),
     coaAvailable: base.coaAvailable ?? true,
     msdsAvailable: base.msdsAvailable ?? true,
     allergenSheetAvailable: base.allergenSheetAvailable ?? true,

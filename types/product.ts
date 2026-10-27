@@ -55,6 +55,7 @@ export interface BaseProduct {
   coaAvailable?: boolean;
   msdsAvailable?: boolean;
   allergenSheetAvailable?: boolean;
+  maxSlabGrams?: number;
 }
 
 export interface Product extends BaseProduct {
